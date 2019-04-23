@@ -107,3 +107,13 @@ fields:
   type: image_gallery
   config: {}
   label: Sponsor Logos
+- name: sponsor_button_title
+  type: text
+  config:
+    required: false
+  label: Sponsor Button Title
+- name: sponsor_button_link
+  type: text
+  config:
+    required: false
+  label: Sponsor Button Link
