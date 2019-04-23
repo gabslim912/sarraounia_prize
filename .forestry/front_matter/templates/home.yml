@@ -14,3 +14,82 @@ fields:
   name: permalink
   label: permalink
   default: "/home/"
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image Principale
+- name: slider_titles
+  type: field_group
+  config: {}
+  fields:
+  - name: first_line
+    type: text
+    config:
+      required: false
+    label: First Line
+  - name: second_line
+    type: text
+    config:
+      required: false
+    label: Second Line
+  - name: third_line
+    type: text
+    config:
+      required: false
+    label: Third Line
+  - name: fourth_line
+    type: text
+    config:
+      required: false
+    label: Fourth Line
+  label: Slider titles
+- name: main_title
+  type: text
+  config:
+    required: false
+  label: Main Title
+- name: second_title
+  type: text
+  config:
+    required: false
+  label: Second Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
+- name: first_button_title
+  type: text
+  config:
+    required: false
+  label: First Button title
+- name: first_button_link
+  type: text
+  config:
+    required: false
+  label: First Button Link
+- name: second_button_title
+  type: text
+  config:
+    required: false
+  label: Second Button Title
+- name: second_button_link
+  type: text
+  config:
+    required: false
+  label: Second Button Link
+- name: video_background_image
+  type: file
+  config:
+    maxSize: 250
+  label: Video Background image
+- name: video_link
+  type: text
+  config:
+    required: false
+  label: Video Link
