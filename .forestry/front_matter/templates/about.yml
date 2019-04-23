@@ -11,3 +11,32 @@ fields:
 - type: text
   name: permalink
   label: permalink
+- name: parallax_image
+  type: file
+  config:
+    maxSize: 250
+  label: Parallax Image
+- name: left_image
+  type: file
+  config:
+    maxSize: 250
+  label: Left Image
+- name: main_title
+  type: text
+  config:
+    required: false
+  label: Main Title
+- name: second_title
+  type: text
+  config:
+    required: false
+  label: Second Title
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Description
