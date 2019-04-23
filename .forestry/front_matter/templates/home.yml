@@ -93,3 +93,17 @@ fields:
   config:
     required: false
   label: Video Link
+- name: sponsor_title
+  type: text
+  config:
+    required: false
+  label: Sponsor Title
+- name: sponsor_description
+  type: text
+  config:
+    required: false
+  label: Sponsor description
+- name: sponsor_logos
+  type: image_gallery
+  config: {}
+  label: Sponsor Logos
