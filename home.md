@@ -1,5 +1,5 @@
 ---
-title: home
+title: Home
 layout: default
 permalink: "/home/"
 image: "/uploads/africa_1.jpg"
