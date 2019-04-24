@@ -139,3 +139,5 @@ fields:
       max: 
       step: 
   label: Testimonials
+pages:
+- about-1.md
