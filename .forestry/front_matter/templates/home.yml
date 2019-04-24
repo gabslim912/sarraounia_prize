@@ -19,31 +19,6 @@ fields:
   config:
     maxSize: 250
   label: Image Principale
-- name: slider_titles
-  type: field_group
-  config: {}
-  fields:
-  - name: first_line
-    type: text
-    config:
-      required: false
-    label: First Line
-  - name: second_line
-    type: text
-    config:
-      required: false
-    label: Second Line
-  - name: third_line
-    type: text
-    config:
-      required: false
-    label: Third Line
-  - name: fourth_line
-    type: text
-    config:
-      required: false
-    label: Fourth Line
-  label: Slider titles
 - name: main_title
   type: text
   config:
