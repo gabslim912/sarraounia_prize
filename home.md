@@ -8,20 +8,28 @@ slider_titles:
   second_line: Readings and presentation
   third_line: 25 September 2019
   fourth_line: King Fahd Palace
-main_title: ''
-second_title: ''
-description: ''
-first_button_title: ''
-first_button_link: ''
-second_button_title: ''
-second_button_link: ''
-video_background_image: ''
-video_link: ''
-sponsor_title: ''
-sponsor_description: ''
-sponsor_logos: []
-sponsor_button_title: ''
-sponsor_button_link: ''
+main_title: Prsented by Amalion Publishing
+second_title: Uplift the younger generation
+description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+  Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
+  eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec
+  eu ribero sit amet quam egestas semper. Aenean are ultricies mi vitae.
+first_button_title: More info
+first_button_link: "/About"
+second_button_title: Register now
+second_button_link: "/register"
+video_background_image: "/uploads/africa_2.jpg"
+video_link: https://www.youtube.com/watch?v=U8CUXVJlwMM
+sponsor_title: Parterns
+sponsor_description: Morbi tristique senectus et netus et malesuada fames ac turpis
+  egestas.
+sponsor_logos:
+- "/uploads/partner_4.png"
+- "/uploads/partner_3.png"
+- "/uploads/Amalion_Editions.1c_preview.jpg"
+- "/uploads/amalion2.jpg"
+sponsor_button_title: View All
+sponsor_button_link: "/partners"
 date: 2019-04-24 07:23:09 +0000
 published: false
 
