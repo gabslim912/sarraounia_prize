@@ -51,44 +51,27 @@ fields:
     required: false
   label: Staff Second Title
 - name: staff
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
-  - name: image
-    type: file
-    config:
-      maxSize: 250
-    label: Image
   - name: name
     type: text
     config:
       required: false
-    label: Name
-  - name: job
+    label: name
+  - name: job_position
     type: text
     config:
       required: false
-    label: Job
-  - name: facebook_link
-    type: text
+    label: Job position
+  - name: image
+    type: file
     config:
-      required: false
-    label: Facebook Link
-  - name: twitter_link
-    type: text
-    config:
-      required: false
-    label: Twitter Link
-  - name: instagram_link
-    type: text
-    config:
-      required: false
-    label: Instagram Link
-  - name: linked_in_link
-    type: text
-    config:
-      required: false
-    label: Linked In Link
+      maxSize: 250
+    label: image
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Staff
 - name: testimonial_title
   type: text
