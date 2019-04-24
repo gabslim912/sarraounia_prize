@@ -117,3 +117,5 @@ fields:
   config:
     required: false
   label: Sponsor Button Link
+pages:
+- home.md
