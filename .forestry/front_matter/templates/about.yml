@@ -84,15 +84,14 @@ fields:
     required: false
   label: Testimonial Second Title
 - name: testimonials
-  type: field_group
-  config: {}
+  type: field_group_list
   fields:
-  - name: testimonial_title
+  - name: title
     type: text
     config:
       required: false
-    label: Testimonial Title
-  - name: testimonial_description
+    label: title
+  - name: message
     type: textarea
     default: ''
     config:
@@ -100,27 +99,26 @@ fields:
       wysiwyg: false
       schema:
         format: markdown
-    label: Testimonial Description
-  - name: profil_picture
+    label: Message
+  - name: image
     type: file
     config:
       maxSize: 250
-    label: Profil Picture
-  - name: name
-    type: text
-    config:
-      required: false
-    label: Name
+    label: Image
   - name: note
     type: number
     label: Note
-    description: Between 1 and 5
+    description: ''
     default: 0
     required: true
     config:
       min: 
       max: 
       step: 
+  config:
+    min: 
+    max: 
+    labelField: 
   label: Testimonials
 pages:
 - about-1.md
