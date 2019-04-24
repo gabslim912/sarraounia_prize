@@ -2,7 +2,7 @@
 layout: default
 title: About
 permalink: "/about"
-parallax_image: ''
+parallax_image: "/uploads/africa_1.jpg"
 left_image: "/uploads/africa_2.jpg"
 main_title: Amalion Publishing
 second_title: Empowering the young generation
@@ -29,6 +29,5 @@ testimonials:
   name: ''
   note: ''
 date: 2019-04-24 07:43:34 +0000
-published: false
 
 ---
