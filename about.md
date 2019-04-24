@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: about
 title: About
 permalink: "/about"
 parallax_image: "/uploads/africa_1.jpg"
@@ -12,7 +12,7 @@ description: |-
   Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas.
 staff_title: Staff
 staff_second_title: Our people will be here for you
-staff:
+staffs:
 - name: John Fitzerald
   image: "/uploads/african_2.jpg"
   job_position: Journalist and author

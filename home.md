@@ -1,17 +1,14 @@
 ---
 title: Home
-layout: default
+layout: home
 permalink: "/home/"
-image: "/uploads/africa_1.jpg"
 slider_titles:
-- line_1: First time in Africa
+- image: "/uploads/africa_1.jpg"
+  line_1: First time in Africa
   line_2: Meet and Greet
   line_3: 27-29 September 2019
   line_4: Grand Theatre National, Dakar Plateau
-- first_line: Sarraounia Prize
-  second_line: Readings and presentation
-  third_line: 25 September 2019
-  fourth_line: King Fahd Palace
+- image: "/uploads/africa_3.jpg"
   line_1: Sarraounia Prize
   line_2: Presentatation and reading Day
   line_3: 23 September 2019

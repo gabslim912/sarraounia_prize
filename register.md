@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: register
 title: Register
 permalink: "/register"
 parallax_image: "/uploads/africa_3.jpg"

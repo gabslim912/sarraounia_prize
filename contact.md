@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: contact
 title: Contact
 permalink: "/contact"
 parallax_image: "/uploads/africa_3.jpg"
