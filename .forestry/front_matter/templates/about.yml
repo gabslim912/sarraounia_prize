@@ -40,3 +40,102 @@ fields:
     schema:
       format: markdown
   label: Description
+- name: staff_title
+  type: text
+  config:
+    required: false
+  label: Staff Title
+- name: staff_second_title
+  type: text
+  config:
+    required: false
+  label: Staff Second Title
+- name: staff
+  type: field_group
+  config: {}
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: Image
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: job
+    type: text
+    config:
+      required: false
+    label: Job
+  - name: facebook_link
+    type: text
+    config:
+      required: false
+    label: Facebook Link
+  - name: twitter_link
+    type: text
+    config:
+      required: false
+    label: Twitter Link
+  - name: instagram_link
+    type: text
+    config:
+      required: false
+    label: Instagram Link
+  - name: linked_in_link
+    type: text
+    config:
+      required: false
+    label: Linked In Link
+  label: Staff
+- name: testimonial_title
+  type: text
+  config:
+    required: false
+  label: Testimonial Title
+- name: testimonial_second_title
+  type: text
+  config:
+    required: false
+  label: Testimonial Second Title
+- name: testimonials
+  type: field_group
+  config: {}
+  fields:
+  - name: testimonial_title
+    type: text
+    config:
+      required: false
+    label: Testimonial Title
+  - name: testimonial_description
+    type: textarea
+    default: ''
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Testimonial Description
+  - name: profil_picture
+    type: file
+    config:
+      maxSize: 250
+    label: Profil Picture
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: note
+    type: number
+    label: Note
+    description: Between 1 and 5
+    default: 0
+    required: true
+    config:
+      min: 
+      max: 
+      step: 
+  label: Testimonials
