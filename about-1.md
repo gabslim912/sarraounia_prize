@@ -36,10 +36,11 @@ testimonials:
     mi senectus et netus et malesuada fames ac turpis egestas.
   image: "/uploads/african_3.jpg"
   note: 5
+  name: Amina Diop
 - testimonial_title: ''
   testimonial_description: ''
   profil_picture: ''
-  name: ''
+  name: Babacar Silva
   note: 5
   title: Can't Wait!
   message: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
