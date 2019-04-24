@@ -115,6 +115,11 @@ fields:
       min: 
       max: 
       step: 
+  - name: name
+    type: text
+    config:
+      required: false
+    label: name
   config:
     min: 
     max: 
