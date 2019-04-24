@@ -26,4 +26,5 @@ fields:
       format: markdown
   label: Description
 pages:
+- contact.md
 - register.md
