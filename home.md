@@ -4,10 +4,14 @@ layout: default
 permalink: "/home/"
 image: "/uploads/africa_1.jpg"
 slider_titles:
-  first_line: Sarraounia Prize
+- first_line: Sarraounia Prize
   second_line: Readings and presentation
   third_line: 25 September 2019
   fourth_line: King Fahd Palace
+  line_1: Sarraounia Prize
+  line_2: Presentatation and reading Day
+  line_3: 23 September 2019
+  line_4: King Fahd Palace, Almadies Dakar
 main_title: Prsented by Amalion Publishing
 second_title: Uplift the younger generation
 description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.

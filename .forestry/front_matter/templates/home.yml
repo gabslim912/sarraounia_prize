@@ -19,6 +19,34 @@ fields:
   config:
     maxSize: 250
   label: Image Principale
+- name: slider_titles
+  type: field_group_list
+  fields:
+  - name: line_1
+    type: text
+    config:
+      required: false
+    label: Line 1
+  - name: line_2
+    type: text
+    config:
+      required: false
+    label: Line_2
+  - name: line_3
+    type: text
+    config:
+      required: false
+    label: LIne 3
+  - name: line_4
+    type: text
+    config:
+      required: false
+    label: Line 4
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Slider Titles
 - name: main_title
   type: text
   config:
