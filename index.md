@@ -12,16 +12,16 @@ slider_titles:
   line_2: Presentation Day
   line_3: 23 September 2019
   line_4: King Fahd Palace, Almadies Dakar
-main_title: Presented by Amalion Publishing
-second_title: Uplift the younger generation
+main_title: Sarraounia Prize for Young Adult Fiction
+second_title: Empowering Africa's youth
 description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
   Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
   eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec
   eu ribero sit amet quam egestas semper. Aenean are ultricies mi vitae.
 first_button_title: More info
 first_button_link: "/About"
-second_button_title: Register now
-second_button_link: "/register"
+second_button_title: Apply now
+second_button_link: "/apply"
 video_background_image: "/uploads/africa_2.jpg"
 video_link: https://www.youtube.com/embed/U8CUXVJlwMM
 staff_background_image: "/uploads/africa_2.jpg"
@@ -38,7 +38,7 @@ staffs:
   name: Jane Diop
   job_position: Author and CEO
 sponsor_background_image: "/uploads/africa_1.jpg"
-sponsor_title: Parterns
+sponsor_title: Partners
 sponsor_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
 sponsor_logos:

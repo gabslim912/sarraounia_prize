@@ -4,8 +4,8 @@ title: About
 permalink: "/about"
 parallax_image: "/uploads/africa_1.jpg"
 left_image: "/uploads/africa_2.jpg"
-main_title: Amalion Publishing
-second_title: Empowering the young generation
+main_title: Sarraounia Prize for Young Adult Fiction
+second_title: Empowering Africa's Youth
 description: |-
   Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae vitae.
 
