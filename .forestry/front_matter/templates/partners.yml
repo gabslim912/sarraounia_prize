@@ -1,4 +1,42 @@
 ---
 label: Partners
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: link
+  type: text
+  config:
+    required: false
+  label: link
+- name: description
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: description
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - main_partners
+    - other_partners
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
