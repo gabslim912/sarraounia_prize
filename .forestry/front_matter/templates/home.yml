@@ -166,3 +166,5 @@ fields:
   config:
     required: false
   label: Partners Button Link
+pages:
+- index.md

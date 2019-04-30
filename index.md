@@ -61,6 +61,7 @@ blogs:
   line_1: First time in Africa
   theme: Others
   author: Kevin Gates
-date: 2019-04-24 07:23:09 +0000
+date: '2019-04-24T07:23:09.000+00:00'
+permalink: "/home/"
 
 ---
