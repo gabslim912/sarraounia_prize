@@ -1,4 +1,40 @@
 ---
 label: Testimonials
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+  default: John Doe
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+  default: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+- name: content
+  type: textarea
+  default: Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae
+    est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies
+    mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam,
+    feugiat vitae vitae.
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
+- name: job_position
+  type: text
+  config:
+    required: false
+  label: Job Position
+  default: Attendant
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  default: "/uploads/sm_picture.png"
