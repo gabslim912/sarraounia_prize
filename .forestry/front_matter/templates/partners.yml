@@ -7,14 +7,18 @@ fields:
   config:
     required: false
   label: Title
+  default: SARRAOUNIA PRIZE
 - name: link
   type: text
   config:
     required: false
   label: link
+  default: http://www.revovision.ca/
 - name: description
   type: textarea
-  default: ''
+  default: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+    Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+    Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
   config:
     required: false
     wysiwyg: false
@@ -40,3 +44,4 @@ fields:
   config:
     maxSize: 250
   label: Logo
+  default: "/uploads/partner_3.png"
