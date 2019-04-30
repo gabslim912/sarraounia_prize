@@ -26,13 +26,12 @@ layout: default
                                                 lgx-slideInRight lgx-bounceIn lgx-bounceInDown lgx-bounceInLeft lgx-bounceInRight lgx-bounceInUp lgx-zoomIn lgx-zoomInDown lgx-zoomInLeft
                                                 lgx-zoomInRight lgx-zoomInUp-->
                                                 <div class="lgx-banner-info"> <!--lgx-banner-info-center lgx-banner-info-black lgx-banner-info-big lgx-banner-info-bg-->
-                                                    <h3 class="subtitle lgx-delay lgx-fadeInDown">{{ slider.line_1 }}</h3>
-                                                    <h2 class="title lgx-delay lgx-fadeInDown">{{ slider.line_2 }}</span></h2>
-                                                    <h3 class="date lgx-delay lgx-fadeInDown"><i class="fa fa-calendar"></i> {{ slider.line_3 }}</h3>
-                                                    
+                                                    <h2 class="title lgx-delay lgx-fadeInDown">{{ slider.line_1 }}</h2>
+                                                    <h3 class="subtitle lgx-delay lgx-fadeInDown">{{ slider.line_2 }}</h3>
+                                                    <h2 class="date lgx-delay lgx-fadeInDown"><i class="fa fa-calendar"></i> {{ slider.line_3 }}</h2>
                                                     <div class="action-area lgx-delay lgx-fadeInDown">
                                                         <div class="lgx-video-area">
-                                                            <a class="lgx-btn lgx-btn-red" href="/register">Apply now</a>
+                                                            <a class="lgx-btn lgx-btn-white" href="/register">Apply now</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -75,8 +74,8 @@ layout: default
                                 <p class="text">
                                     {{ page.description }}
                                 <div class="section-btn-area">
-                                    <a class="lgx-btn" href="/about">More About</a>
-                                    <a class="lgx-btn lgx-btn-red lgx-scroll" href="/register">Register now</a>
+                                    <a class="lgx-btn" href="{{ page.first_button_link }}">{{ page.first_button_title }}</a>
+                                    <a class="lgx-btn lgx-btn-red lgx-scroll" href="{{ page.second_button_link }}">{{ page.second_button_title }}</a>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +98,7 @@ layout: default
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="lgx-video-title" style="color: white; text-align: center;"><span style="color: white;">Watch Our Promo video!</span> Get to know everything about Sarraounia</h2>
+                        <h2 class="lgx-video-title" style="color: white; text-align: center;"><span style="color: white;">Watch Our Promo video!</span> Get to know everything about Sarraounia</h2><br><br>
                         <div class="lgx-video-area">
                             <figure>
                                 <figcaption>
@@ -571,18 +570,18 @@ layout: default
 <!--SCHEDULE END-->
 <!--SPEAKERS-->
 <section>
-    <div id="lgx-speakers" class="lgx-speakers" style="background: url('{{ page.staff_background_image }}') bottom left no-repeat fixed;
-  -webkit-background-size: auto auto, cover;
-  -o-background-size: auto auto, cover;
-  -moz-background-size: auto auto, cover;
-  background-size: auto auto, cover;">
+    <div id="lgx-speakers" class="lgx-speakers" style="background: url('{{ page.jury_background_image }}') bottom left no-repeat fixed;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;">
         <div class="lgx-inner">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="lgx-heading lgx-heading-white">
-                            <h2 class="heading">{{ page.staff_title }}</h2>
-                            <h3 class="subheading">{{ page.staff_second_title }}</h3>
+                            <h2 class="heading">{{ page.jury_title }}</h2>
+                            <h3 class="subheading">{{ page.jury_subtitle }}</h3>
                         </div>
                     </div>
                 </div>
@@ -612,7 +611,7 @@ layout: default
                 </div>
                 <!--//.ROW-->
                 <div class="section-btn-area">
-                    <a class="lgx-btn lgx-btn-big" href="speakers.html">More Speakers</a>
+                    <a class="lgx-btn lgx-btn-big" href="{{ page.jury_button_link }}">{{ page.jury_button_title }}</a>
                 </div>
             </div>
             <!-- //.CONTAINER -->
@@ -624,14 +623,14 @@ layout: default
 
 <!--News-->
 <section>
-    <div id="lgx-news" class="lgx-news">
+    <div id="lgx-news" class="lgx-news-black">
         <div class="lgx-inner">
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="lgx-heading">
-                            <h2 class="heading">From Our Blog</h2>
-                            <h3 class="subheading">Discover our latest articles here</h3>
+                            <h2 class="heading">{{ page.blog_title }}</h2>
+                            <h3 class="subheading">{{ page.blog_subtitle }}</h3>
                         </div>
                     </div>
                 </div>
@@ -656,7 +655,7 @@ layout: default
                   {% endfor %}
                 </div>
                 <div class="section-btn-area">
-                    <a class="lgx-btn" href="#">View More Blogs</a>
+                    <a class="lgx-btn lgx-btn_black" href="{{ page.blog_button_link }}">{{ page.blog_button_title }}</a>
                 </div>
             </div><!-- //.CONTAINER -->
         </div><!-- //.INNER -->
@@ -666,7 +665,7 @@ layout: default
 
 <!--SPONSORED-->
 <section>
-    <div id="lgx-sponsors" style="background: url('{{ page.sponsor_background_image }}') bottom center no-repeat;
+    <div id="lgx-sponsors" style="background: url('{{ page.partners_background_image }}') bottom center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
   -moz-background-size: cover;
@@ -697,7 +696,7 @@ layout: default
                     </div>
                     <!--//row-->
                     <div class="section-btn-area">
-                        <a class="lgx-btn" href="#">Become A Sponsor</a>
+                        <a class="lgx-btn" href="#">{{ page.partners_button_title }}</a>
                     </div>
                 </div>
                 <!--//container-->
