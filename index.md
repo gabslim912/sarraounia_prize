@@ -1,6 +1,6 @@
 ---
-title: ''
-layout: ''
+title: Accueil
+layout: home
 slider_titles:
 - image: "/uploads/africa_1.jpg"
   line_1: First time in Africa
