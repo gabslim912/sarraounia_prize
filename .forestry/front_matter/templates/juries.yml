@@ -1,4 +1,48 @@
 ---
 label: Juries
 hide_body: false
-fields: []
+fields:
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: job_position
+  type: text
+  config:
+    required: false
+  label: Job position
+- name: bio
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Bio
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+- name: twitter_link
+  type: text
+  config:
+    required: false
+  label: Twitter Link
+- name: facebook_link
+  type: text
+  config:
+    required: false
+  label: Facebook Link
+- name: linkedin_link
+  type: text
+  config:
+    required: false
+  label: Linkedin Link
+- name: wikipedia_link
+  type: text
+  config:
+    required: false
+  label: Wikipedia Link
