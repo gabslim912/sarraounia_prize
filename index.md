@@ -19,9 +19,9 @@ description: Morbi tristique senectus et netus et malesuada fames ac turpis eges
   eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec
   eu ribero sit amet quam egestas semper. Aenean are ultricies mi vitae.
 first_button_title: More info
-first_button_link: "/About"
+first_button_link: "/about"
 second_button_title: Apply now
-second_button_link: "/apply"
+second_button_link: "/register"
 video_background_image: "/uploads/africa_2.jpg"
 video_link: https://www.youtube.com/embed/U8CUXVJlwMM
 staff_background_image: "/uploads/africa_2.jpg"
@@ -63,5 +63,26 @@ blogs:
   author: Kevin Gates
 date: '2019-04-24T07:23:09.000+00:00'
 permalink: "/home/"
+jury_background_image: "/uploads/orange_black_christal_bg.jpg"
+jury_title: Jury
+jury_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+jury_button_title: More info
+jury_button_link: "/jury"
+blog_background_image: "/uploads/light_orange_bg.jpg"
+blog_title: Latest articles
+blog_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+blog_button_title: More Articles
+blog_button_link: "/blog"
+partners_background_image: "/uploads/white_bg.jpg"
+partners_button_title: More info
+sliders:
+- line_1: Sarraounia Prize
+  image: "/uploads/africa_5.jpg"
+  line_3: 30 August 2019
+  line_2: For Young Adult Fiction
+- line_1: Prix Sarraounia
+  line_2: De la Fiction Jeune Adulte
+  line_3: 30 Août 2019
+  image: "/uploads/africa_4.jpg"
 
 ---
