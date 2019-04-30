@@ -5,13 +5,18 @@ admin_path: "/rvvs_admin"
 webhook_url: 
 sections:
 - type: directory
+  path: _partners
+  label: Partners
+  create: all
+  match: "**/*"
+- type: directory
   path: _testimonials
-  label: testimonials
+  label: Testimonials
   create: all
   match: "**/*"
 - type: directory
   path: _juries
-  label: juries
+  label: Juries
   create: all
   match: "**/*"
 - type: jekyll-pages
