@@ -3,18 +3,22 @@ layout: default
 ---
 <!--Banner Inner-->
     <section>
-        <div class="lgx-banner lgx-banner-inner">
+        <div class="lgx-banner lgx-banner-inner" style="background: url('{{ page.parallax_image }}') center center no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;">
             <div class="lgx-page-inner">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="lgx-heading-area">
                                 <div class="lgx-heading lgx-heading-white">
-                                    <h2 class="heading">About Us</h2>
+                                    <h2 class="heading">{{ page.title }}</h2>
                                 </div>
                                 <ul class="breadcrumb">
-                                    <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-                                    <li class="active">About</li>
+                                    <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                                    <li class="active">{{ page.title }}</li>
                                 </ul>
                             </div>
                         </div>
@@ -36,23 +40,18 @@ layout: default
                             <div class="row">
                                 <div class="col-sm-12 col-md-5">
                                     <div class="lgx-about-img">
-                                        <img src="assets/img/about-logo.png" alt="about">
+                                        <img src="{{ page.left_image }}" alt="about">
                                     </div>
                                 </div>
                                 <div class="col-sm-12 col-md-7">
                                     <div class="lgx-about-content-area">
                                         <div class="lgx-heading">
-                                            <h2 class="heading">Happy New Year 2019</h2>
-                                            <h3 class="subheading">Why Happy New Year 2019 ?</h3>
+                                            <h2 class="heading">{{ page.main_title }}</h2>
+                                            <h3 class="subheading">{{ page.second_title }}</h3>
                                         </div>
                                         <div class="lgx-about-content">
-                                            <p class="text">
-                                                Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae vitae.
-                                            </p>
-                                            <p class="text">
-                                                Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae vitae.
-                                                Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae vitae.
-                                                Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae vitae.
+                                            <p class="text text-justify">
+                                                {{ page.description }}
                                             </p>
                                         </div>
                                     </div>
@@ -72,8 +71,8 @@ layout: default
                             <div class="row">
                                 <div class="col-xs-12">
                                     <div class="lgx-heading">
-                                        <h2 class="heading">Meet Our Experience Staff</h2>
-                                        <h3 class="subheading">Welcome to the dedicated to building remarkable Speakers!</h3>
+                                        <h2 class="heading">{{ page.jury_title }}</h2>
+                                        <h3 class="subheading">{{ page.jury_subtitle }}</h3>
                                     </div>
                                 </div>
                             </div>

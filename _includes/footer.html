@@ -1,35 +1,56 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer>
+    <div id="lgx-footer" class="lgx-footer"> <!--lgx-footer-white-->
+        <div class="lgx-inner-footer">
+            <div class="lgx-subscriber-area ">
+                <div class="container">
+                    <div class="lgx-subscriber-inner">  <!--lgx-subscriber-inner-indiv-->
+                        <h3 class="subscriber-title">Join Newsletter</h3>
+                        <form class="lgx-subscribe-form" >
+                            <div class="form-group form-group-email">
+                                <input type="email" id="subscribe" placeholder="Enter your email address  ..." class="form-control lgx-input-form form-control"  />
+                            </div>
+                            <div class="form-group form-group-submit">
+                                <button type="submit" name="lgx-submit" id="lgx-submit" class="lgx-btn lgx-submit"><span>Subscribe</span></button>
+                            </div>
+                        </form> <!--//.SUBSCRIBE-->
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="lgx-footer-area">
+                    <div class="lgx-footer-single">
+                        <a class="logo" href="index.html"><img src="assets/img/logoo.png" alt="Logo" width="200px" height="200px"></a>
+                    </div> <!--//footer-area-->
+                    <div class="lgx-footer-single">
+                        <h3 class="footer-title">Social Connection</h3>
+                        <p class="text">
+                            You should connect social area <br> for Any update
+                        </p>
+                        <ul class="list-inline lgx-social-footer">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="lgx-footer-single">
+                        <h2 class="footer-title">Instagram Feed</h2>
+                        <div id="instafeed">
+                        </div>
+                    </div>
+                </div>
 
-  <div class="wrapper">
+                <div class="lgx-footer-bottom">
+                    <div class="lgx-copyright">
+                        <p> <span>©</span> 2018 Sarraounia Prize Website powered by <a href="http://www.revovision.ca/">Revovision.</a> The property of their owners.</p>
+                    </div>
+                </div>
 
-    <h2 class="footer-heading">{{ site.title | escape }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
+            </div>
+            <!-- //.CONTAINER -->
+        </div>
+        <!-- //.footer Middle -->
     </div>
-
-  </div>
-
 </footer>
