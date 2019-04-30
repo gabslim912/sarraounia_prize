@@ -16,6 +16,8 @@ sections:
   label: Testimonials
   create: all
   match: "**/*"
+  templates:
+  - testimonials
 - type: directory
   path: _juries
   label: Juries
