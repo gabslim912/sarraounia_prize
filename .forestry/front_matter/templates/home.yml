@@ -14,11 +14,6 @@ fields:
   name: permalink
   label: permalink
   default: "/home/"
-- name: image
-  type: file
-  config:
-    maxSize: 250
-  label: Image Principale
 - name: slider_titles
   type: field_group_list
   fields:
@@ -37,11 +32,11 @@ fields:
     config:
       required: false
     label: LIne 3
-  - name: line_4
-    type: text
+  - name: image
+    type: file
     config:
-      required: false
-    label: Line 4
+      maxSize: 250
+    label: image
   config:
     min: 
     max: 
@@ -56,7 +51,7 @@ fields:
   type: text
   config:
     required: false
-  label: Second Title
+  label: Subtitle
 - name: description
   type: textarea
   default: ''
@@ -96,27 +91,78 @@ fields:
   config:
     required: false
   label: Video Link
+- name: jury_background_image
+  type: file
+  config:
+    maxSize: 250
+  label: Jury Background Image
+- name: jury_title
+  type: text
+  config:
+    required: false
+  label: Jury Title
+- name: jury_subtitle
+  type: text
+  config:
+    required: false
+  label: Jury Subtitle
+- name: jury_button_title
+  type: text
+  config:
+    required: false
+  label: Jury Button Title
+- name: jury_button_link
+  type: text
+  config:
+    required: false
+  label: Jury Button Link
+- name: blog_background_image
+  type: file
+  config:
+    maxSize: 250
+  label: Blog Background Image
+- name: blog_title
+  type: text
+  config:
+    required: false
+  label: Blog title
+- name: blog_subtitle
+  type: text
+  config:
+    required: false
+  label: Blog Subtitle
+- name: blog_button_title
+  type: text
+  config:
+    required: false
+  label: Blog Button Title
+- name: blog_button_link
+  type: text
+  config:
+    required: false
+  label: Blog Button Link
+- name: partners_background_image
+  type: file
+  config:
+    maxSize: 250
+  label: Partners Background Image
 - name: sponsor_title
   type: text
   config:
     required: false
-  label: Sponsor Title
+  label: Partners Title
 - name: sponsor_description
   type: text
   config:
     required: false
-  label: Sponsor description
-- name: sponsor_logos
-  type: image_gallery
-  config: {}
-  label: Sponsor Logos
-- name: sponsor_button_title
+  label: Partners subtitle
+- name: partners_button_title
   type: text
   config:
     required: false
-  label: Sponsor Button Title
+  label: Partners Button Title
 - name: sponsor_button_link
   type: text
   config:
     required: false
-  label: Sponsor Button Link
+  label: Partners Button Link
