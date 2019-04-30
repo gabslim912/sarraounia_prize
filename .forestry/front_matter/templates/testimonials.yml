@@ -38,3 +38,5 @@ fields:
     maxSize: 250
   label: Image
   default: "/uploads/sm_picture.png"
+pages:
+- _testimonials/morbi-tristique-senectus-et-netus-et-malesuada-fames-ac-turpis-egestas.md
