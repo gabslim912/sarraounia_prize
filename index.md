@@ -62,7 +62,6 @@ blogs:
   theme: Others
   author: Kevin Gates
 date: '2019-04-24T07:23:09.000+00:00'
-permalink: "/home/"
 jury_background_image: "/uploads/orange_black_christal_bg.jpg"
 jury_title: Jury
 jury_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
@@ -84,6 +83,5 @@ sliders:
   line_2: De la Fiction Jeune Adulte
   line_3: 30 Août 2019
   image: "/uploads/africa_4.jpg"
-
 
 ---
