@@ -45,3 +45,5 @@ fields:
     maxSize: 250
   label: Logo
   default: "/uploads/partner_3.png"
+pages:
+- _partners/1.md
