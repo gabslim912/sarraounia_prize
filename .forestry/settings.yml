@@ -9,6 +9,8 @@ sections:
   label: Partners
   create: all
   match: "**/*"
+  templates:
+  - partners
 - type: directory
   path: _testimonials
   label: Testimonials
