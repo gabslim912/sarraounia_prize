@@ -587,21 +587,21 @@ layout: default
                 </div>
                 <!--//.ROW-->
                 <div class="row">
-                  {% for staf in page.staffs %}
+                  {% for jury in site.juries %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3"> <!--lgx-single-speaker lgx-single-speaker2 lgx-single-speaker3-->
                             <figure>
-                                <a class="profile-img" href="#"><img src="{{ staf.image }}" alt="Speaker"/></a>
+                                <a class="profile-img" href="{{ jury.image }}"><img src="{{ jury.image }}" alt="Speaker"/></a>
                                 <figcaption>
                                     <div class="social-group">
-                                        <a class="sp-tw" href="#"><i class="fa fa-twitter"></i></a>
-                                        <a class="sp-fb" href="#"><i class="fa fa-facebook"></i></a>
-                                        <a class="sp-insta" href="#"><i class="fa fa-instagram"></i></a>
-                                        <a class="sp-in" href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a class="sp-tw" href="{{ jury.twitter_link }}"><i class="fa fa-twitter"></i></a>
+                                        <a class="sp-fb" href="{{ jury.facebook_link }}"><i class="fa fa-facebook"></i></a>
+                                        <a class="sp-insta" href="{{ jury.wikipedia_link }}"><i class="fa fa-instagram"></i></a>
+                                        <a class="sp-in" href="{{ jury.linkedin_link }}"><i class="fa fa-linkedin"></i></a>
                                     </div>
                                     <div class="speaker-info">
-                                        <h3 class="title"><a href="speaker.html">{{ staf.name }}</a></h3>
-                                        <h4 class="subtitle">{{ staf.job_position }}</h4>
+                                        <h3 class="title"><a href="/speaker.html" target="blank">{{ jury.name }}</a></h3>
+                                        <h4 class="subtitle">{{ jury.job_position }}</h4>
                                     </div>
                                 </figcaption>
                             </figure>
@@ -685,9 +685,9 @@ layout: default
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="sponsors-area">
-                              {% for sponsor in page.sponsor_logos %}
+                              {% for partner in site.partners %}
                                 <div class="single">
-                                    <a class="" href="#"><img src="{{ sponsor.image }}" alt="sponsor"/></a>
+                                    <a class="" href="#"><img src="{{ partner.logo }}" alt="partner"/></a>
                                 </div>
                               {% endfor %}
                             </div>
