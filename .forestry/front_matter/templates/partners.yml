@@ -2,11 +2,11 @@
 label: Partners
 hide_body: false
 fields:
-- name: title
+- name: name
   type: text
   config:
     required: false
-  label: Title
+  label: Name
   default: SARRAOUNIA PRIZE
 - name: link
   type: text
