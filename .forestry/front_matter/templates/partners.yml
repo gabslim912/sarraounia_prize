@@ -46,5 +46,6 @@ fields:
   label: Logo
   default: "/uploads/partner_3.png"
 pages:
+- _partners/3.md
 - _partners/2.md
 - _partners/1.md
