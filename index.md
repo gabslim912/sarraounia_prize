@@ -1,5 +1,5 @@
 ---
-title: Accueil
+title: Home
 layout: home
 slider_titles:
 - image: "/uploads/africa_1.jpg"
