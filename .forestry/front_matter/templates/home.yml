@@ -14,7 +14,7 @@ fields:
   name: permalink
   label: permalink
   default: "/home/"
-- name: slider_titles
+- name: sliders
   type: field_group_list
   fields:
   - name: line_1
@@ -41,7 +41,7 @@ fields:
     min: 
     max: 
     labelField: 
-  label: Slider Titles
+  label: Sliders
 - name: main_title
   type: text
   config:
