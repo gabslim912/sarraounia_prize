@@ -56,4 +56,5 @@ fields:
   label: Wikipedia Link
   default: http://www.wikipedia.com/
 pages:
+- _juries/2.md
 - _juries/1.md
