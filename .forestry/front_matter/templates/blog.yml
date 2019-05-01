@@ -19,11 +19,25 @@ fields:
   config:
     required: false
   label: Author
+  default: Our Team
 - type: datetime
   name: date
   label: Date
-- type: text
-  name: categories
+- name: categories
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - Culture
+    - Music
+    - Others
+    - Pop Culture
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
   label: Categories
 - name: image
   type: file
