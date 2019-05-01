@@ -45,3 +45,5 @@ fields:
     maxSize: 250
   label: Image
   default: "/uploads/lg_picture.png"
+pages:
+- _posts/barack-obama-et-michelle-obama-vont-produire-des-films-et-séries-pour-netflix.md
