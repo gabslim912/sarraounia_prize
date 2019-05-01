@@ -1,0 +1,101 @@
+---
+label: Home
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: field_group_list
+  name: sliders
+  label: sliders
+  fields:
+  - type: text
+    name: line_1
+    label: line_1
+  - type: file
+    name: image
+    label: image
+  - type: datetime
+    name: line_3
+    label: line_3
+  - type: text
+    name: line_2
+    label: line_2
+- type: text
+  name: main_title
+  label: main_title
+- type: text
+  name: second_title
+  label: second_title
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: first_button_title
+  label: first_button_title
+- type: text
+  name: first_button_link
+  label: first_button_link
+- type: text
+  name: second_button_title
+  label: second_button_title
+- type: text
+  name: second_button_link
+  label: second_button_link
+- type: file
+  name: video_background_image
+  label: video_background_image
+- type: text
+  name: video_link
+  label: video_link
+- type: file
+  name: jury_background_image
+  label: jury_background_image
+- type: text
+  name: jury_title
+  label: jury_title
+- type: text
+  name: jury_subtitle
+  label: jury_subtitle
+- type: text
+  name: jury_button_title
+  label: jury_button_title
+- type: text
+  name: jury_button_link
+  label: jury_button_link
+- type: file
+  name: blog_background_image
+  label: blog_background_image
+- type: text
+  name: blog_title
+  label: blog_title
+- type: text
+  name: blog_subtitle
+  label: blog_subtitle
+- type: text
+  name: blog_button_title
+  label: blog_button_title
+- type: text
+  name: blog_button_link
+  label: blog_button_link
+- type: file
+  name: partners_background_image
+  label: partners_background_image
+- type: text
+  name: sponsor_title
+  label: sponsor_title
+- type: text
+  name: sponsor_description
+  label: sponsor_description
+- type: text
+  name: partners_button_title
+  label: partners_button_title
+- type: text
+  name: sponsor_button_link
+  label: sponsor_button_link
+- type: datetime
+  name: date
+  label: date
