@@ -3,14 +3,8 @@ label: Simple Pages
 hide_body: true
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
-  label: title
-- type: text
-  name: permalink
-  label: permalink
+  label: Title
 - name: parallax_image
   type: file
   config:
@@ -25,6 +19,13 @@ fields:
     schema:
       format: markdown
   label: Description
+- type: text
+  name: permalink
+  label: Permalink
+- type: text
+  name: layout
+  label: Layout
+  hidden: false
 pages:
 - blog-articles.md
 - register.md
