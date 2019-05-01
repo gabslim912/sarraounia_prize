@@ -1,6 +1,6 @@
 ---
 label: Testimonials
-hide_body: false
+hide_body: true
 fields:
 - name: name
   type: text
@@ -8,6 +8,18 @@ fields:
     required: false
   label: Name
   default: John Doe
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: Image
+  default: "/uploads/sm_picture.png"
+- name: job_position
+  type: text
+  config:
+    required: false
+  label: Job Position
+  default: Attendant
 - name: title
   type: text
   config:
@@ -26,18 +38,6 @@ fields:
     schema:
       format: markdown
   label: Content
-- name: job_position
-  type: text
-  config:
-    required: false
-  label: Job Position
-  default: Attendant
-- name: image
-  type: file
-  config:
-    maxSize: 250
-  label: Image
-  default: "/uploads/sm_picture.png"
 pages:
 - _testimonials/morbi-tristique-senectus-et-netus-et-malesuada-fames-ac-turpis-egestas.md
 - _testimonials/morbi-tristique-senectus-et-netus-et-malesuada-fames-ac-turpis-egestas-1.md
