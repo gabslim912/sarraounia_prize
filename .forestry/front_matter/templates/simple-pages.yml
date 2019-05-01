@@ -26,5 +26,6 @@ fields:
       format: markdown
   label: Description
 pages:
+- blog-articles.md
 - register.md
 - contact.md
