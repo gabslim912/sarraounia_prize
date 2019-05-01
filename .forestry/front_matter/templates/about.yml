@@ -1,0 +1,46 @@
+---
+label: About
+hide_body: true
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: file
+  name: parallax_image
+  label: parallax_image
+- type: file
+  name: left_image
+  label: left_image
+- type: text
+  name: main_title
+  label: main_title
+- type: text
+  name: second_title
+  label: second_title
+- type: textarea
+  name: description
+  label: description
+- type: file
+  name: jury_background_image
+  label: jury_background_image
+- type: text
+  name: jury_title
+  label: jury_title
+- type: text
+  name: jury_subtitle
+  label: jury_subtitle
+- type: text
+  name: testimonial_title
+  label: testimonial_title
+- type: text
+  name: testimonial_subtitle
+  label: testimonial_subtitle
+- type: datetime
+  name: date
+  label: date
