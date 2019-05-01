@@ -15,6 +15,6 @@ jury_title: Jury Presentation
 jury_subtitle: Our people will be here for you
 testimonial_title: Testimonials
 testimonial_subtitle: What they say about us
-date: 2019-04-24 07:43:34 +0000
+date: 2019-04-24T07:43:34.000+00:00
 
 ---
