@@ -43,20 +43,22 @@ En 1982, Joe Jackson prend encore en charge la carrière de sa dernière fille, 
 
 ### Joe Jackson en quelques dates
 
-**28 juillet 1928**   
+**28 juillet 1928**  
 Naissance à Fountain Hill (Arkansas).
 
-**1950-1952**   
+**1950-1952**  
 Guitariste au sein du groupe The Falcons.
 
-**Début des années 1960**   
+**Début des années 1960**  
 Devient le manager du groupe formé par trois de ses garçons, The Jackson Brothers.
 
-**1967**   
+**1967**  
 Essor de la carrière professionnelle de The Jackson Five avec Jackie, Tito, Jermaine, Marlon et Michael Jackson.
 
-**1982**   
+**1982**  
 Supervise la réalisation du premier album de Janet Jackson.
 
-**27 juin 2018**   
+**27 juin 2018**  
 Mort dans un hôpital de Las Vegas (Nevada).
+
+Source: Actubi.com
