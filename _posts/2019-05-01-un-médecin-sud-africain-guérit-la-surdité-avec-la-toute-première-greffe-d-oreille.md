@@ -11,7 +11,7 @@ date: 2019-05-01 00:00:00 +0000
 ---
 Une équipe de médecins sud-africains de la capitale, Pretoria, ont été salués comme pionniers dans le domaine de la médecine à l’échelle mondiale après la première greffe d’oreille moyenne d’un patient.
 
-Cette prouesse, qui utilise une technologie d’impression en 3D pour reconstruire les os brisés de l’oreille moyenne, est actuellement célébrée comme une solution à long terme à la perte auditive conductive . De plus, la chirurgie peut être pratiquée sur des personnes de tout âge, y compris les nouveau-nés, guérissant les patients d’une forme de surdité causée par un dommage physique ou une infection de l’oreille moyenne, ainsi que par des anomalies congénitales et des maladies métaboliques.
+Cette prouesse, qui utilise une technologie d’impression en 3D pour reconstruire les os brisés de l’oreille moyenne, est actuellement célébrée comme une solution à long terme à la perte auditive conductive . De plus, la chirurgie peut être pratiquée sur des personnes de tout âge, y compris les nouveau-nés, guérissant les patients d’une forme de surdité causée par un dommage physique ou une infection de l’oreille moyenne, ainsi que pr des anomalies congénitales et des maladies métaboliques.
 
 Le premier patient à avoir subi l’intervention était un homme de 35 ans qui avait perdu l’audition à la suite d’un accident de voiture qui avait dévasté l’oreille moyenne. En raison de la nature de son traumatisme, l’opération a duré environ une heure et demie, selon Legit.
 
