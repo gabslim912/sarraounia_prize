@@ -635,20 +635,20 @@ layout: default
                     </div>
                 </div>
                 <div class="row">
-                  {% for blog in page.blogs %}
+                  {% for post in site.posts %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-news">
-                            <figure>
-                                <a href="#"><img src="{{ blog.image }}" alt="" style="width: 328px; height: 205px;"></a>
+                            <figure >
+                                <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" style="width: 328px; height: 219px;"></a>
                             </figure>
-                            <div class="single-news-info">
+                            <div class="single-news-info" style="width: 328px; height: 219px;">
                                 <div class="meta-wrapper">
-                                    <span>April 25, 2018</span>
-                                    <span>by <a href="#">{{ blog.author }}</a></span>
-                                    <span><a href="#">{{ blog.theme }}</a></span>
+                                    <span>{{ post.date }}</span>
+                                    <span>by {{ post.author }}</span>
+                                    <span><a href="#">{{ post.categories }}</a></span>
                                 </div>
-                                <h3 class="title"><a href="news-single.html">Brooklyn Beta was the most important conferen best tristique</a></h3>
-                                <a class="lgx-btn lgx-btn-white lgx-btn-sm" href="#"><span>Read More</span></a>
+                                <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                <a class="lgx-btn lgx-btn-white lgx-btn-sm" href="{{ post.url }}"><span>Read article</span></a>
                             </div>
                         </div>
                     </div>

@@ -36,10 +36,10 @@ layout: default
                     {% for post in site.posts %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-news">
-                            <figure>
-                                <a href="{{ post.url }}"><img src="{{ post.image }}" alt=""></a>
+                            <figure >
+                                <a href="{{ post.url }}"><img src="{{ post.image }}" alt="{{ post.title }}" style="width: 328px; height: 219px;"></a>
                             </figure>
-                            <div class="single-news-info">
+                            <div class="single-news-info" style="width: 328px; height: 219px;">
                                 <div class="meta-wrapper">
                                     <span>{{ post.date }}</span>
                                     <span>by {{ post.author }}</span>
