@@ -1,27 +1,84 @@
 ---
 layout: default
 ---
-<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+<!--Banner Inner--
+    <section>
+        <div class="lgx-banner lgx-banner-inner" style="
+            background: url('/uploads/orange_black_christal_bg.jpg') center center no-repeat;
+            -webkit-background-size: cover;
+            -o-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;">
+            <div class="lgx-page-inner">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="lgx-heading-area">
+                                <div class="lgx-heading lgx-heading-white">
+                                    <h2 class="heading">{{ page.title }}</h2>
+                                </div>
+                                <ul class="breadcrumb">
+                                    <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                                    <li><a href="/blog">Blog</a></li>
+                                    <li class="active">{{ page.title }}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> <!--//.Banner Inner-->
 
-  <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        {{ page.date | date: date_format }}
-      </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
-  </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-
-  {%- if site.disqus.shortname -%}
-    {%- include disqus_comments.html -%}
-  {%- endif -%}
-
-  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
-</article>
+    <main>
+        <div class="lgx-post-wrapper">
+            <!--News-->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <article>
+                                <header>
+                                    <figure>
+                                        <img src="{{ page.image }}" alt="{{ page.title }}"/>
+                                    </figure>
+                                    <div class="text-area">
+                                        <div class="hits-area">
+                                            <div class="date">
+                                                <i class="fa fa-user"></i> {{ page.author }}
+                                                <i class="fa fa-calendar"></i> {{ page.date }}
+                                                <i class="fa fa-folder"></i> {{ page.categories }}
+                                                
+                                            </div>
+                                        </div>
+                                        <h1 class="title">{{ page.title }}</h1>
+                                    </div>
+                                </header>
+                                <section>
+                                    {{ page.content }}
+                                </section>
+                                <footer>
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <h4 class="title">Share</h4>
+                                            <div class="lgx-share">
+                                                <ul class="list-inline lgx-social">
+                                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </footer>
+                            </article>
+                        </div>
+                    </div>
+                </div><!-- //.CONTAINER -->
+            </section>
+            <!--News END-->
+        </div>
+    </main>

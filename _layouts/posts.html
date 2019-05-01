@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<!--Banner Inner-->
+<section>
+    <div class="lgx-banner " style="background: url('{{ page.parallax_image }}') center center no-repeat; width: 1284px; height: 240px;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;">
+        <div class="lgx-page-inner" style="padding-top: 90px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lgx-heading-area">
+                            <div class="lgx-heading lgx-heading-white">
+                                <h2 class="heading">{{ page.title }}</h2>
+                            </div>
+                            <ul class="breadcrumb">
+                                <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                                <li class="active">Contact</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div><!--//.ROW-->
+            </div><!-- //.CONTAINER -->
+        </div><!-- //.INNER -->
+    </div>
+</section> <!--//.Banner Inner-->
+<main>
+    <div class="lgx-page-wrapper">
+        <!--News-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    {% for post in site.posts %}
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <div class="lgx-single-news">
+                            <figure>
+                                <a href="{{ post.url }}"><img src="{{ post.image }}" alt=""></a>
+                            </figure>
+                            <div class="single-news-info">
+                                <div class="meta-wrapper">
+                                    <span>{{ post.date }}</span>
+                                    <span>by {{ post.author }}</span>
+                                    <span><a href="#">{{ post.categories }}</a></span>
+                                </div>
+                                <h3 class="title"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+                                <a class="lgx-btn lgx-btn-white lgx-btn-sm" href="{{ post.url }}"><span>Read article</span></a>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div><!-- //.CONTAINER -->
+        </section>
+        <!--News END-->
+    </div>
+</main>
