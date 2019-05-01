@@ -1,6 +1,6 @@
 ---
 label: Juries
-hide_body: false
+hide_body: true
 fields:
 - name: name
   type: text
@@ -14,6 +14,12 @@ fields:
     required: false
   label: Job position
   default: Job Position
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+  default: "/uploads/normal_picture.png"
 - name: bio
   type: textarea
   default: |-
@@ -25,12 +31,6 @@ fields:
     schema:
       format: markdown
   label: Bio
-- name: image
-  type: file
-  config:
-    maxSize: 250
-  label: image
-  default: "/uploads/normal_picture.png"
 - name: twitter_link
   type: text
   config:
