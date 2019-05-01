@@ -5,42 +5,46 @@ fields:
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: about
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: permalink
   label: permalink
+  hidden: true
 - type: file
   name: parallax_image
-  label: parallax_image
+  label: Parallax Image
 - type: file
   name: left_image
-  label: left_image
+  label: Left Image
 - type: text
   name: main_title
-  label: main_title
+  label: Main Title
 - type: text
   name: second_title
-  label: second_title
+  label: Subtitle
 - type: textarea
   name: description
-  label: description
+  label: Description
 - type: file
   name: jury_background_image
-  label: jury_background_image
+  label: Jury Background Image
 - type: text
   name: jury_title
-  label: jury_title
+  label: Jury Title
 - type: text
   name: jury_subtitle
-  label: jury_subtitle
+  label: Jury Subtitle
 - type: text
   name: testimonial_title
-  label: testimonial_title
+  label: Testimonial Title
 - type: text
   name: testimonial_subtitle
-  label: testimonial_subtitle
+  label: Testimonial Subtitle
 - type: datetime
   name: date
   label: date
+  hidden: true
