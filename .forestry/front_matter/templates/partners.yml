@@ -1,6 +1,6 @@
 ---
 label: Partners
-hide_body: false
+hide_body: true
 fields:
 - name: name
   type: text
@@ -8,6 +8,26 @@ fields:
     required: false
   label: Name
   default: SARRAOUNIA PRIZE
+- name: logo
+  type: file
+  config:
+    maxSize: 250
+  label: Logo
+  default: "/uploads/partner_3.png"
+- name: type
+  type: select
+  default: []
+  config:
+    required: false
+    options:
+    - main_partners
+    - other_partners
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Type
 - name: link
   type: text
   config:
@@ -25,26 +45,6 @@ fields:
     schema:
       format: markdown
   label: description
-- name: type
-  type: select
-  default: []
-  config:
-    required: false
-    options:
-    - main_partners
-    - other_partners
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: Type
-- name: logo
-  type: file
-  config:
-    maxSize: 250
-  label: Logo
-  default: "/uploads/partner_3.png"
 pages:
 - _partners/2.md
 - _partners/4.md
