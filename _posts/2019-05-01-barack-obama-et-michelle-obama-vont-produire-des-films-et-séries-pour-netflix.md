@@ -2,7 +2,7 @@
 layout: post
 author: Our Team
 categories: Culture
-image: "/uploads/lg_picture.png"
+image: "/uploads/barack_obama_netflix.jpg"
 title: Barack Obama et Michelle Obama vont produire des films et séries pour Netflix
 subtitle: La plateforme américaine de SVOD a annoncé ce 21 mai 2018 que l’ancien président
   des Etats-Unis...
