@@ -1,9 +1,9 @@
 ---
-layout: Apply
+layout: register
 title: Apply
-permalink: "/apply"
-parallax_image: "/uploads/africa_3.jpg"
+permalink: "/register"
+parallax_image: "/uploads/orange_black_christal_bg.jpg"
 description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-date: 2019-04-24 07:38:58 +0000
+date: '2019-04-24T07:38:58.000+00:00'
 
 ---
