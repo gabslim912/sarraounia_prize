@@ -1,6 +1,6 @@
 ---
 label: Simple Pages
-hide_body: false
+hide_body: true
 fields:
 - type: text
   name: layout
