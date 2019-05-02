@@ -1,5 +1,5 @@
 ---
-title: Application and call for submissions launch on line
+title: Application and call for submissions launch online
 image: "/uploads/SarraouniaPrize_LogoEnglish_Color.png"
 description: " Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
   fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon beard
@@ -8,5 +8,6 @@ author: Sarraounia Prize Commitee
 location: Dakar, Sénégal
 collapse_data: collapseOne
 heading_data: headingOne
+date: 30 April 2019
 
 ---
