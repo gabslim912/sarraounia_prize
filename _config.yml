@@ -21,6 +21,9 @@ collections:
   testimonials:
     title: testimonials
     output: true
+  schedules:
+    title: schedules
+    output: true
   partners:
     title: partners
     output: true
