@@ -8,6 +8,6 @@ author: Sarraounia Prize Commitee
 location: Dakar, Sénégal
 collapse_data: collapseFive
 heading_data: headingFive
-date: 15 April 2020
+sch_date: 15 April 2020
 
 ---
