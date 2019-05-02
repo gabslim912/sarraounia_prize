@@ -1,0 +1,61 @@
+<main>
+    <div class="lgx-page-wrapper">
+        <!--SCHEDULE-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div class="lgx-tab lgx-tab-vertical">
+                            <ul class="nav nav-pills lgx-nav lgx-nav-nogap lgx-nav-colorful">
+                                <li class="active"><a data-toggle="pill" href="#home"><h3>Sarraounia <span>Price</span> 2020</h3></a></li>
+                                
+                            </ul>
+                            <div class="tab-content lgx-tab-content">
+
+
+                                <div id="home" class="tab-pane fade in active">
+
+                                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        {% for schedule in site.schedules %}
+                                        <div class="panel panel-default lgx-panel">
+                                            <div class="panel-heading" role="tab" id="{{ schedule.heading_data }}">
+                                                <div class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#{{ schedule.collapse_data }}" aria-expanded="true" aria-controls="{{ schedule.collapse_data }}">
+                                                        <div class="lgx-single-schedule">
+                                                            <div class="author">
+                                                                <img src="{{ schedule.image }}" alt="Speaker"/>
+                                                            </div>
+                                                            <div class="schedule-info">
+                                                                <h4 class="time">{{ schedule.date }}</h4>
+                                                                <h3 class="title">{{ schedule.title }}</h3>
+                                                                <h4 class="author-info">By <span>{{ schedule.author }}</span></h4>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <div id="{{ schedule.collapse_data }}" class="panel-collapse collapse" role="tabpanel" aria-labelledby="{{ schedule.heading_data }}">
+                                                <div class="panel-body">
+                                                    <p class="text">
+                                                        {{ schedule.description }}
+                                                    </p>
+                                                    <h4 class="location"><strong>Location:</strong>  {{ schedule.location }} </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        {% endfor %}
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--//.ROW-->
+            </div>
+            <!-- //.CONTAINER -->
+        </section>
+        <!--SCHEDULE END-->
+    </div>
+</main>
