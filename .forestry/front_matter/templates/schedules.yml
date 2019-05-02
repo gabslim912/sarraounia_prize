@@ -16,6 +16,11 @@ fields:
   default: " Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
     fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon
     beard Helvetica. Salvia esse flexitarian Truffaut synth art party deep v chillwave."
+- name: date
+  type: text
+  config:
+    required: false
+  label: Date
 - name: author
   type: text
   config:
@@ -28,15 +33,6 @@ fields:
     required: false
   label: Location
   default: Dakar, Sénégal
-- name: date
-  type: datetime
-  label: Date
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: 
 - name: collapse_data
   type: text
   config:
