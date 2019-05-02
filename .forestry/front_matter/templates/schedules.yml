@@ -50,5 +50,6 @@ fields:
   label: Heading Data
   default: headingNumber
 pages:
+- _schedules/jury-selection.md
 - _schedules/closing-date-for-applications-and-submission.md
 - _schedules/application-and-call-for-submissions-launch-on-line.md
