@@ -3,17 +3,49 @@ label: Schedules
 hide_body: true
 fields:
 - type: text
-  name: layout
-  label: layout
-- type: text
   name: title
-  label: title
-- type: text
-  name: permalink
-  label: permalink
+  label: Title
+  default: Schedule
 - type: file
-  name: parallax_image
-  label: parallax_image
+  name: image
+  label: Image
+  default: "/uploads/SarraouniaPrize_LogoEnglish_Color.png"
 - type: text
   name: description
-  label: description
+  label: Description
+  default: " Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
+    fingerstache fanny pack nostrud. Photo booth anim 8-bit hella, PBR 3 wolf moon
+    beard Helvetica. Salvia esse flexitarian Truffaut synth art party deep v chillwave."
+- name: author
+  type: text
+  config:
+    required: false
+  label: Author
+  default: Sarraounia Prize Commitee
+- name: location
+  type: text
+  config:
+    required: false
+  label: Location
+  default: Dakar, Sénégal
+- name: date
+  type: datetime
+  label: Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: 
+- name: collapse_data
+  type: text
+  config:
+    required: false
+  label: Collapse Data
+  default: collapseNumber
+- name: heading_data
+  type: text
+  config:
+    required: false
+  label: Heading Data
+  default: headingNumber
