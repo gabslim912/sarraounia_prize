@@ -1,125 +1,66 @@
 <main>
-        <div class="lgx-page-wrapper">
-            <!--News-->
-            <section>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading first-heading">Gold Sponsors</h3>
-                            <div class="sponsors-area">
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//col-->
-                    </div>
-                    <!--//row-->
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading secound-heading">Silver Sponsors</h3>
-                            <div class="sponsors-area">
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//col-->
-                    </div>
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading third-heading">Platinum Sponsors</h3>
-                            <div class="sponsors-area">
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//col-->
-                    </div>
-                    <!--//row-->
+    <div class="lgx-page-wrapper lgx-page-wrapper-none">
 
-                    <div class="row" style="margin-top: 9rem">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading first-heading">Gold Sponsors</h3>
-                            <div class="sponsors-area sponsors-area-bg">
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
+        <!--ABOUT-->
+        <section>
+            <div id="lgx-about" class="lgx-about">
+                <div class="lgx-inner">
+                    <div class="container">
+                        <h3 class="sponsored-heading first-heading">Main Partners</h3>
+                        <br><br>
+                        <div class="row">
+                            {% for partner in site.partners %}
+                            <div class="col-md-6" style="padding-bottom: 15px;">
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="lgx-about-img">
+                                        <img src="{{ partner.logo }}" alt="about">
+                                    </div>
                                 </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--//col-->
-                    </div>
-                    <!--//row-->
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <h3 class="sponsored-heading secound-heading">Silver Sponsors</h3>
-                            <div class="sponsors-area sponsors-area-bg">
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
-                                </div>
-                                <div class="single">
-                                    <a class="" href="#"><img src="http://placehold.it/467x157" alt="sponsor"/></a>
+                                <div class="col-sm-6 col-md-6">
+                                    <div class="lgx-about-content-area">
+                                        <div class="lgx-heading">
+                                            <h5 class="">{{ partner.name }}</h5>
+                                            <h5 class="">{{ partner.type }}</h5>
+                                        </div>
+                                        <div class="lgx-about-content">
+                                            <p class="text text-justify">
+                                                {{ partner.description }}
+                                            </p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            {% endfor %}
                         </div>
-                        <!--//col-->
+                    </div><!-- //.CONTAINER -->
+                </div><!-- //.INNER -->
+            </div>
+        </section>
+        <!--ABOUT END-->
+    </div>
+</main>
+<main>
+    <div class="lgx-page-wrapper">
+        <!--News-->
+        <section>
+            <div class="container">
+                <div class="row" style="margin-top: 9rem">
+                    <div class="col-xs-12">
+                        <h3 class="sponsored-heading first-heading">Partners and Sponsors</h3>
+                        <div class="sponsors-area sponsors-area-bg">
+                            {% for partner in site.partners %}
+                            <div class="single">
+                                <a class="" href="{{ partner.link }}"><img src="{{ partner.logo }}" alt="sponsor"/></a>
+                            </div>
+                            {% endfor %}
+                        </div>
                     </div>
-                    <!--//row-->
+                    <!--//col-->
+                </div>
+               
 
-                </div><!-- //.CONTAINER -->
-            </section>
-            <!--News END-->
-        </div>
-    </main>
+            </div><!-- //.CONTAINER -->
+        </section>
+        <!--News END-->
+    </div>
+</main>
