@@ -47,6 +47,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/bozar.md
 - _partners/CERAV.md
 - _partners/UCLG.md
 - _partners/imc.md
