@@ -47,6 +47,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/arterials_network.md
 - _partners/interarts.md
 - _partners/eu.md
 - _partners/artsandculture.md
