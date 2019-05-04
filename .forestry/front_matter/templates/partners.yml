@@ -47,6 +47,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/imc.md
 - _partners/amalion.md
 - _partners/arterials_network.md
 - _partners/interarts.md
