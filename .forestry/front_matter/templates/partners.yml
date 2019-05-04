@@ -47,4 +47,5 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/eu.md
 - _partners/artsandculture.md
