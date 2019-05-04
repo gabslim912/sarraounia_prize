@@ -9,18 +9,19 @@
                         <h3 class="sponsored-heading first-heading">Main Partners</h3>
                         <br><br>
                         <div class="row">
-                            {% for partner in site.partners %}
+                            {% assign partnerss = site.partners | where:"type", "main_partners" %}
+                            
+                            {% for partner in partnerss %}
                             <div class="col-md-6" style="padding-bottom: 15px;">
                                 <div class="col-sm-6 col-md-6">
                                     <div class="lgx-about-img">
-                                        <img src="{{ partner.logo }}" alt="about">
+                                        <img src="{{ partner.logo }}" alt="about" width="235px" height="159px">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-6">
                                     <div class="lgx-about-content-area">
                                         <div class="lgx-heading">
-                                            <h5 class="">{{ partner.name }}</h5>
-                                            <h5 class="">{{ partner.type }}</h5>
+                                            <h3>{{ partner.name }}</h3>
                                         </div>
                                         <div class="lgx-about-content">
                                             <p class="text text-justify">
@@ -48,9 +49,11 @@
                     <div class="col-xs-12">
                         <h3 class="sponsored-heading first-heading">Partners and Sponsors</h3>
                         <div class="sponsors-area sponsors-area-bg">
-                            {% for partner in site.partners %}
+                            {% assign partnerss = site.partners | where:"type", "other_partners" %}
+                            
+                            {% for partner in partnerss %}
                             <div class="single">
-                                <a class="" href="{{ partner.link }}"><img src="{{ partner.logo }}" alt="sponsor"/></a>
+                                <a class="" href="{{ partner.link }}"><img src="{{ partner.logo }}" alt="sponsor" width="222px" height="122px" /></a>
                             </div>
                             {% endfor %}
                         </div>
