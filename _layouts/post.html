@@ -47,7 +47,7 @@ layout: default
                                         <div class="hits-area">
                                             <div class="date">
                                                 <i class="fa fa-user"></i> {{ page.author }}
-                                                <i class="fa fa-calendar"></i> {{ page.date }}
+                                                <i class="fa fa-calendar"></i> {{ page.date | date: "%d/%m/%Y" }}
                                                 <i class="fa fa-folder"></i> {{ page.categories }}
                                                 
                                             </div>

@@ -41,7 +41,7 @@ layout: default
                             </figure>
                             <div class="single-news-info" style="width: 328px; height: 219px;">
                                 <div class="meta-wrapper">
-                                    <span>{{ post.date }}</span>
+                                    <span>{{ post.date | date: "%d/%m/%Y"}}</span>
                                     <span>by {{ post.author }}</span>
                                     <span><a href="#">{{ post.categories }}</a></span>
                                 </div>
