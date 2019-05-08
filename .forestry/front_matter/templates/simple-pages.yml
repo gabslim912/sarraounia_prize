@@ -5,6 +5,17 @@ fields:
 - type: text
   name: title
   label: Title
+- name: lang
+  type: text
+  config:
+    required: false
+  label: Lang
+  description: fr or en
+- name: ref
+  type: text
+  config:
+    required: false
+  label: Ref
 - name: parallax_image
   type: file
   config:
