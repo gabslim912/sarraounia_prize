@@ -46,8 +46,8 @@ fields:
   label: Heading Data
   default: headingNumber
 pages:
-- _schedules/award-ceremony-and-publication-of-winning-entry.md
-- _schedules/official-announcement-of-the-winner.md
-- _schedules/jury-selection.md
 - _schedules/closing-date-for-applications-and-submission.md
 - _schedules/application-and-call-for-submissions-launch-on-line.md
+- _schedules/official-announcement-of-the-winner.md
+- _schedules/award-ceremony-and-publication-of-winning-entry.md
+- _schedules/jury-selection.md
