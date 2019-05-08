@@ -38,6 +38,7 @@ fields:
   label: Layout
   hidden: false
 pages:
+- "./programme.md"
 - schedule.md
 - blog-articles.md
 - register.md
