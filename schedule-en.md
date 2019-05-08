@@ -1,10 +1,10 @@
 ---
 layout: schedule
 title: Programme
-permalink: "/fr/programme"
+permalink: "/en/schedule"
 parallax_image: "/uploads/orange_black_christal_bg.jpg"
-description: Tout ce qu'il faut savoir
-lang: fr
+description: Everything you need to know
+lang: en
 ref: sched
 
 ---
