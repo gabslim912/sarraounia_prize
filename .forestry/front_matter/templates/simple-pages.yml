@@ -38,8 +38,8 @@ fields:
   label: Layout
   hidden: false
 pages:
-- "./programme.md"
 - schedule.md
+- "./programme.md"
 - blog-articles.md
 - register.md
 - contact.md
