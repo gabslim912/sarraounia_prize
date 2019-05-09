@@ -61,12 +61,12 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/cultureanddev.md
 - _partners/bozar.md
 - _partners/artsandculture.md
 - _partners/arterials_network.md
 - _partners/amalion.md
 - _partners/CERAV.md
-- _partners/cultureanddev.md
 - _partners/UCLG.md
 - _partners/imc.md
 - _partners/interarts.md
