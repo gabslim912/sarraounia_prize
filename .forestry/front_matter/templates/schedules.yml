@@ -6,6 +6,20 @@ fields:
   name: title
   label: Title
   default: Schedule
+- name: lang
+  type: select
+  default: en
+  config:
+    required: false
+    options:
+    - en
+    - fr
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Langage
 - type: file
   name: image
   label: Image
