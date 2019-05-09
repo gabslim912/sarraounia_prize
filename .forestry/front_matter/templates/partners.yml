@@ -61,6 +61,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/eu.md
 - _partners/cultureanddev.md
 - _partners/bozar.md
 - _partners/artsandculture.md
@@ -70,4 +71,3 @@ pages:
 - _partners/UCLG.md
 - _partners/imc.md
 - _partners/interarts.md
-- _partners/eu.md
