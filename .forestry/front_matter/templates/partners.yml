@@ -61,6 +61,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/amalion.md
 - _partners/bozar.md
 - _partners/CERAV.md
 - _partners/cultureanddev.md
@@ -69,5 +70,4 @@ pages:
 - _partners/artsandculture.md
 - _partners/imc.md
 - _partners/interarts.md
-- _partners/amalion.md
 - _partners/eu.md
