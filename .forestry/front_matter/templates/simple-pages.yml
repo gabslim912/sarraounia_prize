@@ -37,10 +37,3 @@ fields:
   name: layout
   label: Layout
   hidden: false
-pages:
-- "./apply.md"
-- schedule.md
-- "./programme.md"
-- blog-articles.md
-- register.md
-- contact.md

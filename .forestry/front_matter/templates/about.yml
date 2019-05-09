@@ -48,5 +48,3 @@ fields:
   name: date
   label: date
   hidden: true
-pages:
-- about.md

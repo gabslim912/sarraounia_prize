@@ -9,6 +9,20 @@ fields:
     required: false
   label: Name
   default: SARRAOUNIA PRIZE
+- name: lang
+  type: select
+  default: en
+  config:
+    required: false
+    options:
+    - en
+    - fr
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Langage
 - name: logo
   type: file
   config:
