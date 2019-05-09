@@ -61,6 +61,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/UCLG.md
 - _partners/imc.md
 - _partners/interarts.md
 - _partners/eu.md
@@ -70,4 +71,3 @@ pages:
 - _partners/arterials_network.md
 - _partners/amalion.md
 - _partners/CERAV.md
-- _partners/UCLG.md
