@@ -8,6 +8,20 @@ fields:
     required: false
   label: Name
   default: John Doe
+- name: lang
+  type: select
+  default: en
+  config:
+    required: false
+    options:
+    - en
+    - fr
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Langage
 - name: job_position
   type: text
   config:
