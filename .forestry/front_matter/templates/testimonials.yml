@@ -53,5 +53,6 @@ fields:
       format: markdown
   label: Content
 pages:
+- _testimonials/que-le-meilleur-gagne-meme-si-toutes-ces-oeuvres-méritent-une-récompense.md
 - _testimonials/morbi-tristique-senectus-et-netus-et-malesuada-fames-ac-turpis-egestas.md
 - _testimonials/morbi-tristique-senectus-et-netus-et-malesuada-fames-ac-turpis-egestas-1.md
