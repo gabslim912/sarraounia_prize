@@ -61,6 +61,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/editionamalion.md
 - _partners/UCLG.md
 - _partners/imc.md
 - _partners/interarts.md
