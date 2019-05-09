@@ -60,6 +60,7 @@ fields:
   label: Heading Data
   default: headingNumber
 pages:
+- _schedules/lancement-d-inscription-en-ligne-et-appel-à-candidature.md
 - _schedules/jury-selection.md
 - _schedules/award-ceremony-and-publication-of-winning-entry.md
 - _schedules/application-and-call-for-submissions-launch-on-line.md
