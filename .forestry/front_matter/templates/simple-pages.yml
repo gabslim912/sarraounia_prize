@@ -38,4 +38,5 @@ fields:
   label: Layout
   hidden: false
 pages:
+- blog-en.md
 - register-en.md
