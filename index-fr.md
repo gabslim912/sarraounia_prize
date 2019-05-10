@@ -42,5 +42,12 @@ partners_button_link: "/fr/partners"
 date: 2019-04-24T07:23:09.000+00:00
 lang: fr
 ref: home
+video_description: Regardez notre vidéo promotionnelle
+schedule_title: Programme
+schedule_subtitle: Tout ce qu'il faut savoir
+program_title: Prix Sarraounia
+sponsor_title: Partenaires
+sponsor_description: Ils croient en nous
+sponsor_button_link: "/fr/partners"
 
 ---
