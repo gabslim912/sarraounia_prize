@@ -50,9 +50,29 @@ fields:
 - type: file
   name: video_background_image
   label: Video background image
+- name: video_description
+  type: text
+  config:
+    required: false
+  label: Video Description
 - type: text
   name: video_link
   label: Video link
+- name: schedule_title
+  type: text
+  config:
+    required: false
+  label: Schedule Title
+- name: schedule_subtitle
+  type: text
+  config:
+    required: false
+  label: Schedule Subtitle
+- name: program_title
+  type: text
+  config:
+    required: false
+  label: Program Title
 - type: file
   name: jury_background_image
   label: Jury background image

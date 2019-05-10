@@ -70,9 +70,9 @@ fields:
   label: Wikipedia Link
   default: http://www.wikipedia.com/
 pages:
+- _juries/4.md
 - _juries/6.md
 - _juries/5.md
-- _juries/4.md
 - _juries/3.md
 - _juries/2.md
 - _juries/1.md
