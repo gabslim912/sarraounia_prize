@@ -17,6 +17,16 @@ fields:
 - type: text
   name: description
   label: description
+- name: main_partners_title
+  type: text
+  config:
+    required: false
+  label: Main Partners Title
+- name: simple_partners_title
+  type: text
+  config:
+    required: false
+  label: Simple Partners Title
 - type: text
   name: lang
   label: lang
