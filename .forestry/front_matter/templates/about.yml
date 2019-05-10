@@ -49,4 +49,5 @@ fields:
   label: date
   hidden: true
 pages:
+- about-fr.md
 - about-en.md
