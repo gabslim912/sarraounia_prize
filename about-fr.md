@@ -6,10 +6,21 @@ parallax_image: "/uploads/dark_orange.jpg"
 left_image: "/uploads/sarraouniabaw.jpg"
 main_title: Prix Sarraounia pour la fiction jeune adulte
 second_title: Booster la créativité de la jeunesse africaine
-description: |-
-  Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae vitae.<br>
-
-  Morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas.Mauris Eonec eu ribero sit amet quam egestas semper. Aenean are ultricies mi senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae vitae.
+description: "La filière Arts et Culture de l’Université Abdou Moumouni au Niger et
+  la maison d’édition Amalion au Sénégal ont le plaisir de vous annoncer l’appel à
+  candidature pour le Prix Sarraounia de la Fiction Jeune Adulte édition 2020 afin
+  de contribuer à accroître l’offre de lecture pour les jeunes adultes africains et
+  à promouvoir la littérature pour aider à mieux comprendre le monde des adolescents
+  africains. Le Prix Sarraounia décernera tous les deux ans un prix qui récompensera
+  les auteurs et illustrateurs africains basés en Afrique qui auront produit les meilleurs
+  manuscrits et ouvrages de fiction inédits destinés aux jeunes adultes. \n\nPour
+  la présente édition, le lauréat recevra 1.000 euros, et le manuscrit gagnant sera
+  publié et disséminé par Amalion et ses partenaires à partir de mai 2020. Le Prix
+  Sarraounia mettra à profit toutes les technologies des médias traditionnels et numériques
+  afin de diffuser ses activités et atteindre le public concerné. Le Prix Sarraounia
+  de la Fiction Jeune Adulte fera la promotion des auteurs et de leurs ouvrages dans
+  de nombreux festivals, foires du livre, forums, conférences, etc., auprès des acteurs
+  du livre et du grand public.\n"
 jury_background_image: "/uploads/dark_orange.jpg"
 jury_title: Presentation du jury
 jury_subtitle: Nous sommes présents pour vous
