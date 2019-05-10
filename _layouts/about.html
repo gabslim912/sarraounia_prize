@@ -79,7 +79,8 @@ layout: default
                             </div>
                             <!--//.ROW-->
                             <div class="row">
-                                {% for jury in site.juries %}
+                                {% assign juries = site.juries | where:"lang", page.lang %}
+                                {% for jury in juries %}
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="lgx-single-speaker">
                                         <figure>
@@ -130,7 +131,8 @@ layout: default
                             <!--//.ROW-->
                             <div class="row">
                                 <div id="lgx-owltestimonial" class="lgx-owltestimonial lgx-owlnews">
-                                    {% for testimonial in site.testimonials %}
+                                    {% assign testimonials = site.testimonials | where:"lang", page.lang %}
+                                    {% for testimonial in testimonials %}
                                     <div class="item">
                                         <!--Testimonial-single-->
                                         <blockquote class="lgx-testi-single">

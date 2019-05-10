@@ -158,7 +158,8 @@ layout: default
                         <div id="home" class="tab-pane fade in active">
 
                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                {% for schedule in site.schedules %}
+                                {% assign schedules = site.schedules | where:"lang", page.lang %}
+                                {% for schedule in schedules %}
                                 <div class="panel panel-default lgx-panel">
                                     <div class="panel-heading" role="tab" id="{{ schedule.heading_data }}">
                                         <div class="panel-title">
@@ -170,7 +171,7 @@ layout: default
                                                     <div class="schedule-info">
                                                         <h4 class="time">{{ schedule.sch_date }}</h4>
                                                         <h3 class="title">{{ schedule.title }}</h3>
-                                                        <h4 class="author-info">By <span>{{ schedule.author }}</span></h4>
+                                                        <h4 class="author-info"><span>{{ schedule.author }}</span></h4>
                                                     </div>
                                                 </div>
                                             </a>
@@ -220,7 +221,8 @@ layout: default
                 </div>
                 <!--//.ROW-->
                 <div class="row">
-                  {% for jury in site.juries %}
+                    {% assign juries = site.juries | where:"lang", page.lang %}
+                    {% for jury in juries %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3"> <!--lgx-single-speaker lgx-single-speaker2 lgx-single-speaker3-->
                             <figure>
@@ -318,7 +320,8 @@ layout: default
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="sponsors-area">
-                              {% for partner in site.partners %}
+                              {% assign partners = site.partners | where:"lang", page.lang %}
+                                {% for partner in partners %}
                                 <div class="single">
                                     <a class="" href="#"><img src="{{ partner.logo }}" alt="partner" width="230px" height="129px" /></a>
                                 </div>

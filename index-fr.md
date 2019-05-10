@@ -33,7 +33,7 @@ blog_title: Derniers articles
 blog_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 blog_button_title: Plus d'articles
 blog_button_link: "/fr/blog"
-partners_background_image: "/uploads/africa_1.jpg"
+partners_background_image: "/uploads/light_orange_bg.jpg"
 partners_title: Partenaires
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
