@@ -29,4 +29,5 @@ fields:
   name: ref
   label: ref
 pages:
+- schedule-en.md
 - programme.md
