@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Contact 
+title: Contact
 permalink: "/en/contact"
 parallax_image: "/uploads/orange_black_christal_bg.jpg"
 description: Get in touch with our beautiful team
