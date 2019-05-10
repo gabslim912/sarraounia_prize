@@ -1,6 +1,6 @@
 ---
 layout: contact
-title: Contact 
+title: Contact
 permalink: "/fr/contact"
 parallax_image: "/uploads/orange_black_christal_bg.jpg"
 description: Contactez nous à tout moment

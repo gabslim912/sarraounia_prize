@@ -38,6 +38,7 @@ fields:
   label: Layout
   hidden: false
 pages:
+- contact-fr.md
 - contact-en.md
 - blog-fr.md
 - blog-en.md
