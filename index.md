@@ -42,5 +42,12 @@ partners_button_link: "/en/partners"
 date: 2019-04-24T07:23:09.000+00:00
 lang: en
 ref: home
+video_description: Watch Our Promo video! Get to know everything about Sarraounia
+schedule_title: Event Schedule
+schedule_subtitle: Everything you need to know
+program_title: Sarraounia Prize 2020
+sponsor_title: 'Partners '
+sponsor_description: Partners and sponsors
+sponsor_button_link: "/en/partners"
 
 ---
