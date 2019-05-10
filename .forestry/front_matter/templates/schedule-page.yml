@@ -17,6 +17,11 @@ fields:
 - type: text
   name: description
   label: description
+- name: schedule_page_title
+  type: text
+  config:
+    required: false
+  label: Schedule page title
 - type: text
   name: lang
   label: lang
