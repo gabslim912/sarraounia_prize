@@ -34,4 +34,5 @@ fields:
   name: ref
   label: ref
 pages:
+- partners-en.md
 - partners-fr.md
