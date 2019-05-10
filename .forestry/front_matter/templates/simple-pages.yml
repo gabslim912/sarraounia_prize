@@ -38,6 +38,7 @@ fields:
   label: Layout
   hidden: false
 pages:
+- register-fr.md
 - apply.md
 - contact-fr.md
 - contact-en.md
