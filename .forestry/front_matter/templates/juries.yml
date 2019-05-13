@@ -8,6 +8,13 @@ fields:
     required: false
   label: Name
   default: John Doe
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
+  hidden: false
+  default: jury
 - name: lang
   type: select
   default: en
