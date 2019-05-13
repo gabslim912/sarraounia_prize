@@ -38,6 +38,7 @@ fields:
   label: Layout
   hidden: false
 pages:
+- jury-members.md
 - register-fr.md
 - apply.md
 - contact-fr.md
