@@ -221,8 +221,8 @@ layout: default
                 </div>
                 <!--//.ROW-->
                 <div class="row">
-                    {% assign juries = site.juries | where:"lang", page.lang %}
-                    {% for jury in juries %}
+                    {% assign juries = site.jury_members | where:"lang", page.lang %}
+                    {% for jury in juries limit:3 %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-speaker2 lgx-single-speaker3"> <!--lgx-single-speaker lgx-single-speaker2 lgx-single-speaker3-->
                             <figure>
@@ -235,7 +235,7 @@ layout: default
                                         <a class="sp-in" href="{{ jury.linkedin_link }}"><i class="fa fa-linkedin"></i></a>
                                     </div>
                                     <div class="speaker-info">
-                                        <h3 class="title"><a href="/speaker.html" target="blank">{{ jury.name }}</a></h3>
+                                        <h3 class="title"><a href="{{ jury.url }}" target="blank">{{ jury.name }}</a></h3>
                                         <h4 class="subtitle">{{ jury.job_position }}</h4>
                                     </div>
                                 </figcaption>

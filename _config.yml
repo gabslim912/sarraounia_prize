@@ -27,8 +27,8 @@ collections:
   partners:
     title: partners
     output: true
-  juries:
-    title: juries
+  jury_members:
+    title: jury_members
     output: true
 
 email: your-email@sarraounia.com
