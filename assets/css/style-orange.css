@@ -518,7 +518,7 @@ button:hover:after,
   font-size: 12px;
 }
 .lgx-btn-red {
-  background: #ec398b;
+  background: #ee453c;
 }
 .lgx-btn-yellow {
   background: #efa506;
@@ -6846,7 +6846,7 @@ button:hover:after,
 }
 .lgx-banner-info .title i b:nth-child(1),
 .lgx-banner-info .title span b:nth-child(1) {
-  color: #ec398b;
+  color: #ee453c;
 }
 .lgx-banner-info .title i b:nth-child(2),
 .lgx-banner-info .title span b:nth-child(2) {
@@ -7051,7 +7051,7 @@ button:hover:after,
   display: block;
 }
 .lgx-banner-info-homeone .title span b:nth-child(1) {
-  color: #ec398b;
+  color: #ee453c;
 }
 .lgx-banner-info-homeone .title span b:nth-child(2) {
   color: #efa506;
@@ -8286,7 +8286,7 @@ lgx-zoomInUp
 }
 .lgx-about-content-area .lgx-heading .subheading {
   font-family: 'Oswald', sans-serif;
-  color: #ec398b;
+  color: #ee453c;
   font-size: 20px;
   line-height: 30px;
   font-size: 2rem;
@@ -8311,7 +8311,7 @@ lgx-zoomInUp
 .lgx-about-service .lgx-single-service-white .icon {
   font-size: 68px;
   font-size: 6.8rem;
-  color: #ec398b;
+  color: #ee453c;
   opacity: .4;
 }
 .lgx-about-service .lgx-single-service-white .text-area .title {
@@ -8695,7 +8695,7 @@ lgx-zoomInUp
   font-weight: 400;
   text-transform: uppercase;
   margin: 0;
-  color: #ec398b;
+  color: #ee453c;
   opacity: .7;
 }
 .lgx-single-speaker2:hover figure a.profile-img img {
@@ -9219,7 +9219,7 @@ lgx-zoomInUp
   margin-bottom: 0;
 }
 .lgx-panel .lgx-single-schedule .schedule-info .author-info span {
-  color: #ec398b;
+  color: #ee453c;
 }
 .lgx-panel .panel-body .text {
   margin-bottom: 1.6rem;
@@ -9392,7 +9392,7 @@ lgx-zoomInUp
   margin-top: 0;
 }
 .sponsored-heading.secound-heading {
-  color: #ec398b;
+  color: #ee453c;
 }
 .sponsored-heading.third-heading {
   color: #efa506;
@@ -9766,7 +9766,7 @@ lgx-zoomInUp
   color: inherit;
 }
 .lgx-single-news .meta-wrapper span a:hover {
-  color: #ec398b;
+  color: #ee453c;
 }
 .lgx-single-news .meta-wrapper span:last-child:after {
   display: none;
@@ -9888,7 +9888,7 @@ lgx-zoomInUp
   z-index: 0;
 }
 .lgx-registration-area .lgx-single-registration .lgx-btn {
-  background: #ec398b;
+  background: #ee453c;
 }
 .lgx-registration-area .lgx-single-registration .lgx-btn:hover {
   background: #efa506;
@@ -10042,7 +10042,7 @@ lgx-zoomInUp
 }
 .lgx-registration-area3 .lgx-single-registration .single-top .price {
   line-height: 8rem;
-  color: #ec398b;
+  color: #ee453c;
 }
 .lgx-registration-area3 .lgx-single-registration .single-top .title {
   padding-top: 5rem;
@@ -10054,7 +10054,7 @@ lgx-zoomInUp
   color: #fff;
 }
 .lgx-registration-area3 .recommended .lgx-btn {
-  background: #ec398b;
+  background: #ee453c;
 }
 .lgx-registration-area3 .recommended .lgx-btn:hover {
   background: #efa506;
@@ -10079,7 +10079,7 @@ lgx-zoomInUp
   box-shadow: 0 0 16px #ccc;
 }
 .lgx-registration-area .lgx-single-registration-christmas .lgx-btn {
-  background: #ec398b;
+  background: #ee453c;
 }
 .lgx-registration-area .lgx-single-registration-christmas .lgx-btn:hover {
   background: #efa506;
@@ -10307,7 +10307,7 @@ lgx-zoomInUp
 .lgx-registration-form-box .wpcf7-form-control.lgx-submit:hover,
 .lgx-registration-form-box .wpcf7-submit:hover,
 .lgx-registration-form-box .lgx-submit:hover {
-  background: #ec398b;
+  background: #ee453c;
   color: #fff;
 }
 .lgx-registration-simple {
@@ -11698,7 +11698,7 @@ blockquote.lgx-testi-single:before {
   margin-left: 5px;
 }
 .lgx-subscribe-form .lgx-btn:hover {
-  background: #ec398b;
+  background: #ee453c;
 }
 /*-------------------------------------------------------------------*/
 /* 2.20 FOOTER
@@ -11996,7 +11996,7 @@ blockquote.lgx-testi-single:before {
 }
 .lgx-banner-inner .breadcrumb li a i {
   margin-right: .5rem;
-  color: #ec398b;
+  color: #ee453c;
 }
 .lgx-banner-inner .breadcrumb .active {
   color: #efa506;

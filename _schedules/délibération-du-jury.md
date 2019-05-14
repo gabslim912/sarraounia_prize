@@ -10,5 +10,6 @@ location: Dakar, Sénégal
 collapse_data: collapseThree
 heading_data: headingThree
 sch_date: 1-15 Novembre 2019
+position: 3
 
 ---

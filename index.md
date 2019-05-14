@@ -26,8 +26,8 @@ video_link: https://www.youtube.com/embed/U8CUXVJlwMM
 jury_background_image: "/uploads/africa_5.jpg"
 jury_title: Jury Members
 jury_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-jury_button_title: More info
-jury_button_link: "/en/about"
+jury_button_title: View all
+jury_button_link: "/en/jury"
 blog_background_image: "/uploads/africa_5.jpg"
 blog_title: Latest articles
 blog_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
