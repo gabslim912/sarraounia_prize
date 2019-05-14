@@ -1,0 +1,46 @@
+
+    <main>
+        <div class="lgx-page-wrapper">
+            <!--News-->
+            <section>
+                <div class="container">
+                    
+
+                    <div class="row">
+                        {% assign juries = site.jury_members | where:"lang", page.lang %}
+                        {% for jury in juries %}
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <div class="lgx-single-speaker2"> <!--lgx-single-speaker lgx-single-speaker2 lgx-single-speaker3-->
+                                <figure>
+                                    <a class="profile-img" href="{{ jury.url }}"><img src="{{ jury.image }}" alt="{{ jury.name }}"/></a>
+                                    <figcaption>
+                                        <div class="social-group">
+                                            <a class="sp-tw" href="{{ jury.twitter_link }}"><i class="fa fa-twitter"></i></a>
+                                            <a class="sp-fb" href="{{ jury.facebook_link }}"><i class="fa fa-facebook"></i></a>
+                                            <a class="sp-insta" href="{{ jury.instagram_link }}"><i class="fa fa-instagram"></i></a>
+                                            <a class="sp-in" href="{{ jury.linkedin_link }}"><i class="fa fa-linkedin"></i></a>
+                                        </div>
+                                        <div class="speaker-info">
+                                            <h3 class="title"><a href="{{ jury.url }}">{{ jury.name }}</a></h3>
+                                            <h4 class="subtitle">{{ jury.job_position }}</h4>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        {% endfor %}
+                        
+                    </div>
+                    <!--//.ROW-->
+
+
+                    
+
+
+                </div><!-- //.CONTAINER -->
+
+                
+            </section>
+            <!--News END-->
+        </div>
+    </main>
