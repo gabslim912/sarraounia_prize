@@ -10,7 +10,7 @@ sliders:
 - line_1: Prix Sarraounia
   line_2: De la Fiction Jeune Adulte
   line_3: 30 Août 2019
-  image: "/uploads/africa_6.jpg"
+  image: "/uploads/africa_5.jpg"
 main_title: Prix Sarraounia pour La Fiction Jeune Adulte
 second_title: Booster la créativité africaine
 description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
