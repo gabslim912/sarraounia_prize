@@ -2,7 +2,7 @@
 layout: about
 title: About Us
 permalink: "/en/about"
-parallax_image: "/uploads/dark_orange.jpg"
+parallax_image: "/uploads/africa_5.jpg"
 left_image: "/uploads/sarraouniabaw.jpg"
 main_title: Sarraounia Prize for Young Adult Fiction
 second_title: Empowering Africa's Youth

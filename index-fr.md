@@ -21,19 +21,19 @@ first_button_title: Voir Plus
 first_button_link: "/fr/about"
 second_button_title: S'inscrire Maintenant
 second_button_link: "/fr/register"
-video_background_image: "/uploads/africa_2.jpg"
+video_background_image: "/uploads/africa_5.jpg"
 video_link: https://www.youtube.com/embed/U8CUXVJlwMM
-jury_background_image: "/uploads/orange_black_christal_bg.jpg"
+jury_background_image: "/uploads/africa_5.jpg"
 jury_title: Membres du Jury
 jury_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 jury_button_title: Voir Plus
 jury_button_link: "/fr/about"
-blog_background_image: "/uploads/light_orange_bg.jpg"
+blog_background_image: "/uploads/africa_5.jpg"
 blog_title: Derniers articles
 blog_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 blog_button_title: Plus d'articles
 blog_button_link: "/fr/blog"
-partners_background_image: "/uploads/light_orange_bg.jpg"
+partners_background_image: "/uploads/africa_5.jpg"
 partners_title: Partenaires
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
