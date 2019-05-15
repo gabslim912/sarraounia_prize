@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: fr
 author: Our Team
 categories: Culture
 image: "/uploads/chirurgie_afrique.jpg"

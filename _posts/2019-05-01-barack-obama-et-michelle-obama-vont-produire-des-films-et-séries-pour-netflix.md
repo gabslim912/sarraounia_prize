@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: fr
 author: Our Team
 categories: Culture
 image: "/uploads/barack_obama_netflix.jpg"

@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About Us
+subtitle: Learn more about the Sarraounia Prize
 permalink: "/en/about"
 parallax_image: "/uploads/africa_5.jpg"
 left_image: "/uploads/sarraouniabaw.jpg"

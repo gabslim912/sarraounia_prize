@@ -6,7 +6,7 @@
             <div id="lgx-about" class="lgx-about">
                 <div class="lgx-inner" style="padding-top: 60px; padding-bottom: 60px;">
                     <div class="container">
-                        <h3 class="sponsored-heading first-heading">Main Partners</h3>
+                        <h3 class="sponsored-heading first-heading">{{ page.main_partners_title }}</h3>
                         <br><br>
                         <div class="row">
                             {% assign partnerss = site.partners | where:"type", "main_partners" | where:"lang", page.lang %}
@@ -14,14 +14,22 @@
                             {% for partner in partnerss %}
                             <div class="col-md-6" style="padding-bottom: 15px;">
                                 <div class="col-sm-6 col-md-6">
-                                    <div class="lgx-about-img">
-                                        <img src="{{ partner.logo }}" alt="about" width="235px" height="159px">
+                                    <div class="lgx-about-img" style="display: inline-block; vertical-align: middle;">
+                                        <img src="{{ partner.logo }}" alt="about" width="235px" height="auto" style="vertical-align: middle;">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-md-6">
                                     <div class="lgx-about-content-area">
                                         <div class="lgx-heading">
                                             <h3>{{ partner.name }}</h3>
+                                            <a href="{{ partner.link }}" target="blank">
+                                                {% if page.lang == "fr" %}
+                                                    Visitez le site web
+                                                {% endif %}
+                                                {% if page.lang == "en" %}
+                                                    Visit website
+                                                {% endif %}
+                                            </a>
                                         </div>
                                         <div class="lgx-about-content">
                                             <p class="text text-justify">
@@ -41,20 +49,18 @@
     </div>
 </main>
 <main>
-    <div class="lgx-page-wrapper"  style="padding-top: 60px; padding-bottom: 60px;">
+    <div class="lgx-page-wrapper lgx-page-wrapper-none"  style="padding-top: 60px; padding-bottom: 60px;">
         <!--News-->
         <section  style="padding-top: 0px; padding-bottom: 0px;>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h3 class="sponsored-heading first-heading">Partners and Sponsors</h3>
+                        <h3 class="sponsored-heading first-heading">{{ page.simple_partners_title }}</h3>
                         <div class="sponsors-area sponsors-area-bg">
                             {% assign partnerss = site.partners | where:"type", "other_partners" %}
                             
                             {% for partner in partnerss %}
-                            <div class="single">
-                                <a class="" href="{{ partner.link }}"><img src="{{ partner.logo }}" alt="sponsor" width="222px" height="122px" /></a>
-                            </div>
+                           <a href="{{ partner.link }}" target="blank"><img src="{{ partner.logo }}" alt="partner" width="120px" height="auto" style="margin: 15px;" /></a>
                             {% endfor %}
                         </div>
                     </div>

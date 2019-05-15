@@ -30,7 +30,7 @@ collections:
   jury_members:
     title: jury_members
     output: true
-
+lang: nu
 email: your-email@sarraounia.com
 parallax_image: "/uploads/africa_5.jpg"
 description: >- # this means to ignore newlines until "baseurl:"

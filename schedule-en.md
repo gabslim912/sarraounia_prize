@@ -6,6 +6,6 @@ parallax_image: "/uploads/africa_5.jpg"
 description: Everything you need to know
 lang: en
 ref: sched
-schedule_page_title: Prix Sarraounia 2019
+schedule_page_title: Sarraounia Prize 2020
 
 ---

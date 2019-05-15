@@ -7,7 +7,7 @@
                     <div class="col-xs-12">
                         <div class="lgx-tab lgx-tab-vertical">
                             <ul class="nav nav-pills lgx-nav lgx-nav-nogap lgx-nav-colorful">
-                                <li class="active"><a data-toggle="pill" href="#home"><h3>Sarraounia <span>Price</span> 2020</h3></a></li>
+                                <li class="active"><a data-toggle="pill" href="#home"><h3 style="color: black;">{{ page.schedule_page_title }}</h3></a></li>
                                 
                             </ul>
                             <div class="tab-content lgx-tab-content">
@@ -16,7 +16,7 @@
                                 <div id="home" class="tab-pane fade in active">
 
                                     <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                                        {% assign schedules = site.schedules | where:"lang", page.lang %}
+                                        {% assign schedules = site.schedules | where:"lang", page.lang | sort: "position" %}
                                         {% for schedule in schedules %}
                                         <div class="panel panel-default lgx-panel">
                                             <div class="panel-heading" role="tab" id="{{ schedule.heading_data }}">

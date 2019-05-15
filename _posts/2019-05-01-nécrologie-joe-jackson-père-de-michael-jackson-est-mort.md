@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: fr
 author: Our Team
 categories: Pop Culture
 image: "/uploads/joe_jackson.jpg"

@@ -3,7 +3,7 @@ layout: default
 ---
 <!--Banner Inner-->
     <section>
-        <div class="lgx-banner lgx-banner-inner" style="background: url('{{ page.parallax_image }}') center center no-repeat; width: 1284px; height: 240px;
+        <div class="lgx-banner lgx-banner-inner" style="background: url('{{ page.parallax_image }}') center center no-repeat; width: auto; height: 240px;
             -webkit-background-size: cover;
             -o-background-size: cover;
             -moz-background-size: cover;
@@ -14,7 +14,7 @@ layout: default
                         <div class="col-xs-12">
                             <div class="lgx-heading-area">
                                 <div class="lgx-heading lgx-heading-white">
-                                    <h2 class="heading">{{ page.title }}</h2>
+                                    <h2 class="heading">{{ page.subtitle }}</h2>
                                 </div>
                                 <ul class="breadcrumb">
                                     <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
@@ -36,7 +36,7 @@ layout: default
             <!--ABOUT-->
             <section>
                 <div id="lgx-about" class="lgx-about">
-                    <div class="lgx-inner">
+                    <div class="lgx-inner" style="padding-top: 60px; padding-bottom: 60px;">
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12 col-md-5">
@@ -51,7 +51,7 @@ layout: default
                                             <h3 class="subheading">{{ page.second_title }}</h3>
                                         </div>
                                         <div class="lgx-about-content">
-                                            <p class="text text-justify">
+                                            <p class="text-justify">
                                                 {{ page.description }}
                                             </p>
                                         </div>
@@ -67,9 +67,9 @@ layout: default
             <!--SPEAKERS-->
             <section>
                 <div id="lgx-speakers" class="lgx-speakers">
-                    <div class="lgx-inner">
+                    <div class="lgx-inner" style="padding-top: 60px; padding-bottom: 60px;">
                         <div class="container">
-                            <div class="row">
+                            <div class="row"  style="padding-bottom: 25px;">
                                 <div class="col-xs-12">
                                     <div class="lgx-heading">
                                         <h2 class="heading">{{ page.jury_title }}</h2>
@@ -79,7 +79,7 @@ layout: default
                             </div>
                             <!--//.ROW-->
                             <div class="row">
-                                {% assign juries = site.juries | where:"lang", page.lang %}
+                                {% assign juries = site.jury_members | where:"lang", page.lang %}
                                 {% for jury in juries %}
                                 <div class="col-xs-12 col-sm-6 col-md-4">
                                     <div class="lgx-single-speaker">
@@ -114,13 +114,13 @@ layout: default
             <!--TESTIMONIALS -->
             <section>
                 <div id="lgx-testimonial" class="lgx-testimonial" style="background: url('{{ page.jury_background_image }}') bottom left no-repeat fixed;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;">
-                    <div class="lgx-inner">
+                      -webkit-background-size: cover;
+                      -o-background-size: cover;
+                      -moz-background-size: cover;
+                      background-size: cover;">
+                    <div class="lgx-inner" style="padding-top: 60px; padding-bottom: 60px;">
                         <div class="container">
-                            <div class="row">
+                            <div class="row" style="padding-bottom: 25px;">
                                 <div class="col-xs-12">
                                     <div class="lgx-heading">
                                         <h2 class="heading">{{ page.testimonial_title }}</h2>

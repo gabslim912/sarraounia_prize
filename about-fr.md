@@ -1,6 +1,7 @@
 ---
 layout: about
 title: A propos
+subtitle: Ce qu'il faut savoir sur le Prix Sarraounia
 permalink: "/fr/about"
 parallax_image: "/uploads/africa_5.jpg"
 left_image: "/uploads/sarraouniabaw.jpg"

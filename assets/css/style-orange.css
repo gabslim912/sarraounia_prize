@@ -6599,16 +6599,16 @@ button:hover:after,
   }
   .navbar-default .navbar-toggle {
     border-color: transparent;
-    margin-top: 11px;
+    margin-top: 28px;
   }
   .navbar-default .navbar-toggle span {
-    background-color: #FFBB33 !important;
-    width: 26px;
-    height: 3px;
+    background-color: #BBB !important;
+    width: 30px;
+    height: 6px;
   }
   .navbar-default .navbar-toggle:focus,
   .navbar-default .navbar-toggle:hover {
-    background-color: #FFBB33;
+    background-color: #BBB;
   }
   .navbar-default .navbar-toggle:focus span,
   .navbar-default .navbar-toggle:hover span {
@@ -8269,7 +8269,7 @@ lgx-zoomInUp
   border: none;
 }
 .lgx-about-content {
-  text-align: left;
+  text-align: justify;
 }
 .lgx-about-content .section-btn-area {
   text-align: left;
