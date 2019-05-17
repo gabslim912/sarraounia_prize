@@ -28,3 +28,17 @@ fields:
   label: ref
   default: apply
   hidden: true
+- name: lang
+  type: select
+  default: en
+  config:
+    required: false
+    options:
+    - fr
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
