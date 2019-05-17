@@ -1,25 +1,40 @@
 ---
 label: Guideline Page
-hide_body: true
+hide_body: false
 fields:
 - type: text
   name: layout
   label: layout
+  default: guidelines
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: permalink
-  label: permalink
+  label: Permalink
 - type: file
   name: parallax_image
-  label: parallax_image
+  label: Parallax image
 - type: text
   name: description
-  label: description
-- type: text
-  name: lang
-  label: lang
+  label: Description
 - type: text
   name: ref
   label: ref
+  default: guidelines
+  hidden: true
+- name: lang
+  type: select
+  default: en
+  config:
+    required: false
+    options:
+    - fr
+    - en
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Language
