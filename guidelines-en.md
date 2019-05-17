@@ -20,7 +20,7 @@ ref: guidelines
 
 <p class="western" lang="en-US">&nbsp;</p>
 
-<p class="western" lang="en-US"><span style="font-size: medium;"><strong>Rules</strong></span></p>
+<p class="western" lang="en-US"><span style="font-size: medium;"><strong>Rules</strong></span></p><p class="western" lang="en-US">&nbsp;</p>
 
 <p class="western" lang="en-US"><span style="font-size: medium;">The following regulations set out the legal and procedural terms and conditions for the Sarraounia Prize for Young Adult Fiction. Participation in the Sarraounia Prize shall entail the acceptance by the applicant of these Rules in their entirety and without reservation. These rules can be consulted free of charge and in a printable version during the duration of the Sarraounia Prize for Young Adult Fiction on the Internet at www.sarraounia.com</span></p>
 
