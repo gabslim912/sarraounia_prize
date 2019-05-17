@@ -42,3 +42,8 @@ fields:
       file: 
       path: 
   label: Language
+- name: registration_fields
+  type: include
+  config: {}
+  template: registration-fields
+  label: Registration Fields
