@@ -29,9 +29,14 @@ nationality: Nationality
 nationality_ph: Nationality
 gender: Gender
 gender_types:
-  value: ''
+- value: ''
 marital_status: Marital Status
-marital_status_type: {}
+marital_status_type:
+- value: Single
+- value: Married
+- value: Separated
+- value: Widow
+- value: Other (please specify)
 minors_details: Minors Details
 minors_details_ph: 'For minors: Name, first names, address (if different from that
   of the candidate) and nationality of parent or legal guardian '
