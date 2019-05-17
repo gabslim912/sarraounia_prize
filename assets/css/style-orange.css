@@ -10243,7 +10243,7 @@ lgx-zoomInUp
   position: relative;
   margin-top: -258px;
 }
-.lgx-registration-form-box {
+/*.lgx-registration-form-box {
   background: url('../img/registrationbox-bg.jpg') center center no-repeat;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -10251,7 +10251,7 @@ lgx-zoomInUp
   background-size: cover;
   padding: 4.2rem 3rem;
   text-align: center;
-}
+}*/
 .lgx-registration-form-box .title {
   font-size: 42px;
   line-height: 63px;

@@ -57,7 +57,7 @@
                     <div class="col-xs-12">
                         <h3 class="sponsored-heading first-heading">{{ page.simple_partners_title }}</h3>
                         <div class="sponsors-area sponsors-area-bg">
-                            {% assign partnerss = site.partners | where:"type", "other_partners" %}
+                            {% assign partnerss = site.partners | where:"type", "other_partners" | where:"lang", page.lang %}
                             
                             {% for partner in partnerss %}
                            <a href="{{ partner.link }}" target="blank"><img src="{{ partner.logo }}" alt="partner" width="120px" height="auto" style="margin: 15px;" /></a>

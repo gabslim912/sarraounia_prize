@@ -18,7 +18,12 @@ layout: default
                                 <h2 class="heading">{{ page.description }}</h2>
                             </div>
                             <ul class="breadcrumb">
-                                <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                                {% if page.lang =="en" %}
+                                <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>                                    
+                                {% endif %}
+                                {% if page.lang =="fr" %}
+                                <li><a href="/fr"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>                                    
+                                {% endif %}
                                 <li class="active">{{ page.title }}</li>
                             </ul>
                         </div>

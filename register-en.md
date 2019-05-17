@@ -1,6 +1,6 @@
 ---
 layout: register
-title: Apply
+title: Registration
 permalink: "/en/register"
 parallax_image: "/uploads/africa_5.jpg"
 description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.

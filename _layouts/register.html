@@ -17,7 +17,12 @@ layout: default
                                 <h2 class="heading">{{ page.description }}</h2>
                             </div>
                             <ul class="breadcrumb">
-                                <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
+                                {% if page.lang =="en" %}
+                                <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>                                    
+                                {% endif %}
+                                {% if page.lang =="fr" %}
+                                <li><a href="/fr"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>                                    
+                                {% endif %}
                                 <li class="active">{{ page.title }}</li>
                             </ul>
                         </div>
@@ -28,30 +33,71 @@ layout: default
     </div>
 </section> <!--//.Banner Inner-->
 <main>
-    <div class="lgx-page-wrapper">
+    <div class="lgx-page-wrapper" style="background-color: #1b273d;">
         <!--News-->
         <section>
             <div class="container">
-                <div class="row">
+                
 
-                    <div class="col-sm-12 col-md-10 col-md-offset-1">
+                    
                         <div class="lgx-registration-form-box ">
-                            <h3 class="title">Registration</h3>
+                            <div class="container">
+                                <h3 class="title">Registration</h3>
                             <div class="lgx-registration-form">
-                                <input name="text" value="" class="wpcf7-form-control form-control" placeholder="Your Name ..." type="text">
-                                <input name="email" value="" class="wpcf7-form-control form-control" placeholder="Your E-mail ..." type="email">
-                                <input name="text" value="" class="wpcf7-form-control form-control" placeholder="Mobile Number ..." type="text">
-                                <input name="text" value="" class="wpcf7-form-control form-control" placeholder="Your Country ..." type="email">
-                                <select name="your-browser" class="wpcf7-form-control wpcf7-select lgx-select">
-                                    <option value="Personal - $39">Personal - $39</option>
-                                    <option value="Business - $89">Business - $89</option>
-                                    <option value="Premium - $189">Premium - $189</option>
-                                </select>
-                                <input value="Registration Now" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit">
+                                <form action="https://submit-form.com/troKRquLLInva7X0Og8ST" target="_self">
+                                    <!-- Redirect the user to a custom URL 
+                                    <input type="hidden" name="_redirect" value="<your-url>">-->
+                                   <!-- Prevent spam without a captcha -->
+                                    <input type="checkbox" name="_honeypot" style="display: none" tabindex="-1" autocomplete="off">
+                                   <!-- All elements must have a name attribute -->
+                                    <input name="last_name" value="" class="wpcf7-form-control form-control" placeholder="Nom(s) [nom(s) de famille]" type="text" >
+                                    <input name="birth_name" value="" class="wpcf7-form-control form-control" placeholder="Nom(s) de naissance [nom(s) de famille antérieur(s)]" type="text" >
+                                    <input name="birthday" value="" class="wpcf7-form-control form-control" placeholder="Date de naissance (jour-mois-année)" type="date" >
+                                    <input name="birth_town" value="" class="wpcf7-form-control form-control" placeholder="Lieu de naissance" type="text" >
+                                    <input name="birth_country" value="" class="wpcf7-form-control form-control" placeholder="Pays de naissance" type="text" >
+                                    <input name="nationality" value="" class="wpcf7-form-control form-control" placeholder="Nationalié actuelle" type="text" >
+                                    <input name="birth_nationality" value="" class="wpcf7-form-control form-control" placeholder="Nationalité à la naissance" type="text" >
+                                    <input name="birth_country" value="" class="wpcf7-form-control form-control" placeholder="Pays de naissance" type="text" ><br>
+                                    <select name="sexe" class="wpcf7-form-control form-control">
+                                      <option value="volvo">Masculin</option>
+                                      <option value="saab">Féminin</option>
+                                      <option value="fiat">Intersex(Autres)</option>
+                                      
+                                    </select>
+                                    <br>
+                                    <select name="etat_civil" class="wpcf7-form-control form-control">
+                                      <option value="volvo">Célibataire</option>
+                                      <option value="saab">Marié(e)</option>
+                                      <option value="fiat">Séparé(e)</option>
+                                      <option value="fiat">divorcé(e)</option>
+                                      <option value="fiat">Veuf(Veuve)</option>
+                                      
+                                    </select><br>
+                                    <input name="minor_form" value="" class="wpcf7-form-control form-control" placeholder="Pour les mineurs : Nom, prénom, adresse (si différente de celle du candidat) et nationalité de l’autorité parentale/du tuteur légal" type="text" >
+                                    <input name="birth_country" value="" class="wpcf7-form-control form-control" placeholder="Numéro national d’identité du candidat" type="text" >
+                                    <input name="date_delivery" value="" class="wpcf7-form-control form-control" placeholder="Date de délivrance" type="text" >
+                                    <input name="date_expiration" value="" class="wpcf7-form-control form-control" placeholder="Date d'expiration'" type="email">
+                                    <input name="passeport_number" value="" class="wpcf7-form-control form-control" placeholder="Numéro du passeport du candidat, le cas echeant" type="text">
+                                    <input name="passport_date_delivery" value="" class="wpcf7-form-control form-control" placeholder="Date de délivrance" type="text" >
+                                    <input name="passport_date_expiration" value="" class="wpcf7-form-control form-control" placeholder="Date d'expiration'" type="email">
+                                    <input name="passeport_deliver_by" value="" class="wpcf7-form-control form-control" placeholder="Numéro du passeport du candidat, le cas echeant" type="text">
+                                    <input name="adresse" value="" class="wpcf7-form-control form-control" placeholder="Adresse du domicile permanent" type="text">
+                                    <input name="email" value="" class="wpcf7-form-control form-control" placeholder="Adresse électronique du candidat" type="email">
+                                    <input name="passeport_number" value="" class="wpcf7-form-control form-control" placeholder="Numéro du passeport du candidat, le cas echeant" type="text">
+                                    <input name="telephone" value="" class="wpcf7-form-control form-control" placeholder="Numéro(s) de téléphone" type="text">
+                                    <input name="profession_actuelle" value="" class="wpcf7-form-control form-control" placeholder="Profession actuelle" type="text">
+                                    <input name="employeur" value="" class="wpcf7-form-control form-control" placeholder="Nom, adresse et numéro de téléphone de l’employeur. Pour les étudiants, adresse de l’établissement d’enseignement" type="text">
+                                    <input name="manuscrit_info" value="" class="wpcf7-form-control form-control" placeholder="Noms et prenoms (comme souhaiterais sur votre manuscrit)" type="text">
+                                    <input name="presentation_text" value="" class="wpcf7-form-control form-control" placeholder="Se présenter en quelques lignes" type="text">
+                                    <input name="projet_titre" value="" class="wpcf7-form-control form-control" placeholder="Titre provisoire" type="text">
+                                    <input name="text_word_number" value="" class="wpcf7-form-control form-control" placeholder="Nombre de mots du texte" type="text">
+                                    <input name="illustration_number" value="" class="wpcf7-form-control form-control" placeholder="Nombre d’illustration" type="text">
+                                    <input value="S'inscrire Maintenant" class="wpcf7-form-control wpcf7-submit lgx-submit" type="submit">
+                                </form>
+                            </div>
                             </div>
                         </div>
-                    </div>
-                </div>
+                    
             </div><!-- //.CONTAINER -->
         </section>
         <!--News END-->

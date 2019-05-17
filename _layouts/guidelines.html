@@ -16,7 +16,7 @@ layout: default
                             <div class="lgx-heading lgx-heading-white" style="margin-bottom: 70px;">
                                 <h2 class="heading">{{ page.description }}</h2>
                             </div>
-                            <ul class="breadcrumb">
+                            <ul class="breadcrumb" >
                                 {% if page.lang =="en" %}
                                 <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                                 <li><a href="/{{ page.lang }}/about">About</a></li>
@@ -27,6 +27,7 @@ layout: default
                                 {% endif %}
                                 <li class="active">{{ page.title }}</li>
                             </ul>
+                            
                         </div>
                     </div>
                 </div><!--//.ROW-->
@@ -34,5 +35,24 @@ layout: default
         </div><!-- //.INNER -->
     </div>
 </section> <!--//.Banner Inner-->
-
-{%- include jury_members_include.html -%}
+<main>
+    <div class="lgx-post-wrapper">
+        <!--News-->
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <article>
+                            
+                            <section class="text-justify">
+                                {{ page.content }}
+                            </section>
+                            
+                        </article>
+                    </div>
+                </div>
+            </div><!-- //.CONTAINER -->
+        </section>
+        <!--News END-->
+    </div>
+</main>
