@@ -29,7 +29,9 @@ nationality: Nationality
 nationality_ph: Nationality
 gender: Gender
 gender_types:
-- value: ''
+- value: Male
+- value: Female
+- value: Intersex (Others)
 marital_status: Marital Status
 marital_status_type:
 - value: Single
