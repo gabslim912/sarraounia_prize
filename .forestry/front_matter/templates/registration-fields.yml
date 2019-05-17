@@ -1,4 +1,267 @@
 ---
 label: Registration fields
 hide_body: true
-fields: []
+fields:
+- name: form_title
+  type: text
+  config:
+    required: false
+  label: Form title
+- name: form_subtitle
+  type: text
+  config:
+    required: false
+  label: Form Subtitle
+- name: first_section_title
+  type: text
+  config:
+    required: false
+  label: First Section Title
+- name: surname
+  type: text
+  config:
+    required: false
+  label: Surname(s)
+- name: surname_s_ph
+  type: text
+  config:
+    required: false
+  label: Surname(s) Ph
+- name: birth_surname
+  type: text
+  config:
+    required: false
+  label: Birth surname(s)
+- name: birth_surname_s_ph
+  type: text
+  config:
+    required: false
+  label: Birth surname(s) Ph
+- name: first_name_s_
+  type: text
+  config:
+    required: false
+  label: First name(s)
+- name: first_name_s_ph
+  type: text
+  config:
+    required: false
+  label: First name(s) Ph
+- name: birthday
+  type: text
+  config:
+    required: false
+  label: Birthday
+- name: birthday_ph
+  type: text
+  config:
+    required: false
+  label: Birthday Ph
+- name: birth_place
+  type: text
+  config:
+    required: false
+  label: Birth Place
+- name: birth_place_ph
+  type: text
+  config:
+    required: false
+  label: Birth place Ph
+- name: birth_country
+  type: text
+  config:
+    required: false
+  label: Birth Country
+- name: birth_country_ph
+  type: text
+  config:
+    required: false
+  label: Birth Country Ph
+- name: nationality
+  type: text
+  config:
+    required: false
+  label: Nationality
+- name: nationality_ph
+  type: text
+  config:
+    required: false
+  label: Nationality Ph
+- name: birth_nationality
+  type: text
+  config:
+    required: false
+  label: Birth Nationality
+- name: birth_nationality_ph
+  type: text
+  config:
+    required: false
+  label: Birth Nationality Ph
+- name: gender
+  type: text
+  config:
+    required: false
+  label: Gender
+- name: gender_types
+  type: field_group
+  config: {}
+  label: Gender Types
+- name: marital_status
+  type: text
+  config:
+    required: false
+  label: Marital Status
+- name: marital_status_type
+  type: field_group
+  config: {}
+  label: Marital Status Type
+- name: minors_details
+  type: text
+  config:
+    required: false
+  label: Minors Details
+- name: minors_details_ph
+  type: text
+  config:
+    required: false
+  label: Minors Details Ph
+- name: id_card_number
+  type: text
+  config:
+    required: false
+  label: Id Card Number
+- name: id_card_
+  type: text
+  config:
+    required: false
+  label: Id Card Date of issue
+- name: id_card_expiration_date
+  type: text
+  config:
+    required: false
+  label: Id Card Expiration Date
+- name: id_card_place_of_issue
+  type: text
+  config:
+    required: false
+  label: Id Card Place of issue
+- name: id_card_place_of_issue_ph
+  type: text
+  config:
+    required: false
+  label: Id Card Place of issue Ph
+- name: permanent_home_address
+  type: text
+  config:
+    required: false
+  label: Permanent Home Address
+- name: permanent_home_address_ph
+  type: text
+  config:
+    required: false
+  label: Permanent Home Address Ph
+- name: applicant_email_address
+  type: text
+  config:
+    required: false
+  label: Applicant Email Address
+- name: applicant_email_address_ph
+  type: text
+  config:
+    required: false
+  label: Applicant Email Address Ph
+- name: telephone_number_s_
+  type: text
+  config:
+    required: false
+  label: Telephone Number(s)
+- name: telephone_number_s_ph
+  type: text
+  config:
+    required: false
+  label: Telephone Number(s) Ph
+- name: current_profession
+  type: text
+  config:
+    required: false
+  label: Current Profession
+- name: current_profession_ph
+  type: text
+  config:
+    required: false
+  label: Current Profession_Ph
+- name: employer_or_student_info
+  type: text
+  config:
+    required: false
+  label: Employer or Student Info
+- name: employer_or_student_info_ph
+  type: text
+  config:
+    required: false
+  label: Employer or Student Info Ph
+- name: second_section_title
+  type: text
+  config:
+    required: false
+  label: Second Section Title
+- name: author_informations
+  type: text
+  config:
+    required: false
+  label: Author Informations
+- name: author_informations_ph
+  type: text
+  config:
+    required: false
+  label: Author Informations Ph
+- name: author_presentation
+  type: text
+  config:
+    required: false
+  label: Author Presentation
+- name: author_presentation_ph
+  type: text
+  config:
+    required: false
+  label: Author Presentation Ph
+- name: project_presentation
+  type: text
+  config:
+    required: false
+  label: Project Presentation
+- name: project_presentation_ph
+  type: text
+  config:
+    required: false
+  label: Project Presentation Ph
+- name: provisional_or_working_title
+  type: text
+  config:
+    required: false
+  label: Provisional or working title
+- name: provisional_or_working_title_ph
+  type: text
+  config:
+    required: false
+  label: Provisional or working title Ph
+- name: word_count
+  type: text
+  config:
+    required: false
+  label: Word count
+- name: word_count_ph
+  type: text
+  config:
+    required: false
+  label: Word count Ph
+- name: number_of_illustrations
+  type: text
+  config:
+    required: false
+  label: Number of illustrations
+- name: number_of_illustrations_ph
+  type: text
+  config:
+    required: false
+  label: Number of illustrations Ph
