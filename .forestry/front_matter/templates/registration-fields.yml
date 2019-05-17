@@ -103,11 +103,17 @@ fields:
     required: false
   label: Gender
 - name: gender_types
-  type: list
+  type: field_group_list
+  fields:
+  - name: value
+    type: text
+    config:
+      required: false
+    label: Value
   config:
-    use_select: false
     min: 
     max: 
+    labelField: 
   label: Gender Types
 - name: marital_status
   type: text
