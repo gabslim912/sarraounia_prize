@@ -28,7 +28,8 @@ birth_nationality: Nationality at birth
 nationality: Nationality
 nationality_ph: Nationality
 gender: Gender
-gender_types: {}
+gender_types:
+  value: Male
 marital_status: Marital Status
 marital_status_type: {}
 minors_details: Minors Details
@@ -63,5 +64,10 @@ word_count_ph: Word count
 number_of_illustrations: Number of illustrations
 number_of_illustrations_ph: Number of illustrations
 applicant_email_address: Email Address of applicant
+third_section_title: Terms and Conditions
+validation_text: Click here to indicate that you have read and agree to the terms
+  presented in the Terms and Conditions agreement
+validation: Validation
+submit_button_title: Register now
 
 ---
