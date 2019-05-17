@@ -271,3 +271,23 @@ fields:
   config:
     required: false
   label: Number of illustrations Ph
+- name: third_section_title
+  type: text
+  config:
+    required: false
+  label: Third Section Title
+- name: validation
+  type: text
+  config:
+    required: false
+  label: Validation
+- name: validation_text
+  type: text
+  config:
+    required: false
+  label: Validation Text
+- name: submit_button_title
+  type: text
+  config:
+    required: false
+  label: Submit Button Title
