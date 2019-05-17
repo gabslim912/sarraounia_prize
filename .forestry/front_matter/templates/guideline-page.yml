@@ -38,3 +38,5 @@ fields:
       file: 
       path: 
   label: Language
+pages:
+- guidelines-en.md
