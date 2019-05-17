@@ -61,6 +61,7 @@ fields:
       format: markdown
   label: description
 pages:
+- _partners/CERAV.md
 - _partners/ue.md
 - _partners/editionamalion.md
 - _partners/UCLG.md
@@ -72,4 +73,3 @@ pages:
 - _partners/artsandculture.md
 - _partners/arterials_network.md
 - _partners/amalion.md
-- _partners/CERAV.md

@@ -1,5 +1,5 @@
 ---
-label: Schedule Page
+label: Guideline Page
 hide_body: true
 fields:
 - type: text
@@ -17,16 +17,9 @@ fields:
 - type: text
   name: description
   label: description
-- name: schedule_page_title
-  type: text
-  config:
-    required: false
-  label: Schedule page title
 - type: text
   name: lang
   label: lang
 - type: text
   name: ref
   label: ref
-pages:
-- schedule-en.md
