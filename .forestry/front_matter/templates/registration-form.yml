@@ -4,25 +4,27 @@ hide_body: true
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  hidden: true
+  default: register
 - type: text
   name: title
-  label: title
+  label: Page title
 - type: text
   name: permalink
-  label: permalink
+  label: Permalink
 - type: file
   name: parallax_image
-  label: parallax_image
+  label: Parallax image
 - type: text
   name: description
-  label: description
+  label: Page Subtitle
 - type: datetime
   name: date
   label: date
-- type: text
-  name: lang
-  label: lang
+  hidden: true
 - type: text
   name: ref
   label: ref
+  default: apply
+  hidden: true
