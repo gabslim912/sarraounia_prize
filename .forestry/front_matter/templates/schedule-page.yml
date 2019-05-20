@@ -30,4 +30,5 @@ fields:
   name: ref
   label: ref
 pages:
+- schedule-fr.md
 - schedule-en.md
