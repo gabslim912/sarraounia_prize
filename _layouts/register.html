@@ -55,9 +55,10 @@ layout: default
                                             <input name="{{ page.surname }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.surname_s_ph }}" type="text" >
                                             <input name="{{ page.birth_surname }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_surname_s_ph }}" type="text" >
                                             <input name="{{ page.first_name_s_ }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.first_name_s_ph }}" type="text" >
+                                            <input name="{{ page.birth_place }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_place_ph }}" type="text" >
                                             <label for="{{ page.birthday }}" style="color: white;">Select {{ page.birthday_ph }}</label>
                                             <input name="{{ page.birthday }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birthday_ph }}" type="date" style ="    background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
-                                            <input name="{{ page.birth_place }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_place_ph }}" type="text" >
+                                            
                                             <label for="{{ page.birth_country }}" style="color: white;">Select {{ page.birth_country_ph }}</label>
                                             <select name="{{ page.birth_country }}" value="" class="wpcf7-form-control form-control" >
                                                 {%- include countries.html -%}
@@ -85,14 +86,21 @@ layout: default
                                                 {% endfor %}
                                             </select><br>
                                             <input name="{{ page.minors_details }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.minors_details_ph }}" type="text" >
+                                            <br>                                           
                                             <input name="{{ page.id_card_number }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_number }}" type="text" >
-                                           
                                             <label for="{{ page.id_card_ }}" style="color: white;">{{ page.id_card_ }}</label>
                                             <input name="{{ page.id_card_ }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_ }}" type="date" style ="background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
                                             <label for="{{ page.id_card_expiration_date }}" style="color: white;">{{ page.id_card_expiration_date }}</label>
-                                            <input name="{{ page.id_card_expiration_date }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_expiration_date }}" type="date" style ="    background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
+                                            <input name="{{ page.id_card_expiration_date }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_expiration_date }}" type="date" style ="    background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;"><br>
+                                            <input name="{{ page.passport_number }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.passport_number }}" type="text" >
                                            
-                                            <input name="{{ page.id_card_place_of_issue }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_place_of_issue_ph }}" type="text">
+                                            <label for="{{ page.passport_date_of_issue }}" style="color: white;">{{ page.passport_date_of_issue }}</label>
+                                            <input name="{{ page.passport_date_of_issue }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.passport_date_of_issue }}" type="date" style ="background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
+                                            <label for="{{ page.passport_expiration_date }}" style="color: white;">{{ page.passport_expiration_date }}</label>
+                                            <input name="{{ page.passport_expiration_date }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.passport_expiration_date }}" type="date" style ="    background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
+                                           
+                                            <input name="{{ page.passport_place_of_issue }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.passport_place_of_issue_ph }}" type="text">
+
                                             <input name="{{ page.permanent_home_address }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.permanent_home_address_ph }}" type="text" >
                                             <input name="{{ page.applicant_email_address }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.applicant_email_address_ph }}" type="email">
                                             <input name="{{ page.telephone_number_s_ }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.telephone_number_s_ph }}" type="text">
