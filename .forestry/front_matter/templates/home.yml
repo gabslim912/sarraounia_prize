@@ -27,6 +27,16 @@ fields:
   - type: text
     name: line_2
     label: line_2
+  - name: button_title
+    type: text
+    config:
+      required: false
+    label: Button title
+  - name: button_link
+    type: text
+    config:
+      required: false
+    label: Button link
 - type: text
   name: main_title
   label: Main Title
