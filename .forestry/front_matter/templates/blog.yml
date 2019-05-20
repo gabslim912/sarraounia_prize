@@ -6,6 +6,7 @@ fields:
   name: layout
   label: layout
   default: post
+  hidden: true
 - type: text
   name: title
   label: Title
@@ -45,3 +46,4 @@ fields:
     maxSize: 250
   label: Image
   default: "/uploads/lg_picture.png"
+  description: 1140 x 760 px
