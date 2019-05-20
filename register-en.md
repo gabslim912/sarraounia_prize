@@ -76,5 +76,10 @@ validation_text: Click here to indicate that you have read and agree to the term
   presented in the Terms and Conditions agreement
 validation: Validation
 submit_button_title: Register now
+passport_number: Passport Number of candidate, if any
+passport_date_of_issue: Passport date of issue
+passport_expiration_date: Passport expiration date
+passport_place_of_issue: Passport place of issue
+passport_place_of_issue_ph: Passport place of issue
 
 ---
