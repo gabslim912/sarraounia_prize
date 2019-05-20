@@ -148,31 +148,38 @@ fields:
   config:
     required: false
   label: Id Card Number
-- name: id_card_
-  type: text
-  config:
-    required: false
-  label: Id Card Date of issue
 - name: id_card_expiration_date
-  type: text
+  type: datetime
+  label: Id Card Expiration Date
+  description: ''
   config:
     required: false
-  label: Id Card Expiration Date
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: passport_number
   type: text
   config:
     required: false
   label: Passport Number
 - name: passport_date_of_issue
-  type: text
-  config:
-    required: false
+  type: datetime
   label: Passport date of Issue
-- name: passport_expiration_date
-  type: text
+  description: ''
   config:
     required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: passport_expiration_date
+  type: datetime
   label: Passport Expiration Date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - name: passport_place_of_issue
   type: text
   config:
