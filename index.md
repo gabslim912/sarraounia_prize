@@ -7,8 +7,8 @@ sliders:
   line_2: For Young Adult Fiction
   line_3: 30 August 2019
   image: "/uploads/africa_5.jpg"
-  button_title: ''
-  button_link: ''
+  button_title: Register now
+  button_link: "/en/register"
 - line_1: Prix Sarraounia
   line_2: De la Fiction Jeune Adulte
   line_3: 30 Août 2019
