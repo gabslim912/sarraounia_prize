@@ -39,8 +39,9 @@ fields:
   type: file
   config:
     maxSize: 250
-  label: image
+  label: Image
   default: "/uploads/normal_picture.png"
+  description: 800 x 860 px
 - name: bio
   type: textarea
   default: |-
