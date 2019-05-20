@@ -74,7 +74,7 @@ word_count: Nombre de mots du texte
 word_count_ph: Nombre de mots du texte
 number_of_illustrations: Nombre d’illustration
 number_of_illustrations_ph: Nombre d’illustration
-id_card_place_of_issue_ph: ''
+id_card_place_of_issue_ph: Délivré à
 third_section_title: III. Modalités & Conditions générales
 validation: Modalités & Conditions générales
 validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les conditions
