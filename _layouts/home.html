@@ -31,7 +31,7 @@ layout: default-home
                                                     <h2 class="date lgx-delay lgx-fadeInDown"><i class="fa fa-calendar"></i> {{ slider.line_3 }}</h2>
                                                     <div class="action-area lgx-delay lgx-fadeInDown">
                                                         <div class="lgx-video-area">
-                                                            <a class="lgx-btn lgx-btn-black" href="/register">Apply now</a>
+                                                            <a class="lgx-btn lgx-btn-black" href="{{ slider.button_link }}">{{ slider.button_title }}</a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -98,7 +98,7 @@ layout: default-home
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2 class="lgx-video-title" style="color: white; text-align: center;"><span style="color: white;">Watch Our Promo video!</span> Get to know everything about Sarraounia</h2><br><br>
+                        <h2 class="lgx-video-title" style="color: white; text-align: center;">{{ page.video_description }}</h2><br><br>
                         <div class="lgx-video-area">
                             <figure>
                                 <figcaption>
@@ -140,8 +140,8 @@ layout: default-home
         <div class="row" style="padding-top: 60px; padding-bottom: 60px;">
             <div class="col-xs-12">
                 <div class="lgx-heading">
-                    <h2 class="heading">Event Schedule</h2>
-                    <h3 class="subheading">Welcome to the Sarranuia Prize!</h3>
+                    <h2 class="heading">{{ page.schedule_title }}</h2>
+                    <h3 class="subheading">{{ page.schedule_subtitle }}</h3>
                 </div>
             </div>
         </div>
@@ -149,7 +149,7 @@ layout: default-home
             <div class="col-xs-12">
                 <div class="lgx-tab lgx-tab-vertical">
                     <ul class="nav nav-pills lgx-nav lgx-nav-nogap lgx-nav-colorful">
-                        <li class="active"><a data-toggle="pill" href="#home"><h3 style="color: black;">Sarraounia <span>Price</span> 2020</h3></a></li>
+                        <li class="active"><a data-toggle="pill" href="#home"><h3 style="color: black;">{{ page.program_title }}</h3></a></li>
                         
                     </ul>
                     <div class="tab-content lgx-tab-content">
