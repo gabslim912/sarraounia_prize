@@ -3,7 +3,7 @@ layout: default
 ---
 <!--Banner Inner-->
 <section>
-    <div class="lgx-banner " style="background: url('{{ page.parallax_image }}') center center no-repeat; width: 1284px; height: 240px;
+    <div class="lgx-banner " style="background: url('{{ page.parallax_image }}') center center no-repeat; width: 100%; height: 240px;
         -webkit-background-size: cover;
         -o-background-size: cover;
         -moz-background-size: cover;
@@ -43,7 +43,7 @@ layout: default
                         <div class="lgx-registration-form-box ">
                             <div class="container">
                             <div class="lgx-registration-form">
-                                <form action="https://submit-form.com/troKRquLLInva7X0Og8ST" target="_self">
+                                <form action="https://submit-form.com/troKRquLLInva7X0Og8ST" target="_self" id="usrform">
                                     <h3 class="title">{{ page.first_section_title }}</h3>
                                     <!-- Redirect the user to a custom URL 
                                     <input type="hidden" name="_redirect" value="<your-url>">-->
@@ -55,17 +55,30 @@ layout: default
                                             <input name="{{ page.surname }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.surname_s_ph }}" type="text" >
                                             <input name="{{ page.birth_surname }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_surname_s_ph }}" type="text" >
                                             <input name="{{ page.first_name_s_ }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.first_name_s_ph }}" type="text" >
-                                            <input name="{{ page.birthday }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birthday_ph }}" type="date" >
+                                            <label for="{{ page.birthday }}" style="color: white;">Select {{ page.birthday_ph }}</label>
+                                            <input name="{{ page.birthday }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birthday_ph }}" type="date" style ="    background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
                                             <input name="{{ page.birth_place }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_place_ph }}" type="text" >
-                                            <input name="{{ page.birth_country }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_country_ph }}" type="text" >
-                                            <input name="{{ page.nationality }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.nationality_ph }}" type="text" >
-                                            <input name="{{ page.birth_nationality }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_nationality_ph }}" type="text" ><br>
+                                            <label for="{{ page.birth_country }}" style="color: white;">Select {{ page.birth_country_ph }}</label>
+                                            <select name="{{ page.birth_country }}" value="" class="wpcf7-form-control form-control" >
+                                                {%- include countries.html -%}
+                                            </select><br>
+                                            <label for="{{ page.nationality }}" style="color: white;">Select {{ page.nationality_ph }}</label>
+                                            <select name="{{ page.nationality }}" value="" class="wpcf7-form-control form-control" >
+                                                {%- include countries.html -%}
+                                            </select><br>
+                                            <label for="{{ page.birth_nationality_ph }}" style="color: white;">Select {{ page.birth_nationality }}</label>
+                                            <select name="{{ page.birth_nationality }}" value="" class="wpcf7-form-control form-control" >
+                                                {%- include countries.html -%}
+                                            </select>
+                                                <br>
+                                             <label for="{{ page.gender }}" style="color: white;">Select {{ page.gender }}</label>
                                             <select name="{{ page.gender }}" class="wpcf7-form-control form-control">
                                                 {% for gender in page.gender_types %}
                                                     <option value="{{ gender.value }}">{{ gender.value }}</option>
                                                 {% endfor %}
                                             </select>
                                             <br>
+                                             <label for="{{ page.marital_status }}" style="color: white;">Select {{ page.marital_status }}</label>
                                             <select name="marital_status" class="wpcf7-form-control form-control">
                                                 {% for status in page.marital_status_type %}
                                                     <option value="{{ status.value }}">{{ status.value }}</option>
@@ -73,8 +86,12 @@ layout: default
                                             </select><br>
                                             <input name="{{ page.minors_details }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.minors_details_ph }}" type="text" >
                                             <input name="{{ page.id_card_number }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_number }}" type="text" >
-                                            <input name="{{ page.id_card_ }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_ }}" type="date" >
-                                            <input name="{{ page.id_card_expiration_date }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_expiration_date }}" type="date">
+                                           
+                                            <label for="{{ page.id_card_ }}" style="color: white;">{{ page.id_card_ }}</label>
+                                            <input name="{{ page.id_card_ }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_ }}" type="date" style ="background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
+                                            <label for="{{ page.id_card_expiration_date }}" style="color: white;">{{ page.id_card_expiration_date }}</label>
+                                            <input name="{{ page.id_card_expiration_date }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_expiration_date }}" type="date" style ="    background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
+                                           
                                             <input name="{{ page.id_card_place_of_issue }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.id_card_place_of_issue_ph }}" type="text">
                                             <input name="{{ page.permanent_home_address }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.permanent_home_address_ph }}" type="text" >
                                             <input name="{{ page.applicant_email_address }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.applicant_email_address_ph }}" type="email">
@@ -88,8 +105,9 @@ layout: default
                                     <div style="border: 1px solid white;">
                                         <div style="margin: 25px;">
                                             <input name="{{ page.author_informations }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.author_informations_ph }}" type="text">
-                                            <input name="{{ page.author_presentation }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.author_presentation_ph }}" type="text">
-                                            <input name="{{ page.project_presentation }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.project_presentation_ph }}" type="text">
+                                            
+                                            <textarea name="{{ page.author_presentation }}" form="usrform" class="wpcf7-form-control form-control" style="margin-bottom: 20px;">{{ page.author_presentation_ph }}</textarea>
+                                            <textarea name="{{ page.project_presentation }}" form="usrform" class="wpcf7-form-control form-control" style="margin-bottom: 20px;">{{ page.project_presentation_ph }}</textarea>
                                             <input name="{{ page.provisional_or_working_title }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.provisional_or_working_title_ph }}" type="text">
                                             <input name="{{ page.word_count }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.word_count_ph }}" type="text">
                                             <input name="{{ page.number_of_illustrations }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.number_of_illustrations_ph }}" type="text">
@@ -99,7 +117,7 @@ layout: default
 
                                     <div style="border: 1px solid white;">
                                         <div style="margin: 25px;">
-                                            <input type="checkbox" name="{{ page.validation }}" value="{{ page.validation }}" required> {{ page.validation_text }}<br>
+                                            <input type="checkbox" name="{{ page.validation }}" value="{{ page.validation }}" required> <h5 style="color: white; display: inline;">{{ page.validation_text }}</h5>
                                             
                                         </div>
                                     </div>
