@@ -28,6 +28,7 @@ fields:
     maxSize: 250
   label: Image
   default: "/uploads/sm_picture.png"
+  description: 200 x 200 px
 - name: job_position
   type: text
   config:
