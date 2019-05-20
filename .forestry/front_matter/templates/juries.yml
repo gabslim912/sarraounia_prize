@@ -78,3 +78,5 @@ fields:
     required: false
   label: Wikipedia Link
   default: http://www.wikipedia.com/
+pages:
+- _jury_members/Michael_dope.md
