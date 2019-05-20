@@ -10,7 +10,7 @@ ref: apply
 form_title: Formulaire de participation
 form_subtitle: 'Toutes les rubriques doivent être remplies par les candidats. Mettez
   « NA » pour la question qui ne pas applicable à votre situation. '
-first_section_title: 'I : INFORMATION PERSONNELLE'
+first_section_title: I. INFORMATION PERSONNELLE
 surname: Nom(s) [nom(s) de famille]
 surname_s_ph: Nom(s) [nom(s) de famille]
 birth_surname: Nom(s) de naissance [nom(s) de famille antérieur(s)]
@@ -61,7 +61,7 @@ employer_or_student_info: Nom, adresse et numéro de téléphone de l’employeu
   les étudiants, adresse de l’établissement d’enseignement
 employer_or_student_info_ph: Nom, adresse et numéro de téléphone de l’employeur. Pour
   les étudiants, adresse de l’établissement d’enseignement
-second_section_title: 'II : INFORMATION SUR L’OEUVRE'
+second_section_title: II. INFORMATION SUR L’OEUVRE
 author_informations: Noms et prénoms (comme souhaiterais sur votre manuscrit)
 author_informations_ph: Noms et prénoms (comme souhaiterais sur votre manuscrit)
 author_presentation: Se présenter en quelques lignes
@@ -75,9 +75,10 @@ word_count_ph: Nombre de mots du texte
 number_of_illustrations: Nombre d’illustration
 number_of_illustrations_ph: Nombre d’illustration
 id_card_place_of_issue_ph: ''
-third_section_title: ''
-validation: ''
-validation_text: ''
-submit_button_title: ''
+third_section_title: III. Modalités & Conditions générales
+validation: Modalités & Conditions générales
+validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les conditions
+  générales.
+submit_button_title: S'inscrire maintenant
 
 ---
