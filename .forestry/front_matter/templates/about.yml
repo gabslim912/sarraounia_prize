@@ -17,9 +17,11 @@ fields:
 - type: file
   name: parallax_image
   label: Parallax Image
+  description: 1920 x 500 px
 - type: file
   name: left_image
   label: Left Image
+  description: 435 x 430 px
 - type: text
   name: main_title
   label: Main Title
@@ -31,7 +33,8 @@ fields:
   label: Description
 - type: file
   name: jury_background_image
-  label: Jury Background Image
+  label: Testimonial Background Image
+  description: 1920 x 1000 px
 - type: text
   name: jury_title
   label: Jury Title
