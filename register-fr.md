@@ -81,8 +81,9 @@ validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les cond
   générales.
 submit_button_title: S'inscrire maintenant
 passport_number: Numéro du passeport du candidat, le cas échéant
-passport_date_of_issue: 
-passport_expiration_date: 
-passport_place_of_issue: ''
+passport_date_of_issue: Date de délivrance du passeport
+passport_expiration_date: Date d’expiration du passeport
+passport_place_of_issue: Lieu de délivrance du passeport
+passport_place_of_issue_ph: Lieu de délivrance du passeport
 
 ---
