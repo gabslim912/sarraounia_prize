@@ -163,33 +163,25 @@ fields:
     required: false
   label: Passport Number
 - name: passport_date_of_issue
-  type: datetime
+  type: text
+  config:
+    required: false
   label: Passport date of Issue
-  description: ''
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
 - name: passport_expiration_date
-  type: datetime
-  label: Passport Expiration Date
-  description: ''
+  type: text
   config:
     required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+  label: Passport expiration date
 - name: passport_place_of_issue
   type: text
   config:
     required: false
   label: Passport Place of issue
-- name: id_card_place_of_issue_ph
+- name: passport_place_of_issue_ph
   type: text
   config:
     required: false
-  label: Id Card Place of issue Ph
+  label: Passport Place of issue Ph
 - name: permanent_home_address
   type: text
   config:
