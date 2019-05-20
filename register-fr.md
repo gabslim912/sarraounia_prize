@@ -80,5 +80,9 @@ validation: Modalités & Conditions générales
 validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les conditions
   générales.
 submit_button_title: S'inscrire maintenant
+passport_number: Numéro du passeport du candidat, le cas échéant
+passport_date_of_issue: 
+passport_expiration_date: 
+passport_place_of_issue: ''
 
 ---
