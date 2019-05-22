@@ -278,13 +278,25 @@ layout: default-home
                             </figure>
                             
                             <div class="single-news-info" style="width: 328px; height: 219px;">
-                                <div class="meta-wrapper">
-                                    <span>{{ post.date | date: "%d/%m/%Y" }}</span>
-                                    <span>by {{ post.author }}</span>
-                                    <span><a href="#">{{ post.categories }}</a></span>
-                                </div>
-                                <h3 class="title" style="height: 80px;"><a href="{{ post.url }}" target="blank">{{ post.title }}</a></h3>
-                                <a class="lgx-btn lgx-btn-black lgx-btn-sm" href="{{ post.url }}" target="blank"><span>Read article</span></a>
+                                {% if page.lang == "en"%}
+                                    <div class="meta-wrapper">
+                                        <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+                                        <span>by {{ post.author }}</span>
+                                        <span><a href="#">{{ post.categories }}</a></span>
+                                    </div>
+                                    <h3 class="title" style="height: 80px;"><a href="{{ post.url }}" target="blank">{{ post.title }}</a></h3>
+                                    <a class="lgx-btn lgx-btn-black lgx-btn-sm" href="{{ post.url }}" target="blank"><span>Read article</span></a>
+                                {% endif %}
+
+                                {% if page.lang == "fr" %}
+                                    <div class="meta-wrapper">
+                                        <span>{{ post.date | date: "%d/%m/%Y" }}</span>
+                                        <span>par {{ post.author }}</span>
+                                        <span><a href="#">{{ post.categories }}</a></span>
+                                    </div>
+                                    <h3 class="title" style="height: 80px;"><a href="{{ post.url }}" target="blank">{{ post.title }}</a></h3>
+                                    <a class="lgx-btn lgx-btn-black lgx-btn-sm" href="{{ post.url }}" target="blank"><span>Lire l'article</span></a>
+                                {% endif %}
                             </div>
                         </div>
                     </div>
