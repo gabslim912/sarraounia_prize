@@ -81,3 +81,5 @@ fields:
   config:
     required: false
   label: Submit Ph
+pages:
+- contact-fr.md
