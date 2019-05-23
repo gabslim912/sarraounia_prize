@@ -26,3 +26,58 @@ fields:
 - type: text
   name: ref
   label: ref
+- name: form_link
+  type: text
+  config:
+    required: false
+  label: Form Link
+- name: name
+  type: text
+  config:
+    required: false
+  label: Name
+- name: name_ph
+  type: text
+  config:
+    required: false
+  label: Name Ph
+- name: email
+  type: text
+  config:
+    required: false
+  label: Email
+- name: email_ph
+  type: text
+  config:
+    required: false
+  label: Email Ph
+- name: subject
+  type: text
+  config:
+    required: false
+  label: Subject
+- name: subject_ph
+  type: text
+  config:
+    required: false
+  label: Subject Ph
+- name: message
+  type: text
+  config:
+    required: false
+  label: Message
+- name: message_ph
+  type: text
+  config:
+    required: false
+  label: Message Ph
+- name: submit_button_title
+  type: text
+  config:
+    required: false
+  label: Submit button title
+- name: submit_ph
+  type: text
+  config:
+    required: false
+  label: Submit Ph
