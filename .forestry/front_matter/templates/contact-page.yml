@@ -82,4 +82,5 @@ fields:
     required: false
   label: Submit Ph
 pages:
+- contact-en.md
 - contact-fr.md
