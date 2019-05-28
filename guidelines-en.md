@@ -6,6 +6,8 @@ parallax_image: "/uploads/africa_5.jpg"
 description: 'Write a little description here '
 lang: en
 ref: guidelines
+button_title: Fill the register form now!
+button_link: /en/register
 
 ---
 <p class="western"><span style="font-size: medium;"><strong>Le Prix Sarraounia de la Fiction Jeune Adulte - 2020</strong></span></p>
