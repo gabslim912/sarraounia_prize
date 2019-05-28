@@ -16,11 +16,14 @@ sliders:
   button_title: S'inscrire maintenant
   button_link: "/fr/register"
 main_title: Sarraounia Prize for Young Adult Fiction
-second_title: Empowering Africa's youth
-description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-  Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-  eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec
-  eu ribero sit amet quam egestas semper. Aenean are ultricies mi vitae.
+second_title: Empowering Africa's Youth
+description: The Centre for Arts and Culture of Abdou Moumouni University in Niger
+  and the publishing house Amalion in Senegal are pleased to announce the call for
+  entries for the Sarraounia Prize for Young Adult Fiction 2020 to contribute to the
+  availability of reading material for African young adults and to promote literature
+  to help better understand the world of African youths. Every two years, the Sarraounia
+  Prize will be awarded to the best unpublished fiction for young adults written by
+  African authors and illustrators based in Africa.
 first_button_title: More info
 first_button_link: "/en/about"
 second_button_title: Apply now
@@ -51,7 +54,7 @@ schedule_title: Event Schedule
 schedule_subtitle: Everything you need to know
 program_title: Sarraounia Prize 2020
 sponsor_title: 'Partners '
-sponsor_description: Partners and sponsors
+sponsor_description: Partners
 sponsor_button_link: "/en/partners"
 
 ---
