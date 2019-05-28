@@ -15,12 +15,16 @@ sliders:
   image: "/uploads/africa_5.jpg"
   button_title: S'inscrire maintenant
   button_link: "/fr/register"
-main_title: Prix Sarraounia pour La Fiction Jeune Adulte
-second_title: Renforcer la  créativité de la jeunesse africaine
-description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-  Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
-  eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec
-  eu ribero sit amet quam egestas semper. Aenean are ultricies mi vitae.
+main_title: Prix Sarraounia pour la Fiction Jeune Adulte
+second_title: Renforcer la créativité de la jeunesse africaine
+description: La filière Arts et Culture de l’Université Abdou Moumouni au Niger et
+  la maison d’édition Amalion au Sénégal ont le plaisir de vous annoncer l’appel à
+  candidature pour le Prix Sarraounia de la Fiction Jeune Adulte édition 2020 afin
+  de contribuer à accroître l’offre de lecture pour les jeunes adultes africains et
+  à promouvoir la littérature pour aider à mieux comprendre le monde des adolescents
+  africains. Le Prix Sarraounia décernera tous les deux ans un prix qui récompensera
+  les auteurs et illustrateurs africains basés en Afrique qui auront produit les meilleurs
+  manuscrits et ouvrages de fiction inédits destinés aux jeunes adultes.
 first_button_title: Voir Plus
 first_button_link: "/fr/about"
 second_button_title: S'inscrire Maintenant
