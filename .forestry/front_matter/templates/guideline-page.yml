@@ -40,5 +40,5 @@ fields:
       path: 
   label: Language
 pages:
-- guidelines-fr.md
 - guidelines-en.md
+- guidelines-fr.md

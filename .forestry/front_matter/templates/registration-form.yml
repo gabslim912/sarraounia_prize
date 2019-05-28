@@ -49,5 +49,5 @@ fields:
   template: registration-fields
   label: Registration Fields
 pages:
-- register-fr.md
 - register-en.md
+- register-fr.md

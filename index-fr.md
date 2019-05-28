@@ -16,7 +16,7 @@ sliders:
   button_title: S'inscrire maintenant
   button_link: "/fr/register"
 main_title: Prix Sarraounia pour La Fiction Jeune Adulte
-second_title: Booster la créativité africaine
+second_title: Renforcer la  créativité de la jeunesse africaine
 description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
   Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec
   eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris Eonec

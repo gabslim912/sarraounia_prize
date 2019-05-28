@@ -39,7 +39,7 @@ fields:
   label: Layout
   hidden: false
 pages:
-- membres-du-jury.md
-- jury-members.md
-- blog-fr.md
 - blog-en.md
+- blog-fr.md
+- jury-members.md
+- membres-du-jury.md
