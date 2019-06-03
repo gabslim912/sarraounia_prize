@@ -13,9 +13,7 @@ layout: default
                 <div class="row">
                     <div class="col-xs-12">
                         <div class="lgx-heading-area">
-                            <div class="lgx-heading lgx-heading-white">
-                                <h2 class="heading">{{ page.description }}</h2>
-                            </div>
+                            
                             <ul class="breadcrumb">
                                 {% if page.lang =="en" %}
                                 <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>                                    
@@ -37,12 +35,10 @@ layout: default
         <!--News-->
         <section>
             <div class="container">
-                
-
-                    
-                        <div class="lgx-registration-form-box ">
+                <div class="lgx-registration-form-box ">
                             <div class="container">
                             <div class="lgx-registration-form">
+                                <p style="color: white;">{{ page.description }}</p><br><br>
                                 <form action="{{ page.form_link }}" target="_self" id="usrform">
                                     <h3 class="title">{{ page.first_section_title }}</h3>
                                     <!-- Redirect the user to a custom URL 

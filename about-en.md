@@ -12,7 +12,7 @@ description: |
   For this edition, the winner will receive a cash prize of 1,000 euros, and the winning entry will be published and disseminated by Amalion and its partners from May 2020. The Sarraounia Prize will explore all traditional and digital media technologies to disseminate its activities and will endeavour to promote the writer and their work in variousfestivals, book fairs, forums, conferences, etc., in order to bring their work to the attention of book industry actors and the general public.
 jury_background_image: "/uploads/dark_orange.jpg"
 jury_title: Jury
-jury_subtitle: Our people will be here for you
+jury_subtitle: 
 testimonial_title: Testimonials
 testimonial_subtitle: What they say about us
 date: 2019-04-24T07:43:34.000+00:00
