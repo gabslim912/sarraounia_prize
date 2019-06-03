@@ -17,7 +17,7 @@ fields:
   - type: file
     name: image
     label: image
-    description: 1920 x 958 px
+    description: 1920 x 800 px (ratio = 2.4)
   - type: text
     name: line_1
     label: line_1
