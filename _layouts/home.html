@@ -8,14 +8,14 @@ layout: default-home
         <div class="lgx-banner-style">
             <div class="lgx-inner">
 
-                <div id="lgx-main-slider" class="owl-carousel" style="height: 640px;">
+                <div id="lgx-main-slider" class="owl-carousel" style="">
 
                     <!--SLIDER ITEM 1-->
                     {% for slider in page.sliders %}
                     <div class="lgx-item-common">
                         <div class="slider-text-single">
                             <figure>
-                                <img src="{{ slider.image }}" alt="slide" style="width: 1284px; height: 640px;" />
+                                <img src="{{ slider.image }}" alt="{{ slider.line_1 }}"  />
                                 <figcaption>
                                     <div class="lgx-container" style="padding-top: 130px">
                                         <div class="lgx-hover-link">
@@ -67,8 +67,8 @@ layout: default-home
                     <div class="col-sm-12">
                         <div class="lgx-about-content-area lgx-about-content-area-center">
                             <div class="lgx-heading">
-                                <h2 class="heading">{{ page.main_title }}</h2>
-                                <h3 class="subheading">{{ page.second_title }}</h3>
+                                <h2 class="heading" style="color: #ee453c;">{{ page.second_title }}</h2>
+                                <!--h3 class="subheading">{{ page.second_title }}</h3-->
                             </div>
                             <div class="lgx-about-content">
                                 <p class="text">

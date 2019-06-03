@@ -13,16 +13,21 @@
                             
                             {% for partner in partnerss %}
                             <div class="col-md-6" style="padding-bottom: 15px;">
-                                <div class="col-sm-6 col-md-6">
+                                
                                     <div class="lgx-about-img" style="display: inline-block; vertical-align: middle;">
-                                        <img src="{{ partner.logo }}" alt="about" width="235px" height="auto" style="vertical-align: middle;">
+                                        <a href="{{ partner.link }}" target="blank">
+                                            <img src="{{ partner.logo }}" alt="about" width="235px" height="auto" style=" float: left; margin-right: 10px; margin-bottom: 10px">
+                                        </a>
+                                        <p class="text text-justify">
+                                                {{ partner.content }}
+                                            </p>
                                     </div>
-                                </div>
-                                <div class="col-sm-6 col-md-6">
+                                
+                                <!--div class="col-sm-6 col-md-6">
                                     <div class="lgx-about-content-area">
-                                        <div class="lgx-heading">
+                                        <div class="lgx-heading" style="margin-bottom: 0px">
                                             <h3>{{ partner.name }}</h3>
-                                            <a href="{{ partner.link }}" target="blank">
+                                            <!--a href="{{ partner.link }}" target="blank">
                                                 {% if page.lang == "fr" %}
                                                     Visitez le site web
                                                 {% endif %}
@@ -31,13 +36,13 @@
                                                 {% endif %}
                                             </a>
                                         </div>
-                                        <div class="lgx-about-content">
-                                            <p class="text text-justify">
+                                        <div class="lgx-about-content" style="">
+                                            <p class="text " style="float: left;">
                                                 {{ partner.description }}
                                             </p>
                                         </div>
                                     </div>
-                                </div>
+                                </div-->
                             </div>
                             {% endfor %}
                         </div>
@@ -48,6 +53,19 @@
         <!--ABOUT END-->
     </div>
 </main>
+<!--VIDEO-->
+<section>
+    <div id="lgx-video" class="lgx-video" style="background: url('{{ page.financial_partners }}') top center no-repeat;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;">
+
+        <img src="{{ page.financial_partners }}" alt="{{ page.title }}" width="100%" height="100%">
+    </div>
+</section>
+
+<!--//.VIDEO END-->
 <main>
     <div class="lgx-page-wrapper lgx-page-wrapper-none"  style="padding-top: 60px; padding-bottom: 60px;">
         <!--News-->

@@ -8,5 +8,6 @@ lang: fr
 ref: partners
 main_partners_title: Nos Principaux Partenaires
 simple_partners_title: Nos Sponsors
+financial_partners: "/uploads/cawa_logo_fr.jpg"
 
 ---
