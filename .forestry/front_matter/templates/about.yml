@@ -14,6 +14,11 @@ fields:
   name: permalink
   label: permalink
   hidden: true
+- name: subtitle
+  type: text
+  config:
+    required: false
+  label: Subtitle
 - type: file
   name: parallax_image
   label: Parallax Image
