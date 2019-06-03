@@ -3,7 +3,7 @@ layout: about
 title: About Us
 subtitle: Learn more about the Sarraounia Prize
 permalink: "/en/about"
-parallax_image: "/uploads/africa_5.jpg"
+parallax_image: ''
 left_image: "/uploads/sarraouniabaw.jpg"
 main_title: Sarraounia Prize for Young Adult Fiction
 second_title: Empowering Africa's Youth
