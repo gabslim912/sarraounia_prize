@@ -36,6 +36,11 @@ fields:
 - type: text
   name: ref
   label: ref
+- name: financial_partners
+  type: file
+  config:
+    maxSize: 250
+  label: Financial partners
 pages:
 - partners-en.md
 - partners-fr.md
