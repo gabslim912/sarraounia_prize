@@ -39,7 +39,7 @@ fields:
 - type: file
   name: jury_background_image
   label: Testimonial Background Image
-  description: 1920 x 1000 px
+  description: 1920 x 1263 px (ratio = 1.52)
 - type: text
   name: jury_title
   label: Jury Title
