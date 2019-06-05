@@ -16,7 +16,7 @@ fields:
 - type: file
   name: parallax_image
   label: Parallax image
-  description: 1920 x 500 px
+  description: 1920 x 359 px (ratio = 5.35)
 - type: text
   name: description
   label: Description
