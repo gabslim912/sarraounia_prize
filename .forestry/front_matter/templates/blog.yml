@@ -46,4 +46,4 @@ fields:
     maxSize: 250
   label: Image
   default: "/uploads/lg_picture.png"
-  description: 1140 x 760 px
+  description: 1920 x 1920 px (ratio = 1)
