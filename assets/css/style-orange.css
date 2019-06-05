@@ -6576,7 +6576,8 @@ button:hover:after,
     padding: 10px 7px;
   }
   .lgx-header-position {
-    background: #1b273d;
+    background: url('/uploads/africa_5.jpg');">;
+
   }
   .lgx-header-position-fixed {
     position: static;

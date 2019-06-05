@@ -18,15 +18,7 @@
                         </div>
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
-                        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-                        {% for page in pages %}
-                        <div class="lgx-nav-right navbar-right">
-                            <div class="lgx-cart-area">
-                            <a href="{{ page.url }}" class="lgx-btn lgx-btn-black" style="
-                            padding: 1rem 2rem;">{{ page.lang }}</a>
-                            </div>
-                        </div>
-                        {% endfor %}
+                        {%- include header-lang.html -%}
                         <div class="lgx-nav-right navbar-right">
                             <div class="lgx-cart-area">
                                 <a class="lgx-btn lgx-btn-orange" href="/fr/register" style="

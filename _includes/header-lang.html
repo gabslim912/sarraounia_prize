@@ -1,0 +1,18 @@
+{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+{% for page in pages %}
+{% if page.lang =="fr" %}
+<div class="lgx-nav-right navbar-right">
+    <div class="lgx-cart-area">
+    <a href="{{ page.url }}" class="lgx-btn lgx-btn-fr" style="
+    padding: 1rem 2rem; margin-top: 15px;"></a>
+    </div>
+{% endif %}
+{% if page.lang =="en" %}
+<div class="lgx-nav-right navbar-right">
+    <div class="lgx-cart-area">
+    <a href="{{ page.url }}" class="lgx-btn lgx-btn-en" style="
+    padding: 1rem 2rem; margin-top: 15px;"></a>
+    </div>
+{% endif %}
+</div>
+{% endfor %}

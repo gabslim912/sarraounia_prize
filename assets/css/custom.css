@@ -9,4 +9,30 @@
 [type="date"]::-webkit-calendar-picker-indicator {
   opacity: 0;
 }
-
+.lgx-btn-fr {
+  background: url(../img/fr.png) 0 0 repeat;
+  background-size: cover;
+  color: #123b95;
+}
+.lgx-btn-fr:after {
+  background: url(../img/fr.png) 0 0 repeat;
+  background-size: contain;
+  color: #123b95;
+  background: #ddd;
+  opacity: .3;
+}
+.lgx-btn-en {
+  background: url(../img/en.png) 0 0 repeat;
+  background-size: cover;
+  color: #123b95;
+}
+.lgx-btn-en:after {
+  background: url(../img/en.png) 0 0 repeat;
+  background-size: cover;
+  color: #123b95;
+  background: #ddd;
+  opacity: .3;
+}
+.partners-custom a {
+  color: #aaa;
+}

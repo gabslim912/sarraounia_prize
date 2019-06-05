@@ -2,65 +2,36 @@
 layout: default
 ---
 <!--Banner Inner-->
-    <section>
-        <div class="lgx-banner " style="background: url('{{ page.parallax_image }}') center center no-repeat; width: auto; height: 240px;
-            -webkit-background-size: cover;
-            -o-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;">
-            <div class="lgx-page-inner" style="padding-top: 90px;"">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="lgx-heading-area">
-                                <div class="lgx-heading lgx-heading-white" style="margin-bottom: 70px;">
-                                    <h2 class="heading">{{ page.subtitle }}</h2>
-                                </div>
-                                <ul class="breadcrumb">
-                                    {% if page.lang =="en" %}
-                                    <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>                                    
-                                    {% endif %}
-                                    {% if page.lang =="fr" %}
-                                    <li><a href="/fr"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>                                    
-                                    {% endif %}
-                                    <li class="active">{{ page.title }}</li>
-                                </ul>
-                            </div>
+<div class="lgx-banner " style="background: url('{{ page.parallax_image }}') center center no-repeat; width: auto; height: 240px;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;">
+    <div class="lgx-page-inner" style="padding-top: 90px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="lgx-heading-area">
+                        <div class="lgx-heading lgx-heading-white" style="margin-bottom: 145px;">
+                            <!--<h2 class="heading">{{ page.description }}</h2>-->
                         </div>
-                    </div><!--//.ROW-->
-                </div><!-- //.CONTAINER -->
-            </div><!-- //.INNER -->
-        </div>
-        <!--div class="lgx-banner lgx-banner-inner" style="background: url('{{ page.parallax_image }}') center center no-repeat; width: auto; height: 240px;
-            -webkit-background-size: cover;
-            -o-background-size: cover;
-            -moz-background-size: cover;
-            background-size: cover;">
-            <div class="lgx-page-inner"  style="padding-top: 90px;">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <div class="lgx-heading-area">
-                                <div class="lgx-heading lgx-heading-white">
-                                    <h2 class="heading">{{ page.subtitle }}</h2>
-                                </div>
-                                <ul class="breadcrumb">
-                                    {% if page.lang =="en" %}
-                                    <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>                                    
-                                    {% endif %}
-                                    {% if page.lang =="fr" %}
-                                    <li><a href="/fr"><i class="fa fa-home" aria-hidden="true"></i>Accueil</a></li>                                    
-                                    {% endif %}
-                                    <li class="active" style="color: white;">{{ page.title }}</li>
-                                </ul>
-                            </div>
-                        </div>
+                        <ul class="breadcrumb">
+                            {% if page.lang =="en" %}
+                            <li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Home</a><a href="/en/about"> / About</a></li> 
+                            <li class="active"><a href="/en/jury">The jury</a> - The prize - <a href="/en/guidelines">Guidelines</a></li>                                    
+                            {% endif %}
+                            {% if page.lang =="fr" %}
+                            <li><a href="/fr"><i class="fa fa-home" aria-hidden="true"></i> Accueil</a><a href="/fr/about"> / A propos</a></li> 
+                            <li class="active"><a href="/fr/jury">Le jury</a> - Le concours - <a href="/fr/guidelines">Le réglement</a></li>                                   
+                            {% endif %}
+                            
+                        </ul>
                     </div>
                 </div>
-            </div>
-
-        </div>-->
-    </section> <!--//.Banner Inner-->
+            </div><!--//.ROW-->
+        </div><!-- //.CONTAINER -->
+    </div><!-- //.INNER -->
+</div>
 
 
     <main>
