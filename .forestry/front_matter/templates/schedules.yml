@@ -24,7 +24,7 @@ fields:
   name: image
   label: Image
   default: "/uploads/SarraouniaPrize_LogoEnglish_Color.png"
-  description: 800 x 800 px
+  description: 800 x 800 px (ratio = 1)
 - type: text
   name: description
   label: Description
