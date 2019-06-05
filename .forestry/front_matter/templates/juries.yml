@@ -42,7 +42,7 @@ fields:
     maxSize: 250
   label: Image
   default: "/uploads/normal_picture.png"
-  description: 800 x 860 px
+  description: 800 x 860 px (ratio = 0.93)
 - name: bio
   type: textarea
   default: |-
