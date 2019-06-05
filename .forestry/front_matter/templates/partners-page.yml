@@ -16,7 +16,7 @@ fields:
 - type: file
   name: parallax_image
   label: parallax_image
-  description: 1920 x 500 px
+  description: 1920 x 359 px (ratio = 5.35)
 - type: text
   name: description
   label: description
@@ -41,6 +41,7 @@ fields:
   config:
     maxSize: 250
   label: Financial partners
+  description: 1920 x 768 px (ratio = 2.5)
 pages:
 - partners-en.md
 - partners-fr.md
