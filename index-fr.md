@@ -12,7 +12,7 @@ sliders:
 - line_1: Prix Sarraounia
   line_2: de la Fiction Jeune Adulte
   line_3: 30 Août 2019
-  image: "/uploads/africa_5.jpg"
+  image: "/uploads/image1.jpg"
   button_title: S'inscrire maintenant
   button_link: "/fr/register"
 main_title: Prix Sarraounia pour la Fiction Jeune Adulte
