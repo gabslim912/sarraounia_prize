@@ -45,7 +45,7 @@ partners_background_image: "/uploads/africa_5.jpg"
 partners_title: Partenaires
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
-partners_button_title: Voir Tout
+partners_button_title: ''
 partners_button_link: "/fr/partners"
 date: 2019-04-24T07:23:09.000+00:00
 lang: fr
@@ -55,7 +55,7 @@ schedule_title: Programme
 schedule_subtitle: Tout ce qu'il faut savoir
 program_title: Prix Sarraounia
 sponsor_title: Partenaires
-sponsor_description: Ils croient en nous
-sponsor_button_link: "/fr/partners"
+sponsor_description: ''
+sponsor_button_link: ''
 
 ---
