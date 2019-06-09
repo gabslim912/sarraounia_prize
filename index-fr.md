@@ -6,7 +6,7 @@ sliders:
 - line_1: Sarraounia Prize
   line_2: for Young Adult Fiction
   line_3: 30 August 2019
-  image: "../uploads/africa_5.jpg"
+  image: "/uploads/image2.png"
   button_title: Apply now
   button_link: "/en/register"
 - line_1: Prix Sarraounia
