@@ -6,6 +6,8 @@ $(document).ready(function() {
     $('.custom-sel a').removeClass('hidden');
   });
 
+  
+
   // Hide dropdown when not focused
   $('.custom-sel').focusout(function() {
     $('.custom-sel').removeClass('show-sel');
