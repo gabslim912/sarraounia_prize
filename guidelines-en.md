@@ -78,7 +78,7 @@ button_link: "/en/register"
 
 <p class="western" lang="en-US">&nbsp;</p>
 
-<p class="western"><span style="font-size: medium;"><span lang="en-US">The website </span></span><span style="color: #0563c1;"><span lang="zxx"><u><a class="western" href="[http://www.sarraounia.com/](http://www.sarraounia.com/ "http://www.sarraounia.com/")"><span style="font-size: medium;"><span lang="en-US">www.sarraounia.com</span></span></a></u></span></span><span style="font-size: medium;"><span lang="en-US"> will be the central point for all information regarding the Sarraounia Prize for Young Adult Fiction.</span></span></p>
+<p class="western"><span style="font-size: medium;"><span lang="en-US">The website </span></span><span style="font-size: medium; font-weight: bolder;"><span lang="en-US">www.sarraounia.com</span></span><span style="font-size: medium;"><span lang="en-US"> will be the central point for all information regarding the Sarraounia Prize for Young Adult Fiction.</span></span></p>
 
 <p class="western" lang="en-US">&nbsp;</p>
 

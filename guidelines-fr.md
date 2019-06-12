@@ -1,6 +1,6 @@
 ---
 layout: guidelines
-title: Reglement
+title: Réglement
 permalink: "/fr/guidelines"
 parallax_image: "/uploads/africa_5.jpg"
 description: Modalités d'inscription au concours
@@ -34,7 +34,7 @@ button_link: /fr/register
 
 <p class="western">&nbsp;</p>
 
-<p class="western"><span style="font-size: medium;">Pour participer, le/la candidat/e doit remplir le formulaire de participation disponible sur le site </span><span style="color: #0563c1;"><span lang="zxx"><u><a class="western" href="[http://www.sarraounia.com/](http://www.sarraounia.com/ "http://www.sarraounia.com/")"><span style="font-size: medium;"><span lang="fr-FR">www.sarraounia.com</span></span></a></u></span></span><span style="font-size: medium;">.</span></p>
+<p class="western"><span style="font-size: medium;">Pour participer, le/la candidat/e doit remplir le formulaire de participation disponible sur le site </span><span style="font-size: medium; font-weight: bolder;"><span lang="en-US">www.sarraounia.com</span></span><span style="font-size: medium;">.</span></p>
 
 <p class="western">&nbsp;</p>
 
@@ -78,7 +78,7 @@ button_link: /fr/register
 
 <p class="western">&nbsp;</p>
 
-<p class="western"><span style="font-size: medium;">Le siteweb </span><span style="color: #0563c1;"><span lang="zxx"><u><a class="western" href="[http://www.sarraounia.com/](http://www.sarraounia.com/ "http://www.sarraounia.com/")"><span style="font-size: medium;"><span lang="fr-FR">www.sarraounia.com</span></span></a></u></span></span><span style="font-size: medium;"> sera le point focal pour toute l&rsquo;information concernant le Prix Sarrraounia de la Fiction Jeune Adulte.</span></p>
+<p class="western"><span style="font-size: medium;">Le siteweb </span><span style="font-size: medium; font-weight: bolder;"><span lang="en-US">www.sarraounia.com</span></span><span style="font-size: medium;"> sera le point focal pour toute l&rsquo;information concernant le Prix Sarrraounia de la Fiction Jeune Adulte.</span></p>
 
 <p class="western">&nbsp;</p>
 

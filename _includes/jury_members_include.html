@@ -1,12 +1,16 @@
 
     <main>
-        <div class="lgx-page-wrapper">
+        <div class="lgx-page-wrapper" style="padding: 5rem 0;">
             <!--News-->
             <section>
                 <div class="container">
                     
 
                     <div class="row">
+                        <div class="lgx-heading">
+                            <h2 class="heading" style="color: #777;">{{ page.title }}</h2>
+                            
+                        </div>
                         {% assign juries = site.jury_members | where:"lang", page.lang %}
                         {% for jury in juries %}
                         <div class="col-xs-12 col-sm-6 col-md-4">

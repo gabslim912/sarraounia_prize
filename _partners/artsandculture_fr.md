@@ -16,4 +16,4 @@ description: 'La filière Arts & Culture de l’Université Abdou Moumouni de Ni
 lang: fr
 
 ---
-[La filière Arts & Culture de l’Université Abdou Moumouni de Niamey](http://africultures.com/murmures/?no=20816), Niger offre des cursus en Arts et Culture de la License 3 au Doctorat. Ces cursus mêlent connaissances théoriques, apprentissages techniques et pratiques artistiques, accueillent des artistes en résidence de création, proposent des Master Class et des séminaires. Le recrutement est attentif à l’inclusion et la diversité.
+La filière Arts & Culture de l’Université Abdou Moumouni de Niamey, Niger offre des cursus en Arts et Culture de la License 3 au Doctorat. Ces cursus mêlent connaissances théoriques, apprentissages techniques et pratiques artistiques, accueillent des artistes en résidence de création, proposent des Master Class et des séminaires. Le recrutement est attentif à l’inclusion et la diversité.

@@ -4,11 +4,12 @@ layout: default
 <!--Banner Inner-->
 {%- include parallax-section.html -%}
 <main>
-    <div class="lgx-page-wrapper">
+    <div class="lgx-page-wrapper" style="padding: 5rem 0;">
         <!--News-->
         <section>
             <div class="container">
                 <div class="row">
+                    <h2 class="heading" style="color: #777;text-align: center; padding-bottom: 5rem;">{{ page.title }}</h2>
                     {% for post in site.posts %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
                         <div class="lgx-single-news">

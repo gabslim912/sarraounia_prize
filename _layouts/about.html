@@ -112,10 +112,10 @@ layout: default
                     </div>
                     <!-- //.INNER --
                 </div>
-            </section>-->
+            </section>
         
 
-            <!--TESTIMONIALS -->
+            
             <section>
                 <div id="lgx-testimonial" class="lgx-testimonial" style="background: url('{{ page.jury_background_image }}') bottom left no-repeat fixed;
                       -webkit-background-size: cover;
@@ -132,13 +132,13 @@ layout: default
                                     </div>
                                 </div>
                             </div>
-                            <!--//.ROW-->
+                            
                             <div class="row">
                                 <div id="lgx-owltestimonial" class="lgx-owltestimonial lgx-owlnews">
                                     {% assign testimonials = site.testimonials | where:"lang", page.lang %}
                                     {% for testimonial in testimonials %}
                                     <div class="item">
-                                        <!--Testimonial-single-->
+                                        
                                         <blockquote class="lgx-testi-single">
                                             <p><span>{{ testimonial.title }}</span> {{ testimonial.content }}</p>
                                             <div class="author">
@@ -152,13 +152,13 @@ layout: default
                                                     <i class="fa fa-star"></i>
                                                 </div>
                                             </div>
-                                        </blockquote> <!--//.Testimonial-single-->
-                                    </div> <!--//.Item-->
+                                        </blockquote> 
+                                    </div> 
                                     {% endfor %}
-                                </div><!--l//#lgx-OWL NEWS-->
+                                </div>
                             </div>
-                        </div><!-- //.CONTAINER -->
-                    </div><!-- //.INNER -->
+                        </div>
+                    </div>
                 </div>
             </section>
             <!--TESTIMONIALS END-->
