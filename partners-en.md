@@ -3,7 +3,7 @@ layout: partners
 title: Partners
 permalink: "/en/partners"
 parallax_image: "/uploads/image4.jpg"
-description: 'Cras porttitor convallis ligula '
+description: ''
 lang: en
 ref: partners
 main_partners_title: Partners
