@@ -61,6 +61,7 @@ fields:
   label: Heading Data
   default: headingNumber
 pages:
+- _schedules/sortie-de-l-ouvrage-de-lauréat.md
 - _schedules/publication-release-date.md
 - _schedules/date-limite-de-clôture-pour-soumission-de-candidature.md
 - _schedules/cérémonie-de-remise-de-prix-et-publication-de-l-ouvrage-de-lauréat.md
