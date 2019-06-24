@@ -3,13 +3,14 @@ layout: register
 title: S'inscrire
 permalink: "/fr/register"
 parallax_image: "/uploads/africa_5.jpg"
-description: N'attendez plus, inscrivez-vous dès maintenant!
+description: 'N''attendez plus, inscrivez-vous dès maintenant! Toutes les rubriques
+  doivent être remplies par les candidats. Mettez « NA » pour la question qui ne pas
+  applicable à votre situation. '
 date: 2019-04-24T07:38:58.000+00:00
 lang: fr
 ref: apply
 form_title: Formulaire de participation
-form_subtitle: 'Toutes les rubriques doivent être remplies par les candidats. Mettez
-  « NA » pour la question qui ne pas applicable à votre situation. '
+form_subtitle: ''
 first_section_title: I. INFORMATION PERSONNELLE
 surname: Nom(s) [nom(s) de famille]
 surname_s_ph: Nom(s) [nom(s) de famille]
