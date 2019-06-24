@@ -2,7 +2,7 @@
 layout: partners
 title: Partners
 permalink: "/en/partners"
-parallax_image: "/uploads/africa_5.jpg"
+parallax_image: "/uploads/image4.jpg"
 description: 'Cras porttitor convallis ligula '
 lang: en
 ref: partners
