@@ -1,5 +1,5 @@
 ---
-title: Cérémonie de remise de Prix et publication de l'ouvrage  de lauréat
+title: Cérémonie de remise de Prix
 lang: fr
 image: "/uploads/SarraouniaPrize_LogoFrench_Color.png"
 description: " Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
@@ -9,7 +9,7 @@ author: Prix Sarraounia
 location: Dakar, Sénégal
 collapse_data: collapseFive
 heading_data: headingFive
-sch_date: 15 Avril 2020
+sch_date: 15 avril 2020
 position: 5
 
 ---
