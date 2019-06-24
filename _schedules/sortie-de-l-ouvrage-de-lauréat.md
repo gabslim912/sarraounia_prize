@@ -10,6 +10,5 @@ location: Dakar, Sénégal
 collapse_data: collapseNumber
 heading_data: headingNumber
 sch_date: ''
-published: false
 
 ---
