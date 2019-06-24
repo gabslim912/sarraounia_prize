@@ -5,13 +5,13 @@ permalink: "/"
 sliders:
 - line_1: Sarraounia Prize
   line_2: for Young Adult Fiction
-  line_3: 30 August 2019
+  line_3: 30 September 2019
   image: "/uploads/image2.png"
   button_title: Apply now
   button_link: "/en/register"
 - line_1: Prix Sarraounia
   line_2: de la Fiction Jeune Adulte
-  line_3: 30 Août 2019
+  line_3: 30 septembre 2019
   image: "/uploads/image2.png"
   button_title: S'inscrire maintenant
   button_link: "/fr/register"
