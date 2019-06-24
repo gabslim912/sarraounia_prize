@@ -51,8 +51,8 @@ fields:
   label: link
   default: http://www.revovision.ca/
 pages:
-- _partners/artsandculture.md
 - _partners/amalion.md
+- _partners/artsandculture.md
 - _partners/CERAV.md
 - _partners/UCLG.md
 - _partners/imc.md
