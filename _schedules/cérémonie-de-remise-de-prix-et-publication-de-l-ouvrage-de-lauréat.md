@@ -1,5 +1,5 @@
 ---
-title: Cérémonie de remise de Prix
+title: Cérémonie de remise du Prix
 lang: fr
 image: "/uploads/SarraouniaPrize_LogoFrench_Color.png"
 description: " Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
