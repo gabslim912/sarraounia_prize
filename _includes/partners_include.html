@@ -8,44 +8,53 @@
                     <div class="container">
                         <h2 class="heading" style="color: #777;text-align: center;">{{ page.title }}</h2>
                         <br><br>
-                        <div class="row">
+                        
                             {% assign partnerss = site.partners | where:"type", "main_partners" | where:"lang", page.lang %}
                             
                             {% for partner in partnerss %}
-                            <div class="col-md-6" style="padding-bottom: 15px;">
-                                
-                                    <div class="lgx-about-img" style="display: inline-block; vertical-align: middle;">
+                            <div class="row" style="padding-bottom: 40px;">
+                                <div class="col-md-4 col-sm-6" style="padding-bottom: 15px; margin-left: 4rem;">
                                         <a href="{{ partner.link }}" target="blank">
-                                            <img src="{{ partner.logo }}" alt="about" width="235px" height="auto" style=" float: left; margin-right: 10px; margin-bottom: 10px">
+                                            <img src="{{ partner.logo }}" alt="about" width="350px" height="auto" style=" float: left; margin-right: 10px; margin-bottom: 10px">
                                         </a>
-                                        <p class="text partners-custom">
-                                                {{ partner.content }}
-                                            </p>
-                                    </div>
-                                
-                                <!--div class="col-sm-6 col-md-6">
-                                    <div class="lgx-about-content-area">
-                                        <div class="lgx-heading" style="margin-bottom: 0px">
-                                            <h3>{{ partner.name }}</h3>
-                                            <!--a href="{{ partner.link }}" target="blank">
-                                                {% if page.lang == "fr" %}
-                                                    Visitez le site web
-                                                {% endif %}
-                                                {% if page.lang == "en" %}
-                                                    Visit website
-                                                {% endif %}
+                                        <!--<div class="lgx-about-img" style="display: inline-block; vertical-align: middle;">
+                                            <a href="{{ partner.link }}" target="blank">
+                                                <img src="{{ partner.logo }}" alt="about" width="235px" height="auto" style=" float: left; margin-right: 10px; margin-bottom: 10px">
                                             </a>
+                                            <p class="text partners-custom">
+                                                    {{ partner.content }}
+                                                </p>
+                                        </div>-->
+                                    
+                                    <!--div class="col-sm-6 col-md-6">
+                                        <div class="lgx-about-content-area">
+                                            <div class="lgx-heading" style="margin-bottom: 0px">
+                                                <h3>{{ partner.name }}</h3>
+                                                <!--a href="{{ partner.link }}" target="blank">
+                                                    {% if page.lang == "fr" %}
+                                                        Visitez le site web
+                                                    {% endif %}
+                                                    {% if page.lang == "en" %}
+                                                        Visit website
+                                                    {% endif %}
+                                                </a>
+                                            </div>
+                                            <div class="lgx-about-content" style="">
+                                                <p class="text " style="float: left;">
+                                                    {{ partner.description }}
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div class="lgx-about-content" style="">
-                                            <p class="text " style="float: left;">
-                                                {{ partner.description }}
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div-->
+                                    </div-->
+                                </div>
+                                <div class="col-md-6 col-sm-6" style="margin-right: 4rem;">
+                                    <p class="text partners-custom">
+                                        {{ partner.content }}
+                                    </p>
+                                </div>
                             </div>
                             {% endfor %}
-                        </div>
+                        
                     </div><!-- //.CONTAINER -->
                 </div><!-- //.INNER -->
             </div>
@@ -74,7 +83,7 @@
                             {% assign partnerss = site.partners | where:"type", "other_partners" | where:"lang", page.lang %}
                             
                             {% for partner in partnerss %}
-                           <a href="{{ partner.link }}" target="blank"><img src="{{ partner.logo }}" alt="partner" width="120px" height="auto" style="margin: 15px;" /></a>
+                           <a href="{{ partner.link }}" target="blank"><img src="{{ partner.logo }}" alt="partner" width="350px" height="auto" style="margin: 15px;" /></a>
                             {% endfor %}
                         </div>
                     </div>
