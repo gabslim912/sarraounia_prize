@@ -8,7 +8,7 @@ author: Sarraounia Prize
 location: Dakar, Senegal
 collapse_data: collapseTwo
 heading_data: headingTwo
-sch_date: 30 August 2019
+sch_date: 30 September 2019
 lang: en
 position: 2
 
