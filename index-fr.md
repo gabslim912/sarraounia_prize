@@ -27,7 +27,7 @@ description: La filière Arts et Culture de l’Université Abdou Moumouni au Ni
   manuscrits et ouvrages de fiction inédits destinés aux jeunes adultes.
 first_button_title: Voir Plus
 first_button_link: "/fr/about"
-second_button_title: S'inscrire Maintenant
+second_button_title: S'inscrire maintenant
 second_button_link: "/fr/register"
 video_background_image: "/uploads/africa_5.jpg"
 video_link: https://www.youtube.com/embed/U8CUXVJlwMM
