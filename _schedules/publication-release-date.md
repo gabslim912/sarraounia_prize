@@ -7,8 +7,9 @@ description: " Meh synth Schlitz, tempor duis single-origin coffee ea next level
   Helvetica. Salvia esse flexitarian Truffaut synth art party deep v chillwave."
 author: Sarraounia Prize Commitee
 location: Dakar, Sénégal
-collapse_data: collapseNumber
-heading_data: headingNumber
+collapse_data: collapseSix
+heading_data: headingSix
 sch_date: 15 May 2020
+position: 6
 
 ---
