@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Form title
+- name: form_link
+  type: text
+  config:
+    required: false
+  label: 'Form Email '
 - name: form_subtitle
   type: text
   config:
