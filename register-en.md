@@ -3,12 +3,12 @@ layout: register
 title: Registration
 permalink: "/en/register"
 parallax_image: "/uploads/africa_5.jpg"
-description: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+description: 'All questions must be answered by the applicants. Put « NA » for questions
+  not applicable to your situation. '
 date: 2019-04-24T07:38:58.000+00:00
 lang: en
 ref: apply
-form_subtitle: 'All questions must be answered by the applicants. Put « NA » for questions
-  not applicable to your situation. '
+form_subtitle: ''
 form_title: Application Form
 first_section_title: 'I : PERSONAL INFORMATION'
 birth_surname_s_ph: Surname(s) at birth, if different from above
