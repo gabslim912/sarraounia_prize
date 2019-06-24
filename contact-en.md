@@ -17,6 +17,6 @@ message: Message
 message_ph: Message
 submit_button_title: Send Message
 submit_ph: Send message
-form_link: ''
+form_link: " https://submit-form.com/pg4c1ugRrqKXO9ACVixS7"
 
 ---
