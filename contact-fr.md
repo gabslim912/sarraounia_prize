@@ -17,6 +17,6 @@ message: Message
 message_ph: Message
 submit_button_title: Envoyer
 submit_ph: Envoyer
-form_link: " https://submit-form.com/pg4c1ugRrqKXO9ACVixS7 "
+form_link: " https://submit-form.com/pg4c1ugRrqKXO9ACVixS7"
 
 ---
