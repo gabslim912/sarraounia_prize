@@ -20,6 +20,16 @@ fields:
       file: 
       path: 
   label: Langage
+- name: position
+  type: number
+  label: Position
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
 - type: file
   name: image
   label: Image
