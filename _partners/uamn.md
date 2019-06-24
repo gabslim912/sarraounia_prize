@@ -1,7 +1,7 @@
 ---
 name: Université Abdou Moumouni du Niger
 lang: en
-logo: "/uploads/partner_3.png"
+logo: "/uploads/University-AMN.png"
 type: ''
 link: http://www.revovision.ca/
 published: false
