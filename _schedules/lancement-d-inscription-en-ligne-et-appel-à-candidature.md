@@ -1,5 +1,5 @@
 ---
-title: Lancement d'inscription en ligne et appel à candidature
+title: Lancement d'inscription et appel à candidature
 lang: fr
 image: "/uploads/SarraouniaPrize_LogoFrench_Color.png"
 description: " Meh synth Schlitz, tempor duis single-origin coffee ea next level ethnic
@@ -9,7 +9,7 @@ author: Prix Sarrraounia
 location: Dakar, Sénégal
 collapse_data: collapseOne
 heading_data: headingOne
-sch_date: 30 Avril 2019
+sch_date: 30 juin 2019
 position: 1
 
 ---
