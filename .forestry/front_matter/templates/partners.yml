@@ -51,6 +51,7 @@ fields:
   label: link
   default: http://www.revovision.ca/
 pages:
+- _partners/uamn.md
 - _partners/amalion.md
 - _partners/artsandculture.md
 - _partners/CERAV.md
