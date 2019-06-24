@@ -9,7 +9,7 @@ author: Prix Sarraounia
 location: Dakar, Sénégal
 collapse_data: collapseTwo
 heading_data: headingTwo
-sch_date: 30 Août 2019
+sch_date: 30 septembre 2019
 position: 2
 
 ---
