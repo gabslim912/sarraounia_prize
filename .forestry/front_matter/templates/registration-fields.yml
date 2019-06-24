@@ -12,6 +12,7 @@ fields:
   config:
     required: false
   label: Form Subtitle
+  hidden: true
 - name: first_section_title
   type: text
   config:
