@@ -21,12 +21,14 @@ fields:
   - type: text
     name: line_1
     label: line_1
-  - type: datetime
-    name: line_3
-    label: line_3
   - type: text
     name: line_2
     label: line_2
+  - name: line_3
+    type: text
+    config:
+      required: false
+    label: Line 3
   - name: button_title
     type: text
     config:
