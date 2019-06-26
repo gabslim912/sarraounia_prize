@@ -202,7 +202,7 @@ layout: default-home
 </section>
 <!--SCHEDULE END-->
 
-<!--SPEAKERS-->
+<!--SPEAKERS--
 <section>
     <div id="lgx-speakers" class="lgx-speakers" style="background: url('{{ page.jury_background_image }}') bottom left no-repeat fixed;
   -webkit-background-size: cover;
@@ -215,16 +215,16 @@ layout: default-home
                     <div class="col-xs-12">
                         <div class="lgx-heading lgx-heading-white">
                             <h2 class="heading" style="margin-bottom: 0px;">{{ page.jury_title }}</h2>
-                            <!--<h3 class="subheading">{{ page.jury_subtitle }}</h3>-->
+                            <h3 class="subheading">{{ page.jury_subtitle }}</h3>-->
                         </div>
                     </div>
                 </div>
-                <!--//.ROW-->
+                <!--//.ROW--
                 <div class="row">
                     {% assign juries = site.jury_members | where:"lang", page.lang %}
                     {% for jury in juries limit:3 %}
                     <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="lgx-single-speaker2"> <!--lgx-single-speaker lgx-single-speaker2 lgx-single-speaker3-->
+                        <div class="lgx-single-speaker2"> lgx-single-speaker lgx-single-speaker2 lgx-single-speaker3--
                             <figure>
                                 <a class="profile-img" href="{{ jury.url }}" target="blank"><img src="{{ jury.image }}" alt="{{ jury.name }}"/></a>
                                 <figcaption>
@@ -244,19 +244,19 @@ layout: default-home
                     </div>
                   {% endfor %}
                 </div>
-                <!--//.ROW-->
+                
                 <div class="section-btn-area">
                     <a class="lgx-btn lgx-btn-big" href="{{ page.jury_button_link }}">{{ page.jury_button_title }}</a>
                 </div>
             </div>
-            <!-- //.CONTAINER -->
+           
         </div>
-        <!-- //.INNER -->
+       
     </div>
 </section>
 <!--SPEAKERS END-->
 
-<!--News-->
+<!--News--
 <section>
     <div id="lgx-news" class="lgx-news-white">
         <div class="lgx-inner" style="padding-top: 60px; padding-bottom: 60px;">
@@ -265,7 +265,7 @@ layout: default-home
                     <div class="col-xs-12">
                         <div class="lgx-heading">
                             <h2 class="heading" style="margin-bottom: 0px;">{{ page.blog_title }}</h2>
-                            <!--<h3 class="subheading">{{ page.blog_subtitle }}</h3>-->
+                            <!--<h3 class="subheading">{{ page.blog_subtitle }}</h3>-
                         </div>
                     </div>
                 </div>
@@ -305,8 +305,8 @@ layout: default-home
                 <div class="section-btn-area">
                     <a class="lgx-btn lgx-btn_black" href="{{ page.blog_button_link }}">{{ page.blog_button_title }}</a>
                 </div>
-            </div><!-- //.CONTAINER -->
-        </div><!-- //.INNER -->
+            </div><!-- //.CONTAINER -
+        </div>
     </div>
 </section>
 <!--News END-->
