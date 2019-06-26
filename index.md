@@ -14,7 +14,7 @@ sliders:
   line_3: 30 septembre 2019
   image: "/uploads/image2.png"
   button_title: S'inscrire maintenant
-  button_link: "/fr/register"
+  button_link: "/fr/register.html"
 main_title: Sarraounia Prize for Young Adult Fiction
 second_title: Empowering Africa's Youth
 description: The Centre for Arts and Culture of Abdou Moumouni University in Niger
