@@ -1,7 +1,7 @@
 ---
 layout: register
 title: Registration
-permalink: "/en/register"
+permalink: "/en/register.html"
 parallax_image: "/uploads/africa_5.jpg"
 description: 'All questions must be answered by the applicants. Put « NA » for questions
   not applicable to your situation. '

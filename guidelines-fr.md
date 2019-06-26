@@ -1,7 +1,7 @@
 ---
 layout: guidelines
 title: Réglement
-permalink: "/fr/guidelines"
+permalink: "/fr/guidelines.html"
 parallax_image: "/uploads/africa_5.jpg"
 description: Modalités d'inscription au concours
 lang: fr

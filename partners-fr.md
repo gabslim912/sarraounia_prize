@@ -1,7 +1,7 @@
 ---
 layout: partners
 title: Partenaires
-permalink: "/fr/partners"
+permalink: "/fr/partners.html"
 parallax_image: "/uploads/image4.jpg"
 description: 'Partenaires '
 lang: fr

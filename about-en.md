@@ -2,7 +2,7 @@
 layout: about
 title: About Us
 subtitle: ''
-permalink: "/en/about"
+permalink: "/en/about.html"
 parallax_image: "/uploads/image3a.jpg"
 left_image: "/uploads/sarraouniabaw.jpg"
 main_title: Sarraounia Prize for Young Adult Fiction

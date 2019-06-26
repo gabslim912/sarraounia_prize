@@ -1,7 +1,7 @@
 ---
 layout: schedule
 title: Schedule
-permalink: "/en/schedule"
+permalink: "/en/schedule.html"
 parallax_image: "/uploads/africa_5.jpg"
 description: Everything you need to know
 lang: en

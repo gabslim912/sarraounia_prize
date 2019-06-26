@@ -1,7 +1,7 @@
 ---
 layout: guidelines
 title: Guidelines
-permalink: "/en/guidelines"
+permalink: "/en/guidelines.html"
 parallax_image: "/uploads/africa_5.jpg"
 description: 'Write a little description here '
 lang: en
