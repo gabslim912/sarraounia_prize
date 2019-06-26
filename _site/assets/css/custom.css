@@ -1,0 +1,52 @@
+/* Custom dropdown */
+
+[type="date"] {
+  background:#000 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
+}
+[type="date"]::-webkit-inner-spin-button {
+  display: none;
+}
+[type="date"]::-webkit-calendar-picker-indicator {
+  opacity: 0;
+}
+.lgx-btn-fr {
+  /*background: url(../img/fr.png) 0 0 repeat;*/
+  background-color: #39a9b3;
+  color: #fff;
+}
+.lgx-btn-fr:after {
+  /*background: url(../img/fr.png) 0 0 repeat;
+  background-size: contain;*/
+  background-color: #39a9b3;
+  color: #fff;
+  background: #ddd;
+ 
+}
+.lgx-btn-en {
+  /*background: url(../img/en.png) 0 0 repeat;
+  background-size: cover;*/
+  background-color: #ee453c;
+  color: #fff;
+}
+.lgx-btn-en:after {
+  /*background: url(../img/en.png) 0 0 repeat;
+  background-size: cover;*/
+  background-color: #ee453c;
+  color: #fff;
+  background: #ddd;
+  opacity: .3;
+}
+.lgx-banner-info .soustitre {
+  font-family: 'Poppins', sans-serif;
+  font-size: 68px;
+  line-height: 102px;
+  font-size: 6.8rem;
+  line-height: 10.2rem;
+  font-weight: 600;
+  color: #ee453c;
+  margin: 0;
+  line-height: 7.2rem;
+}
+.partners-custom a {
+  color: #aaa;
+}
