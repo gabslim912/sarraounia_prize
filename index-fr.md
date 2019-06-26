@@ -8,7 +8,7 @@ sliders:
   line_3: 30 September 2019
   image: "/uploads/image2.png"
   button_title: Apply now
-  button_link: "/en/register"
+  button_link: "/en/register.html"
 - line_1: Prix Sarraounia
   line_2: de la Fiction Jeune Adulte
   line_3: 30 septembre 2019
