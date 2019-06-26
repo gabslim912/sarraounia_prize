@@ -14,7 +14,7 @@ sliders:
   line_3: 30 septembre 2019
   image: "/uploads/image2.jpg"
   button_title: S'inscrire maintenant
-  button_link: "/fr/register"
+  button_link: "/fr/register.html"
 main_title: Prix Sarraounia pour la Fiction Jeune Adulte
 second_title: Renforcer la créativité de la jeunesse africaine
 description: La filière Arts et Culture de l’Université Abdou Moumouni au Niger et
