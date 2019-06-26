@@ -25,21 +25,21 @@ description: The Centre for Arts and Culture of Abdou Moumouni University in Nig
   Prize will be awarded to the best unpublished fiction for young adults written by
   African authors and illustrators based in Africa.
 first_button_title: More info
-first_button_link: "/en/about"
+first_button_link: "/en/about.html"
 second_button_title: Apply now
-second_button_link: "/en/register"
+second_button_link: "/en/register.html"
 video_background_image: "/uploads/africa_5.jpg"
 video_link: https://www.youtube.com/embed/U8CUXVJlwMM
 jury_background_image: "/uploads/africa_5.jpg"
 jury_title: Jury Members
 jury_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 jury_button_title: View all
-jury_button_link: "/en/jury"
+jury_button_link: "/en/jury.html"
 blog_background_image: "/uploads/africa_5.jpg"
 blog_title: Latest articles
 blog_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 blog_button_title: More Articles
-blog_button_link: "/blog"
+blog_button_link: "/blog.html"
 partners_background_image: "/uploads/africa_5.jpg"
 partners_title: Partners
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
@@ -55,6 +55,6 @@ schedule_subtitle: Everything you need to know
 program_title: Sarraounia Prize 2020
 sponsor_title: 'Partners '
 sponsor_description: Partners
-sponsor_button_link: "/en/partners"
+sponsor_button_link: "/en/partners.html"
 
 ---
