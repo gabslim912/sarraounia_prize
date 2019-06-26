@@ -11,7 +11,7 @@ fields:
   type: text
   config:
     required: false
-  label: 'Form Email '
+  label: 'Form Link '
 - name: form_subtitle
   type: text
   config:
