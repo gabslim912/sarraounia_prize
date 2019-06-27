@@ -15,7 +15,6 @@ deployment:
     - /bin/cp -R _testimonials $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R uploads $DEPLOYPATH
-    - /bin/cp .cpanel.yml $DEPLOYPATH
     - /bin/cp .gitignore $DEPLOYPATH
     - /bin/cp _config.yml $DEPLOYPATH
     - /bin/cp about-en.md $DEPLOYPATH
