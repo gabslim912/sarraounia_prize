@@ -31,7 +31,7 @@ gender: Gender
 gender_types:
 - value: Male
 - value: Female
-- value: Intersex (Others)
+- value: Other
 marital_status: Marital Status
 marital_status_type:
 - value: Single
@@ -40,11 +40,11 @@ marital_status_type:
 - value: Widow
 - value: Other (please specify)
 minors_details: Minors Details
-minors_details_ph: 'For minors: Name, first names, address (if different from that
-  of the candidate) and nationality of parent or legal guardian '
+minors_details_ph: 'For minors: Provide surname, first names, address and nationality
+  of parent or legal guardian '
 id_card_number: National ID card number of the candidate
 id_card_: Id Card Date of issue
-id_card_expiration_date: Id Card Expiration Date
+id_card_expiration_date: ID Card Expiration Date
 id_card_place_of_issue: Id Card Place of issue
 id_card_place_of_issue_ph: Id Card Place of issue
 permanent_home_address: 'Permanent Home Address '
@@ -73,7 +73,8 @@ number_of_illustrations_ph: Number of illustrations
 applicant_email_address: Email Address of applicant
 third_section_title: Terms and Conditions
 validation_text: Click here to indicate that you have read and agreed to the terms
-  presented in the Terms and Conditions agreement
+  presented in the Terms and Conditions agreement. You will receive guidelines on
+  how to submit your manuscript.
 validation: Validation
 submit_button_title: Register now
 passport_number: Passport Number of candidate, if any
