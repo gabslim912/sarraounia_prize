@@ -155,14 +155,10 @@ fields:
     required: false
   label: Id Card Number
 - name: id_card_expiration_date
-  type: datetime
-  label: Id Card Expiration Date
-  description: ''
+  type: text
   config:
     required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+  label: Id Card Expiration Date
 - name: passport_number
   type: text
   config:
