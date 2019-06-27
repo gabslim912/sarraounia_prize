@@ -46,7 +46,7 @@ partners_title: Partenaires
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
 partners_button_title: ''
-partners_button_link: "/fr/partners"
+partners_button_link: "/fr/partners.html"
 date: 2019-04-24T07:23:09.000+00:00
 lang: fr
 ref: home

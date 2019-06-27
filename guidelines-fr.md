@@ -7,7 +7,7 @@ description: Modalités d'inscription au concours
 lang: fr
 ref: guidelines
 button_title: Remplir le formulaire d'inscription!
-button_link: "/fr/register"
+button_link: "/fr/register.html"
 
 ---
 <p class="western"><span style="font-size: medium;"><strong>Le Prix Sarraounia de la Fiction Jeune Adulte - 2020</strong></span></p>
