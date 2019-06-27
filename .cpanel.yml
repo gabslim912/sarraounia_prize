@@ -1,22 +1,22 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home4/sulaiman/public_html/sarraounia
-    - /bin/cp -R forestry $DEPLOYPATH
-    - /bin/cp -R data $DEPLOYPATH
-    - /bin/cp -R includes $DEPLOYPATH
-    - /bin/cp -R jury_members $DEPLOYPATH
-    - /bin/cp -R layouts $DEPLOYPATH
-    - /bin/cp -R partners $DEPLOYPATH
-    - /bin/cp -R posts $DEPLOYPATH
-    - /bin/cp -R sass $DEPLOYPATH
-    - /bin/cp -R schedules $DEPLOYPATH
-    - /bin/cp -R site $DEPLOYPATH
-    - /bin/cp -R testimonials $DEPLOYPATH
+    - export DEPLOYPATH=/home4/sulaiman/public_html/sarraounia/
+    - /bin/cp -R .forestry $DEPLOYPATH
+    - /bin/cp -R _data $DEPLOYPATH
+    - /bin/cp -R _includes $DEPLOYPATH
+    - /bin/cp -R _jury_members $DEPLOYPATH
+    - /bin/cp -R _layouts $DEPLOYPATH
+    - /bin/cp -R _partners $DEPLOYPATH
+    - /bin/cp -R _posts $DEPLOYPATH
+    - /bin/cp -R _sass $DEPLOYPATH
+    - /bin/cp -R _schedules $DEPLOYPATH
+    - /bin/cp -R _site $DEPLOYPATH
+    - /bin/cp -R _testimonials $DEPLOYPATH
     - /bin/cp -R assets $DEPLOYPATH
     - /bin/cp -R uploads $DEPLOYPATH
-    - /bin/cp gitignore $DEPLOYPATH
-    - /bin/cp config.yml $DEPLOYPATH
+    - /bin/cp .gitignore $DEPLOYPATH
+    - /bin/cp _config.yml $DEPLOYPATH
     - /bin/cp about-en.md $DEPLOYPATH
     - /bin/cp about-fr.md $DEPLOYPATH
     - /bin/cp blog-en.md $DEPLOYPATH
