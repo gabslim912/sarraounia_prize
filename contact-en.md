@@ -9,8 +9,8 @@ lang: en
 ref: contact
 name: Name
 name_ph: Name
-email: E-mail
-email_ph: E-mail
+email: Email
+email_ph: Email
 subject: Subject
 subject_ph: Subject
 message: Message
