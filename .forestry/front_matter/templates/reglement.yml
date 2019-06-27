@@ -1,0 +1,31 @@
+---
+label: Réglement
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
+- type: text
+  name: permalink
+  label: permalink
+- type: file
+  name: parallax_image
+  label: parallax_image
+- type: text
+  name: description
+  label: description
+- type: text
+  name: lang
+  label: lang
+- type: text
+  name: ref
+  label: ref
+- type: text
+  name: button_title
+  label: button_title
+- type: text
+  name: button_link
+  label: button_link
