@@ -51,6 +51,7 @@ fields:
   label: link
   default: http://www.revovision.ca/
 pages:
+- _partners/ue.md
 - _partners/cawa-fr.md
 - _partners/uam-fr.md
 - _partners/uamn.md
