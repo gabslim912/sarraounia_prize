@@ -4,28 +4,30 @@ hide_body: false
 fields:
 - type: text
   name: layout
-  label: layout
+  label: Layout
+  hidden: true
 - type: text
   name: title
-  label: title
+  label: Title
 - type: text
   name: permalink
-  label: permalink
+  label: Permalink
+  hidden: true
 - type: file
   name: parallax_image
-  label: parallax_image
+  label: Parallax Image
 - type: text
   name: description
-  label: description
+  label: Description
 - type: text
   name: lang
-  label: lang
+  label: Lang
 - type: text
   name: ref
   label: ref
 - type: text
   name: button_title
-  label: button_title
+  label: Button title
 - type: text
   name: button_link
-  label: button_link
+  label: Button Link
