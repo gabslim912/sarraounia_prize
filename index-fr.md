@@ -1,7 +1,7 @@
 ---
 title: Acceuil
 layout: home
-permalink: "/fr"
+permalink: "/fr.html"
 sliders:
 - line_1: Sarraounia Prize
   line_2: for Young Adult Fiction
