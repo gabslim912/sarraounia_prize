@@ -10,7 +10,7 @@ lang: en
 ref: apply
 form_subtitle: ''
 form_title: Application Form
-first_section_title: 'I : PERSONAL INFORMATION'
+first_section_title: 'I: PERSONAL INFORMATION'
 birth_surname_s_ph: Surname(s) at birth, if different from above
 surname: Surname(s)
 birth_surname: Birth Surname(s)
@@ -57,7 +57,7 @@ current_profession_ph: Current Profession
 employer_or_student_info: Employer or student informations
 employer_or_student_info_ph: Name, address, and telephone number of employer. For
   students, provide address of educational institution
-second_section_title: 'II : ENTRY INFORMATION'
+second_section_title: 'II: ENTRY INFORMATION'
 author_informations: Author Informations
 author_informations_ph: Surname(s) and first name(s) (as desired on the manuscript)
 author_presentation: Author Presentation
