@@ -2,5 +2,40 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home4/sulaiman/public_html/sarraounia
-    - /bin/cp -R _site $DEPLOYPATH
-    
+    - /bin/cp -R forestry $DEPLOYPATH
+    - /bin/cp -R data $DEPLOYPATH
+    - /bin/cp -R includes $DEPLOYPATH
+    - /bin/cp -R jury_members $DEPLOYPATH
+    - /bin/cp -R layouts $DEPLOYPATH
+    - /bin/cp -R partners $DEPLOYPATH
+    - /bin/cp -R posts $DEPLOYPATH
+    - /bin/cp -R sass $DEPLOYPATH
+    - /bin/cp -R schedules $DEPLOYPATH
+    - /bin/cp -R site $DEPLOYPATH
+    - /bin/cp -R testimonials $DEPLOYPATH
+    - /bin/cp -R assets $DEPLOYPATH
+    - /bin/cp -R uploads $DEPLOYPATH
+    - /bin/cp gitignore $DEPLOYPATH
+    - /bin/cp config.yml $DEPLOYPATH
+    - /bin/cp about-en.md $DEPLOYPATH
+    - /bin/cp about-fr.md $DEPLOYPATH
+    - /bin/cp blog-en.md $DEPLOYPATH
+    - /bin/cp blog-fr.md $DEPLOYPATH
+    - /bin/cp CNAME $DEPLOYPATH
+    - /bin/cp contact-en.md $DEPLOYPATH
+    - /bin/cp contact-fr.md $DEPLOYPATH
+    - /bin/cp Gemfile $DEPLOYPATH
+    - /bin/cp Gemfile.lock $DEPLOYPATH
+    - /bin/cp guidelines-en.md $DEPLOYPATH
+    - /bin/cp guidelines-fr.md $DEPLOYPATH
+    - /bin/cp index-fr.md $DEPLOYPATH
+    - /bin/cp index.md $DEPLOYPATH
+    - /bin/cp jury-members.md $DEPLOYPATH
+    - /bin/cp LICENSE.txt $DEPLOYPATH
+    - /bin/cp membres-du-jury.md $DEPLOYPATH
+    - /bin/cp partners-en.md $DEPLOYPATH
+    - /bin/cp partners-fr.md $DEPLOYPATH
+    - /bin/cp register-en.md $DEPLOYPATH
+    - /bin/cp register-fr.md $DEPLOYPATH
+    - /bin/cp schedule-en.md $DEPLOYPATH
+    - /bin/cp schedule-fr.md $DEPLOYPATH
