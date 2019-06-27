@@ -32,4 +32,5 @@ fields:
   name: button_link
   label: Button Link
 pages:
+- guidelines-fr.md
 - guidelines-en.md
