@@ -33,7 +33,7 @@ gender_types:
 - value: ''
 - value: Masculin
 - value: Féminin
-- value: Intersex (Autres)
+- value: Autres
 marital_status: Etat Civil
 marital_status_type:
 - value: Célibataire
@@ -42,10 +42,10 @@ marital_status_type:
 - value: Divorcé(e)
 - value: Veuf (Veuve)
 - value: Autre (veuillez préciser)
-minors_details: 'Pour les mineurs : Nom, prénom, adresse (si différente de celle du
-  candidat) et nationalité de l’autorité parentale/du tuteur légal '
-minors_details_ph: 'Pour les mineurs : Nom, prénom, adresse (si différente de celle
-  du candidat) et nationalité de l’autorité parentale/du tuteur légal '
+minors_details: 'Pour les mineurs : Nom, prénom, adresse et nationalité de l’autorité
+  parentale/du tuteur légal '
+minors_details_ph: 'Pour les mineurs : Nom, prénom, adresse et nationalité de l’autorité
+  parentale/du tuteur légal '
 id_card_number: Numéro national d’identité du candidat
 id_card_: Date de délivrance
 id_card_expiration_date: Date d'expiration
@@ -79,7 +79,7 @@ id_card_place_of_issue_ph: Délivré à
 third_section_title: III. Modalités & Conditions générales
 validation: Modalités & Conditions générales
 validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les conditions
-  générales.
+  générales. Nous vous contacterons sur comment nous envoyer votre manuscrit.
 submit_button_title: S'inscrire maintenant
 passport_number: Numéro du passeport du candidat, le cas échéant
 passport_date_of_issue: Date de délivrance du passeport
