@@ -5,7 +5,7 @@ permalink: "/fr.html"
 sliders:
 - line_1: Sarraounia Prize
   line_2: for Young Adult Fiction
-  line_3: 30 September 2019
+  line_3: Deadline 30 September 2019
   image: "/uploads/image2.png"
   button_title: Apply now
   button_link: "/en/register.html"
