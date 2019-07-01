@@ -25,30 +25,30 @@ layout: default
                                             <input name="{{ page.birth_surname }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_surname_s_ph }}" type="text" >
                                             <input name="{{ page.first_name_s_ }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.first_name_s_ph }}" type="text" >
                                             <input name="{{ page.birth_place }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birth_place_ph }}" type="text" >
-                                            <label for="{{ page.birthday }}" style="color: white;">Select {{ page.birthday_ph }}</label>
+                                            <label for="{{ page.birthday }}" style="color: white;">{{ page.birthday_ph }}</label>
                                             <input name="{{ page.birthday }}" value="" class="wpcf7-form-control form-control" placeholder="{{ page.birthday_ph }}" type="date" style ="    background: #2c94ff66 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png) 97% 50% no-repeat;">
                                             
-                                            <label for="{{ page.birth_country }}" style="color: white;">Select {{ page.birth_country_ph }}</label>
+                                            <label for="{{ page.birth_country }}" style="color: white;">{{ page.birth_country_ph }}</label>
                                             <select name="{{ page.birth_country }}" value="" class="wpcf7-form-control form-control" >
                                                 {%- include countries.html -%}
                                             </select><br>
-                                            <label for="{{ page.nationality }}" style="color: white;">Select {{ page.nationality_ph }}</label>
+                                            <label for="{{ page.nationality }}" style="color: white;">{{ page.nationality_ph }}</label>
                                             <select name="{{ page.nationality }}" value="" class="wpcf7-form-control form-control" >
                                                 {%- include countries.html -%}
                                             </select><br>
-                                            <label for="{{ page.birth_nationality_ph }}" style="color: white;">Select {{ page.birth_nationality }}</label>
+                                            <label for="{{ page.birth_nationality_ph }}" style="color: white;">{{ page.birth_nationality }}</label>
                                             <select name="{{ page.birth_nationality }}" value="" class="wpcf7-form-control form-control" >
                                                 {%- include countries.html -%}
                                             </select>
                                                 <br>
-                                             <label for="{{ page.gender }}" style="color: white;">Select {{ page.gender }}</label>
+                                             <label for="{{ page.gender }}" style="color: white;">{{ page.gender }}</label>
                                             <select name="{{ page.gender }}" class="wpcf7-form-control form-control">
                                                 {% for gender in page.gender_types %}
                                                     <option value="{{ gender.value }}">{{ gender.value }}</option>
                                                 {% endfor %}
                                             </select>
                                             <br>
-                                             <label for="{{ page.marital_status }}" style="color: white;">Select {{ page.marital_status }}</label>
+                                             <label for="{{ page.marital_status }}" style="color: white;">{{ page.marital_status }}</label>
                                             <select name="marital_status" class="wpcf7-form-control form-control">
                                                 {% for status in page.marital_status_type %}
                                                     <option value="{{ status.value }}">{{ status.value }}</option>

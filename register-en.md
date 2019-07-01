@@ -17,16 +17,16 @@ birth_surname: Birth Surname(s)
 surname_s_ph: 'Surname(s) '
 first_name_s_: First name(s)
 first_name_s_ph: First name(s)
-birthday_ph: Date of birth (day-month-year)
+birthday_ph: Select date of birth (day-month-year)
 birthday: Birthday
-birth_place: Birth Place
+birth_place: Select birth Place
 birth_country: Birth Country
 birth_place_ph: 'Place of birth:'
-birth_country_ph: Country of birth
-birth_nationality_ph: Nationality at birth, if different
+birth_country_ph: Select country of birth
+birth_nationality_ph: Select nationality at birth, if different
 birth_nationality: Nationality at birth
 nationality: Nationality
-nationality_ph: Nationality
+nationality_ph: Select nationality
 gender: Gender
 gender_types:
 - value: Male

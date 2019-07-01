@@ -19,15 +19,15 @@ birth_surname_s_ph: Nom(s) de naissance [nom(s) de famille antérieur(s)]
 first_name_s_: Prénom(s)
 first_name_s_ph: Prénom(s)
 birthday: Date de naissance (jour-mois-année)
-birthday_ph: Date de naissance (jour-mois-année)
+birthday_ph: Sélectionnez la date de naissance (jour-mois-année)
 birth_place: Lieu de naissance
 birth_place_ph: Lieu de naissance
 birth_country: Pays de naissance
-birth_country_ph: Pays de naissance
+birth_country_ph: Sélectionnez le pays de naissance
 nationality: Nationalité actuelle
-nationality_ph: Nationalité actuelle
+nationality_ph: Sélectionnez la nationalité actuelle
 birth_nationality: Nationalité à la naissance, si différente
-birth_nationality_ph: Nationalité à la naissance, si différente
+birth_nationality_ph: Sélectionnez la nationalité à la naissance, si différente
 gender: Sexe
 gender_types:
 - value: ''
@@ -62,7 +62,7 @@ employer_or_student_info: Nom, adresse et numéro de téléphone de l’employeu
   les étudiants, adresse de l’établissement d’enseignement
 employer_or_student_info_ph: Nom, adresse et numéro de téléphone de l’employeur. Pour
   les étudiants, adresse de l’établissement d’enseignement
-second_section_title: II. INFORMATION SUR L’OEUVRE
+second_section_title: II. INFORMATION SUR L’OUVRAGE
 author_informations: Noms et prénoms (comme souhaiterais sur votre manuscrit)
 author_informations_ph: Noms et prénoms (comme souhaiterais sur votre manuscrit)
 author_presentation: Se présenter en quelques lignes
