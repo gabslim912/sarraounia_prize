@@ -1,6 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home4/sulaiman/public_html/sarraounia
-    - /bin/cp -R _site $DEPLOYPATH
-    

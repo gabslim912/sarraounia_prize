@@ -1,3 +1,4 @@
+---
 name: Arterial Network
 logo: "/uploads/Arterial-1.jpg"
 type: other_partners
