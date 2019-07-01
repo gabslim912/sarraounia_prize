@@ -30,7 +30,7 @@ first_button_link: "/fr/about.html"
 second_button_title: S'inscrire maintenant
 second_button_link: "/fr/register.html"
 video_background_image: "/uploads/africa_5.jpg"
-video_link: https://www.youtube.com/embed/U8CUXVJlwMM
+video_link: "#"
 jury_background_image: "/uploads/africa_5.jpg"
 jury_title: Membres du Jury
 jury_subtitle: Morbi tristique senectus et netus et malesuada fames ac turpis egestas.
