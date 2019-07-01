@@ -73,8 +73,8 @@ number_of_illustrations_ph: Number of illustrations
 applicant_email_address: Email Address of applicant
 third_section_title: Terms and Conditions
 validation_text: Click here to indicate that you have read and agreed to the terms
-  presented in the Terms and Conditions agreement. You will receive guidelines on
-  how to submit your manuscript.
+  presented in the <a href="/en/guidelines.html" target="blank">Terms and Conditions
+  agreement</a>. You will receive guidelines on how to submit your manuscript.
 validation: Validation
 submit_button_title: Register now
 passport_number: Passport Number of candidate, if any
