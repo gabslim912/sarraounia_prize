@@ -78,8 +78,9 @@ number_of_illustrations_ph: Nombre d’illustration
 id_card_place_of_issue_ph: Délivré à
 third_section_title: III. Modalités & conditions générales
 validation: Modalités & Conditions générales
-validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les conditions
-  générales. Vous reçevrez par la suite les étapes à suivre pour l'envoi de votre manuscrit.
+validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les <a href="/fr/guidelines.html"
+  target="blank">conditions générales</a>. Vous reçevrez par la suite les étapes à
+  suivre pour l'envoi de votre manuscrit.
 submit_button_title: S'inscrire maintenant
 passport_number: Numéro du passeport du candidat, le cas échéant
 passport_date_of_issue: Date de délivrance du passeport
