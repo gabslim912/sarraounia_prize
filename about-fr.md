@@ -4,7 +4,7 @@ title: A propos
 subtitle: Ce qu'il faut savoir sur le Prix Sarraounia
 permalink: "/fr/about.html"
 parallax_image: "/uploads/image1-1.jpg"
-left_image: "/uploads/sarraouniabaw.jpg"
+left_image: "/uploads/SarraouniaPrize_LogoFrench_bw.jpg"
 main_title: Prix Sarraounia pour la fiction jeune adulte
 second_title: Renforcer la créativité de la jeunesse africaine
 description: |
