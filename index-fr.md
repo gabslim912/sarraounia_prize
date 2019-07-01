@@ -11,7 +11,7 @@ sliders:
   button_link: "/en/register.html"
 - line_1: Prix Sarraounia
   line_2: de la Fiction Jeune Adulte
-  line_3: 30 septembre 2019
+  line_3: Clotûre 30 septembre 2019
   image: "/uploads/image2.jpg"
   button_title: S'inscrire maintenant
   button_link: "/fr/register.html"
