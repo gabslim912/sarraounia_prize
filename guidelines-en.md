@@ -10,7 +10,7 @@ button_title: Apply now!
 button_link: "/en/register.html"
 
 ---
-<p><b><b>Sarraounia Prize for Young Adult Fiction - 2020</b></p>
+<p><b>Sarraounia Prize for Young Adult Fiction - 2020</b></p>
 
 <br> <br>
 
