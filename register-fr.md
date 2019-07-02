@@ -3,7 +3,7 @@ layout: register
 title: S'inscrire
 permalink: "/fr/register.html"
 parallax_image: "/uploads/africa_5.jpg"
-description: 'N''attendez plus, inscrivez-vous dès maintenant! Toutes les rubriques
+description: 'Toutes les rubriques
   doivent être remplies par les candidats. Mettez « NA » pour la question qui ne pas
   applicable à votre situation. '
 date: 2019-04-24T07:38:58.000+00:00
