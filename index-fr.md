@@ -24,7 +24,8 @@ description: 'La filière Arts et Culture de l’Université Abdou Moumouni au N
   une littérature qui aide à mieux comprendre le monde des adolescents africains.
   Le Prix Sarraounia décerné tous les deux ans récompensera les auteurs et illustrateurs
   africains basés en Afrique qui auront produit les meilleurs manuscrits et ouvrages
-  de fiction inédits destinés aux jeunes adultes. '
+  de fiction inédits, en langue anglaise, française, ou haoussa, destinés aux jeunes
+  adultes. '
 first_button_title: Voir Plus
 first_button_link: "/fr/about.html"
 second_button_title: S'inscrire maintenant
