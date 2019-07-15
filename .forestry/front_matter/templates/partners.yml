@@ -50,6 +50,19 @@ fields:
     required: false
   label: link
   default: http://www.revovision.ca/
+- name: position
+  type: number
+  label: Position
+  description: ''
+  default: 0
+  required: true
+  config:
+    min: 
+    max: 
+    step: 
+- name: hidden
+  type: boolean
+  label: Hidden
 pages:
 - _partners/Swiss-fr.md
 - _partners/Swiss-en.md
