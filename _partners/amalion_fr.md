@@ -1,5 +1,5 @@
 ---
-name: Amalion
+name: Amalion fr
 lang: fr
 logo: "/uploads/AmalionLogo_2019_colors_small.jpg"
 type: main_partners
