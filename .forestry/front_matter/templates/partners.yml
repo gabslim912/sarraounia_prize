@@ -64,6 +64,7 @@ fields:
   type: boolean
   label: Hidden
 pages:
+- _partners/amalion.md
 - _partners/artsandculture.md
 - _partners/Swiss-fr.md
 - _partners/Swiss-en.md
@@ -72,7 +73,6 @@ pages:
 - _partners/cawa-fr.md
 - _partners/uam-fr.md
 - _partners/uamn.md
-- _partners/amalion.md
 - _partners/CERAV.md
 - _partners/UCLG.md
 - _partners/imc.md
