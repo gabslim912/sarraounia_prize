@@ -6,29 +6,25 @@
             <div id="lgx-about" class="lgx-about">
                 <div class="lgx-inner" style="padding-top: 60px; padding-bottom: 0px;">
                     <div class="container">
-                        <h2 class="heading" style="color: #000;text-align: center;">{{ page.title }}</h2>
+                        <h2 class="heading" style="color: #000;text-align: center;">{{ page.partners_title }}</h2>
                         <br><br>
                         
                             {% assign partnerss = site.partners | where:"type", "main_partners" | where:"lang", page.lang | sort: "position" %}
-                            
+                            <div class="row" >
                             {% for partner in partnerss %}
                             {% if partner.hidden == false %}
-                            <div class="row" style="padding-bottom: 40px;">
-                                <div class="col-md-4 col-sm-6" style="padding-bottom: 15px; margin-left: 4rem;">
+                            
+                                <div class="col-md-6 col-sm-6" ">
                                         <a href="{{ partner.link }}" target="blank">
-                                            <img src="{{ partner.logo }}" alt="about" width="350px" height="auto" style=" float: left; margin-right: 10px; margin-bottom: 10px">
+                                            <img src="{{ partner.logo }}" alt="partner.title" width="450px" height="auto" >
                                         </a>
                                         
                                 </div>
-                                <div class="col-md-7 col-sm-6 partners-custom" style="margin-right: 4rem;">
-                                    <p class="text " style="color: #000" >
-                                        {{ partner.content }}
-                                    </p>
-                                </div>
-                            </div>
+                                
+                            
                             {% endif %}
                             {% endfor %}
-                        
+                            </div>
                     </div><!-- //.CONTAINER -->
                 </div><!-- //.INNER -->
             </div>
