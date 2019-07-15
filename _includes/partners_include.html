@@ -6,53 +6,27 @@
             <div id="lgx-about" class="lgx-about">
                 <div class="lgx-inner" style="padding-top: 60px; padding-bottom: 0px;">
                     <div class="container">
-                        <h2 class="heading" style="color: #777;text-align: center;">{{ page.title }}</h2>
+                        <h2 class="heading" style="color: #000;text-align: center;">{{ page.title }}</h2>
                         <br><br>
                         
-                            {% assign partnerss = site.partners | where:"type", "main_partners" | where:"lang", page.lang %}
+                            {% assign partnerss = site.partners | where:"type", "main_partners" | where:"lang", page.lang | sort: "position" %}
                             
                             {% for partner in partnerss %}
+                            {% if partner.hidden == false %}
                             <div class="row" style="padding-bottom: 40px;">
                                 <div class="col-md-4 col-sm-6" style="padding-bottom: 15px; margin-left: 4rem;">
                                         <a href="{{ partner.link }}" target="blank">
                                             <img src="{{ partner.logo }}" alt="about" width="350px" height="auto" style=" float: left; margin-right: 10px; margin-bottom: 10px">
                                         </a>
-                                        <!--<div class="lgx-about-img" style="display: inline-block; vertical-align: middle;">
-                                            <a href="{{ partner.link }}" target="blank">
-                                                <img src="{{ partner.logo }}" alt="about" width="235px" height="auto" style=" float: left; margin-right: 10px; margin-bottom: 10px">
-                                            </a>
-                                            <p class="text partners-custom">
-                                                    {{ partner.content }}
-                                                </p>
-                                        </div>-->
-                                    
-                                    <!--div class="col-sm-6 col-md-6">
-                                        <div class="lgx-about-content-area">
-                                            <div class="lgx-heading" style="margin-bottom: 0px">
-                                                <h3>{{ partner.name }}</h3>
-                                                <!--a href="{{ partner.link }}" target="blank">
-                                                    {% if page.lang == "fr" %}
-                                                        Visitez le site web
-                                                    {% endif %}
-                                                    {% if page.lang == "en" %}
-                                                        Visit website
-                                                    {% endif %}
-                                                </a>
-                                            </div>
-                                            <div class="lgx-about-content" style="">
-                                                <p class="text " style="float: left;">
-                                                    {{ partner.description }}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </div-->
+                                        
                                 </div>
-                                <div class="col-md-7 col-sm-6" style="margin-right: 4rem;">
-                                    <p class="text partners-custom">
+                                <div class="col-md-7 col-sm-6 partners-custom" style="margin-right: 4rem;">
+                                    <p class="text " style="color: #000" >
                                         {{ partner.content }}
                                     </p>
                                 </div>
                             </div>
+                            {% endif %}
                             {% endfor %}
                         
                     </div><!-- //.CONTAINER -->
@@ -62,7 +36,7 @@
         <!--ABOUT END-->
     </div>
 </main>
-<!--VIDEO--
+
 <section>
     <div  style="text-align: center; background-color: white;">
 
@@ -70,20 +44,22 @@
     </div>
 </section>
 
---//.VIDEO END-->
+
 <main>
     <div class="lgx-page-wrapper lgx-page-wrapper-none"  style=" padding-bottom: 60px; background-color: white;">
         <!--News-->
-        <section  style="padding-top: 0px; padding-bottom: 0px;>
+        <section  style="padding-top: 0px; padding-bottom: 0px;">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
-                        <!--h3 class="sponsored-heading first-heading">{{ page.simple_partners_title }}</h3>-->
+                    <div class="col-xs-12 simple-partners">
+                       <p class="">{{ page.simple_partners_title }}</p>
                         <div class="sponsors-area sponsors-area-bg">
-                            {% assign partnerss = site.partners | where:"type", "other_partners" | where:"lang", page.lang %}
+                            {% assign partnerss = site.partners | where:"type", "other_partners" | where:"lang", page.lang | sort: "position" %}
                             
                             {% for partner in partnerss %}
-                           <a href="{{ partner.link }}" target="blank"><img src="{{ partner.logo }}" alt="partner" width="350px" height="auto" style="margin: 15px;" /></a>
+                            {% if partner.hidden == false %}
+                           <a href="{{ partner.link }}" target="blank"><img src="{{ partner.logo }}" alt="partner" width="240px" height="auto" style="margin: 15px;" /></a>
+                           {% endif %}
                             {% endfor %}
                         </div>
                     </div>

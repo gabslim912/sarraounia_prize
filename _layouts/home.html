@@ -329,7 +329,7 @@ layout: default-home
                     <div class="row">
                         <div class="col-xs-12">
                             <div class="sponsors-area">
-                              {% assign partners = site.partners | where:"lang", page.lang %}
+                              {% assign partners = site.partners | where:"lang", page.lang | sort: "position" %}
                                 {% for partner in partners %}
                                 
                                     <a href="{{ partner.link }}" target="blank"><img src="{{ partner.logo }}" alt="partner" width="120px" height="auto" style="margin: 15px;" /></a>

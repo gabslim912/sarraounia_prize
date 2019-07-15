@@ -50,3 +50,11 @@
 .partners-custom a {
   color: #aaa;
 }
+.partners-custom p {
+  color: #000;
+}
+
+.simple-partners p {
+  text-align: center;
+  color: #000;
+}

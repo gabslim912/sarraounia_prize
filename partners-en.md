@@ -7,7 +7,7 @@ description: ''
 lang: en
 ref: partners
 main_partners_title: Partners
-simple_partners_title: ''
-financial_partners: "/uploads/cawa_logo_fr.jpg"
+simple_partners_title: 'Implemented by'
+financial_partners: "/uploads/logo-cawa-eu-ing.png"
 
 ---
