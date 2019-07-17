@@ -4,7 +4,7 @@ lang: fr
 logo: "/uploads/University-AMN.png"
 type: unam_partners
 link: http://www.revovision.ca/
-position: 14
+position: 13
 hidden: false
 
 ---

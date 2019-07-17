@@ -4,7 +4,7 @@ lang: fr
 logo: "/uploads/switzerland-logo-png-transparent.png"
 type: unam_partners
 link: https://www.eda.admin.ch/sdc
-position: 13
+position: 14
 hidden: false
 
 ---
