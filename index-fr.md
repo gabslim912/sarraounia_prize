@@ -17,7 +17,7 @@ sliders:
   button_link: "/fr/register.html"
 main_title: Prix Sarraounia pour la Fiction Jeune Adulte
 second_title: Renforcer la jeunesse africaine
-description: 'La filière Arts et Culture de l’Université Abdou Moumouni au Niger et
+description: 'La filière Arts & Culture de l’Université Abdou Moumouni au Niger et
   la maison d’édition Amalion au Sénégal ont le plaisir de vous annoncer l’appel à
   candidature pour le Prix Sarraounia de la Fiction Jeune Adulte afin de contribuer
   à accroître l’offre de lecture pour les jeunes adultes africains et à promouvoir
@@ -47,8 +47,8 @@ partners_title: Partenaires
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
 financial_partners: "/uploads/logo-cawa-eu-fr.png"
-simple_partners_title: 'Mis en oeuvre par'
-unam_partners_title: 'La filière Arts et Culture est soutenue par'
+simple_partners_title: Mis en oeuvre par
+unam_partners_title: La filière Arts et Culture est soutenue par
 partners_button_title: ''
 partners_button_link: "/fr/partners.html"
 date: 2019-04-24T07:23:09.000+00:00
