@@ -3,9 +3,8 @@ layout: register
 title: S'inscrire
 permalink: "/fr/register.html"
 parallax_image: "/uploads/africa_5.jpg"
-description: 'Toutes les rubriques
-  doivent être remplies par les candidats. Mettez « NA » pour la question qui ne pas
-  applicable à votre situation. '
+description: 'Toutes les rubriques doivent être remplies par les candidats. Mettez
+  « NA » pour la question qui ne pas applicable à votre situation. '
 date: 2019-04-24T07:38:58.000+00:00
 lang: fr
 ref: apply
@@ -33,7 +32,6 @@ gender_types:
 - value: ''
 - value: Masculin
 - value: Féminin
-- value: Autres
 marital_status: Etat Civil
 marital_status_type:
 - value: Célibataire
@@ -73,7 +71,7 @@ provisional_or_working_title: Titre provisoire
 provisional_or_working_title_ph: Titre provisoire
 word_count: Nombre de mots du texte
 word_count_ph: Nombre de mots du texte
-number_of_illustrations: Nombre d’illustration
+number_of_illustrations: Nombre d’illustration, le cas échéant
 number_of_illustrations_ph: Nombre d’illustration
 id_card_place_of_issue_ph: Délivré à
 third_section_title: III. Modalités & conditions générales

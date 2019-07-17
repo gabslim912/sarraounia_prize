@@ -31,7 +31,6 @@ gender: Gender
 gender_types:
 - value: Male
 - value: Female
-- value: Other
 marital_status: Marital Status
 marital_status_type:
 - value: Single
@@ -68,7 +67,7 @@ provisional_or_working_title: Provisional or working title
 provisional_or_working_title_ph: Provisional or working title
 word_count: Word count
 word_count_ph: Word count
-number_of_illustrations: Number of illustrations
+number_of_illustrations: Number of illustrations, if any
 number_of_illustrations_ph: Number of illustrations
 applicant_email_address: Email Address of applicant
 third_section_title: Terms and Conditions
