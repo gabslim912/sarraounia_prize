@@ -17,7 +17,7 @@ sliders:
   button_link: "/fr/register.html"
 main_title: Sarraounia Prize for Young Adult Fiction
 second_title: Empowering Africa's Youth
-description: The <b>Centre for Arts and Culture of Abdou Moumouni University</b> in
+description: The <b>Arts and Culture programme at Abdou Moumouni University</b> in
   Niger and the publishing house <b>Amalion</b> in Senegal are pleased to announce
   the call for entries for the Sarraounia Prize for Young Adult Fiction to contribute
   to the availability of reading material for African young adults and to promote
@@ -46,8 +46,8 @@ partners_title: Partners
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
 financial_partners: "/uploads/logo-cawa-eu-ing.png"
-simple_partners_title: 'Implemented by'
-unam_partners_title: 'Centre for Arts and Culture is supported by'
+simple_partners_title: Implemented by
+unam_partners_title: Centre for Arts and Culture is supported by
 partners_button_title: View All
 partners_button_link: "/en/partners.html"
 date: 2019-04-24T07:23:09.000+00:00

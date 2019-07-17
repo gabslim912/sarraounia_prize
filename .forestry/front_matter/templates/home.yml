@@ -140,5 +140,5 @@ fields:
   label: date
   hidden: true
 pages:
-- index-fr.md
 - index.md
+- index-fr.md
