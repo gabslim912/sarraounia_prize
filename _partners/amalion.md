@@ -1,6 +1,6 @@
 ---
 name: Amalion
-logo: "/uploads/AmalionLogo_2019_colors_small2.jpg"
+logo: "/uploads/amalion_en.png"
 type: main_partners
 link: http://www.amalion.net/en/
 description: Amalion is an independent scholarly publisher with the mission to disseminate
