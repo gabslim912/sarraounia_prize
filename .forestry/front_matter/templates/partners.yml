@@ -65,8 +65,8 @@ fields:
   type: boolean
   label: Hidden
 pages:
-- _partners/amalion.md
 - _partners/artsandculture.md
+- _partners/amalion.md
 - _partners/culture_fund_fr.md
 - _partners/culture_fund.md
 - _partners/Swiss-fr.md
