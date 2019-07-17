@@ -12,7 +12,9 @@ description: |
 
   <p>Pour l’édition 2020, le lauréat recevra <b>1.000 euros,</b> et le manuscrit gagnant sera publié et diffusé par Amalion et ses partenaires à partir de <b>mai 2020.</b> Le Prix Sarraounia mettra à profit toutes les technologies des médias traditionnels et numériques afin de diffuser ses activités et atteindre le public concerné. Le Prix Sarraounia travaillera à la promotion des auteurs et de leurs ouvrages dans plusieurs forums auprès des acteurs du livre et du grand public. </p>
 
-  <p>La filière Arts & Culture de l’Université Abdou Moumouni de Niamey, Niger offre des cursus en Arts et Culture de la License 3 au Doctorat. Ces cursus mêlent connaissances théoriques, apprentissages techniques et pratiques artistiques, accueillent des artistes en résidence de création, proposent des Master Class et des séminaires. Le recrutement est attentif à l’inclusion et la diversité. </p>
+  <p>La filière <b>Arts & Culture de l’Université Abdou Moumouni</b> de Niamey, Niger offre des cursus en Arts et Culture de la License 3 au Doctorat. Ces cursus mêlent connaissances théoriques, apprentissages techniques et pratiques artistiques, accueillent des artistes en résidence de création, proposent des Master Class et des séminaires. Le recrutement est attentif à l’inclusion et la diversité. </p>
+
+  <p>Plus qu’un simple projet éditorial, <b>Amalion</b> a été fondée en 2009 à Dakar, Sénégal pour la publication et la dissémination du savoir africain pour renforcer la compréhension de l’humanité. Son but est de promouvoir une compréhension plus large de l’Afrique et de ses peuples en travaillant avec des auteurs, afin de diffuser ce savoir auprès d'une vaste audience sur le continent et ailleurs. Amalion publie des essais et des ouvrages littéraires en anglais et en français.</p>
 jury_background_image: "/uploads/dark_orange.jpg"
 jury_title: Presentation du jury
 jury_subtitle: Nous sommes présents pour vous
