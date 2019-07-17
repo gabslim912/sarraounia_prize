@@ -1,7 +1,7 @@
 ---
 name: Amalion
 lang: fr
-logo: "/uploads/amalion_fr.png"
+logo: "/uploads/AmalionLogo_2019_colors_small.jpg"
 type: main_partners
 link: http://www.amalion.net/en/
 description: Plus qu’un simple projet éditorial, Amalion a été fondée en 2009 à Dakar,
