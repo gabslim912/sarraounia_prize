@@ -1,7 +1,7 @@
 ---
 name: Université Abdou Moumouni fr
 lang: fr
-logo: "/uploads/unam.png"
+logo: "/uploads/unam2.png"
 type: unam_partners
 link: http://www.revovision.ca/
 position: 13

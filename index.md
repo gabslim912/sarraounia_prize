@@ -45,8 +45,8 @@ partners_title: Partners
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
 financial_partners: "/uploads/logo-cawa-eu-ing.png"
-simple_partners_title: Implemented by
-unam_partners_title: Centre for Arts and Culture is supported by
+simple_partners_title: Culture at Work Africa Partners
+unam_partners_title: Arts & Culture is supported by
 partners_button_title: View All
 partners_button_link: "/en/partners.html"
 date: 2019-04-24T07:23:09.000+00:00

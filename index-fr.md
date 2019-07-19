@@ -47,8 +47,8 @@ partners_title: Partenaires
 partners_description: Morbi tristique senectus et netus et malesuada fames ac turpis
   egestas.
 financial_partners: "/uploads/logo-cawa-eu-fr.png"
-simple_partners_title: Mis en oeuvre par
-unam_partners_title: La filière Arts et Culture est soutenue par
+simple_partners_title: Partenaires de Culture at Work Africa
+unam_partners_title: Arts & Culture est soutenue par
 partners_button_title: ''
 partners_button_link: "/fr/partners.html"
 date: 2019-04-24T07:23:09.000+00:00
