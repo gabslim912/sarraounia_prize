@@ -43,5 +43,5 @@ fields:
   label: Financial partners
   description: 1920 x 768 px (ratio = 2.5)
 pages:
-- partners-en.md
 - partners-fr.md
+- partners-en.md
