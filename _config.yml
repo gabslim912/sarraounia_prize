@@ -31,12 +31,15 @@ collections:
     title: jury_members
     output: true
 lang: nu
-email: your-email@sarraounia.com
+email: contact@sarraounia.com
 parallax_image: "/uploads/africa_5.jpg"
+image: "/uploads/SarraouniaPrize_LogoEnglish_Color.png"
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The Arts & Culture programme at Abdou Moumouni University in Niger and the publishing
+  house Amalion in Senegal are pleased to announce the call for entries for the Sarraounia
+  Prize for Young Adult Fiction, co-funded by the European Union and Culture at Work Africa
+  to contribute to the availability of reading material for African young adults and to 
+  promote literature to help better understand the world of African youths.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
