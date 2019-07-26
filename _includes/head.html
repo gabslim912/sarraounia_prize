@@ -6,18 +6,18 @@
 
     <!-- SITE TITLE -->
     <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.title != undefined %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}"/>
+    <meta name="description" content="{% if page.title != undefined %}{{ site.description | escape }}{% endif %}"/>
     <meta name="keywords" content="Sarraounia, Event,  Prize, Young, Adult, Fiction, UE, CAWA"/>
     <meta name="author" content="revovision.ca"/>
 
     <!-- twitter card starts from here, if you don't need remove this section -->
-    <meta name="twitter:card" content="{% if page.title != undefined %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %}"/>
+    <meta name="twitter:card" content="{% if page.title != undefined %}{{ site.description | escape }}{% endif %}"/>
     <meta name="twitter:site" content="@SarraouniaPrize"/>
     <meta name="twitter:creator" content="@SarraouniaPrize"/>
     <meta name="twitter:url" content="http://www.sarraounia.com"/>
     <meta name="twitter:title" content="{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}"/>
     <!-- maximum 140 char -->
-    <meta name="twitter:description" content="{% if page.title != undefined %}{{ page.description | escape }}{% else %}{{ site.description | escape }}{% endif %} "/>
+    <meta name="twitter:description" content="{% if page.title != undefined %}{{ site.description | escape }}{% endif %} "/>
     <!-- maximum 140 char -->
     <meta name="twitter:image" content="{{ site.image }}"/>
     <!-- when you post this page url in twitter , this image will be shown -->
