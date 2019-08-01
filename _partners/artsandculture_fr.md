@@ -2,8 +2,8 @@
 name: Arts & Culture fr
 logo: "/uploads/partner_3.png"
 type: main_partners
-link: http://africultures.com/murmures/?no=20816
-description: 'Mis en oeuvre par'
+link: https://www.facebook.com/ARTS-Culture-236248510190137/
+description: Mis en oeuvre par
 lang: fr
 position: 1
 hidden: false
