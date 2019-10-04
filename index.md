@@ -13,8 +13,8 @@ sliders:
   line_2: de la Fiction Jeune Adulte
   line_3: Clotûre 30 septembre 2019
   image: "/uploads/image2.png"
-  button_title: S'inscrire maintenant
-  button_link: "/fr/register.html"
+  button_title: Inscription clôturée
+  button_link: "/fr/register.html#"
 main_title: Sarraounia Prize for Young Adult Fiction
 second_title: Empowering Africa's Youth
 description: The <b>Arts & Culture programme at Abdou Moumouni University</b> in Niger
