@@ -13,7 +13,7 @@ sliders:
   line_2: de la Fiction Jeune Adulte
   line_3: Clotûre 30 septembre 2019
   image: "/uploads/image2.png"
-  button_title: S'inscrire maintenant
+  button_title: Inscription clôturée
   button_link: "/fr/register.html"
 main_title: Prix Sarraounia pour la Fiction Jeune Adulte
 second_title: Renforcer la jeunesse africaine
