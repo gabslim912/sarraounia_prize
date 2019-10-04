@@ -71,6 +71,7 @@ fields:
   label: Heading Data
   default: headingNumber
 pages:
+- _schedules/date-limite-de-clôture-pour-soumission-de-candidature.md
 - _schedules/cérémonie-de-remise-de-prix-et-publication-de-l-ouvrage-de-lauréat.md
 - _schedules/closing-date-for-applications-and-submission.md
 - _schedules/application-and-call-for-submissions-launch-on-line.md
@@ -78,7 +79,6 @@ pages:
 - _schedules/annonce-officielle-de-lauréat.md
 - _schedules/official-announcement-of-the-winner.md
 - _schedules/délibération-du-jury.md
-- _schedules/date-limite-de-clôture-pour-soumission-de-candidature.md
 - _schedules/lancement-d-inscription-en-ligne-et-appel-à-candidature.md
 - _schedules/jury-selection.md
 - _schedules/sortie-de-l-ouvrage-de-lauréat.md
