@@ -28,8 +28,8 @@ description: 'La filière Arts & Culture de l’Université Abdou Moumouni au Ni
   adultes. '
 first_button_title: Voir Plus
 first_button_link: "/fr/about.html"
-second_button_title: S'inscrire maintenant
-second_button_link: "/fr/register.html"
+second_button_title: Inscription clôturée
+second_button_link: "/fr/register.html#"
 video_background_image: "/uploads/africa_5.jpg"
 video_link: "#"
 jury_background_image: "/uploads/africa_5.jpg"
