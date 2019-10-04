@@ -3,8 +3,8 @@ layout: register
 title: Registration
 permalink: "/en/register.html"
 parallax_image: "/uploads/africa_5.jpg"
-description: All questions must be answered by the applicants. Put « NA » for questions
-  not applicable to your situation. Application for 2020 is closed.
+description: Application for 2020 is closed. All questions must be answered by the
+  applicants. Put « NA » for questions not applicable to your situation.
 date: 2019-04-24T07:38:58.000+00:00
 lang: en
 ref: apply
