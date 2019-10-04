@@ -75,7 +75,7 @@ validation_text: Click here to indicate that you have read and agreed to the ter
   presented in the <a href="/en/guidelines.html" target="blank">Terms and Conditions
   agreement</a>. You will receive guidelines on how to submit your manuscript.
 validation: Validation
-submit_button_title: Register now
+submit_button_title: Application closed
 passport_number: Passport Number of candidate, if any
 passport_date_of_issue: Passport date of issue
 passport_expiration_date: Passport expiration date
