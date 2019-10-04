@@ -6,7 +6,7 @@ parallax_image: "/uploads/africa_5.jpg"
 description: 'Write a little description here '
 lang: en
 ref: guidelines
-button_title: Apply now!
+button_title: Applications closed!
 button_link: "/en/register.html"
 
 ---
