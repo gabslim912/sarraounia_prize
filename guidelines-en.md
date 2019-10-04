@@ -7,7 +7,7 @@ description: 'Write a little description here '
 lang: en
 ref: guidelines
 button_title: Applications closed!
-button_link: "/en/register.html"
+button_link: "/en/register.html#"
 
 ---
 <p class="western"><span style="font-size: medium;"><span lang="en-US"><strong>Sarraounia Prize for Young Adult Fiction - 2020</strong></span></span></p>
