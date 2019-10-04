@@ -26,7 +26,7 @@ description: The <b>Arts & Culture programme at Abdou Moumouni University</b> in
   English, French or Hausa by African authors and illustrators based in Africa.
 first_button_title: More info
 first_button_link: "/en/about.html"
-second_button_title: Apply now
+second_button_title: Application closed
 second_button_link: "/en/register.html"
 video_background_image: "/uploads/africa_5.jpg"
 video_link: "#"
