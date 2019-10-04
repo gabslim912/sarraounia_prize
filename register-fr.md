@@ -80,7 +80,7 @@ validation: Modalités & Conditions générales
 validation_text: Cliquez ici pour indiquer que vous avez lu et accepté les <a href="/fr/guidelines.html"
   target="blank">conditions générales</a>. Vous reçevrez par la suite les étapes à
   suivre pour l'envoi de votre manuscrit.
-submit_button_title: S'inscrire maintenant
+submit_button_title: Inscription clôturée
 passport_number: Numéro du passeport du candidat, le cas échéant
 passport_date_of_issue: Date de délivrance du passeport
 passport_expiration_date: Date d’expiration du passeport
