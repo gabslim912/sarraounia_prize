@@ -14,7 +14,7 @@ form_subtitle: ''
 first_section_title: I. INFORMATION PERSONNELLE
 surname: Nom(s) [nom(s) de famille]
 surname_s_ph: Nom(s) [nom(s) de famille]
-birth_surname: Nom(s) de naissance [nom(s) de famille antérieur(s)]
+birth_surname: Nom(s) de naissance [nom(s) de famille anterieur(s)]
 birth_surname_s_ph: Nom(s) de naissance [nom(s) de famille antérieur(s)]
 first_name_s_: Prénom(s)
 first_name_s_ph: Prénom(s)
