@@ -8,6 +8,6 @@ author: Prix Sarraounia
 location: Dakar, Sénégal
 collapse_data: collapseFour
 heading_data: headingFour
-sch_date: 15 décembre 2019
+sch_date: 15 février 2020
 
 ---
