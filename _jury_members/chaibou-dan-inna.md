@@ -2,6 +2,7 @@
 title: Chaibou Dan-Inna
 layout: jury
 lang: fr
+ref: cha
 job_position: Maître de Conférences en Littératures et Civilisations francophones
   à l’Université Abdou Moumouni de Niamey, critique littéraire et auteur dramatique
 image: "/uploads/normal_picture.png"

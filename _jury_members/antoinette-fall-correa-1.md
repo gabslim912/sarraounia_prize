@@ -1,6 +1,7 @@
 ---
 title: Antoinette Fall Correa
 layout: jury
+ref: ant
 lang: en
 job_position: Director of BLD Éditions
 image: "/uploads/normal_picture.png"

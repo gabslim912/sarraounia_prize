@@ -2,6 +2,7 @@
 title: Sarah Odedina
 layout: jury
 lang: en
+ref: sar
 job_position: Editor-at-Large for Pushkin Press
 image: "/uploads/normal_picture.png"
 bio: 'Sarah Odedina has worked in publishing for more than two decades. As the Publishing

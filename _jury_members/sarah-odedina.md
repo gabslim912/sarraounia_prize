@@ -2,6 +2,7 @@
 title: Sarah Odedina
 layout: jury
 lang: fr
+ref: sar
 job_position: Rédactrice en chef de Pushkin Press
 image: "/uploads/normal_picture.png"
 bio: 'Sarah Odedina a fait carrière dans le monde de l''édition depuis plus de deux

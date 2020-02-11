@@ -2,6 +2,7 @@
 title: Chaibou Dan-Inna
 layout: jury
 lang: en
+ref: cha
 job_position: Playwright, literary critic, and Senior Lecturer in Literature and Francophone
   Civilisation at Abdou Moumouni University in Niamey, Niger
 image: "/uploads/normal_picture.png"

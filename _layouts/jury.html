@@ -26,7 +26,7 @@ layout: default
                                 <li><a href="/{{ page.lang }}/about.html">A propos</a></li>
                                 {% endif %}
                                 <li><a href="/{{ page.lang }}/jury.html">Jury</a></li>
-                                <li class="active">{{ page.name }}</li>
+                                <li class="active">{{ page.title }}</li>
                             </ul>
                             
                         </div>
@@ -46,11 +46,11 @@ layout: default
                             <article>
                                 <header>
                                     <figure>
-                                        <img src="{{ page.image }}" alt="{{ page.name }}" width="30%" style="float: left; margin-right: 20px; margin-bottom: 20px;" />
+                                        <img src="{{ page.image }}" alt="{{ page.title }}" width="30%" style="float: left; margin-right: 20px; margin-bottom: 20px;" />
                                     </figure>
                                     <div class="text-area">
                                         <div class="speaker-info">
-                                            <h1 class="title">{{ page.name }}</a>
+                                            <h1 class="title">{{ page.title }}</a>
                                             <h4 class="subtitle">{{ page.job_position }}</h4>
                                         </div>
                                         <ul class="list-inline lgx-social">
@@ -64,12 +64,7 @@ layout: default
                                         </p>
                                     </div>
                                 </header>
-                                <section>
-                                    <p class="text-justify">
-                                        {{ page.bio }}
-                                    </p>
-                                    
-                                </section>
+                                
                                 
                             </article>
                         </div>

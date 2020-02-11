@@ -2,6 +2,7 @@
 title: Antoinette Fall Correa
 layout: jury
 lang: fr
+ref: ant
 job_position: Directrice de BLD Éditions
 image: "/uploads/normal_picture.png"
 bio: Antoinette Fall Correa est directrice de BLD Éditions, une maison issue de l’ONG
