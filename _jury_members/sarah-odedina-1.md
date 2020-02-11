@@ -3,7 +3,7 @@ title: Sarah Odedina
 layout: jury
 lang: en
 ref: sar
-job_position: Editor-at-Large for Pushkin Press
+job_position: Editor-at-Large </br>Pushkin Press
 image: "/uploads/normal_picture.png"
 bio: 'Sarah Odedina has worked in publishing for more than two decades. As the Publishing
   Director of the children’s list of Bloomsbury Publishing, she oversaw the publication

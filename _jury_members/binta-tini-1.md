@@ -3,7 +3,7 @@ title: Binta Tini
 layout: jury
 lang: en
 ref: bin
-job_position: Founder and director of La Farandole des Livres
+job_position: Founder and director </br>La Farandole des Livres
 image: "/uploads/normal_picture.png"
 bio: 'Binta Tini is the founder and director of La Farandole des Livres, the first
   bookshop for children and young adult readers in Niamey which was created in 2007

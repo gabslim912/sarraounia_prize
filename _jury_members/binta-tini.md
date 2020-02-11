@@ -3,7 +3,7 @@ title: Binta Tini
 layout: jury
 lang: fr
 ref: bin
-job_position: " Fondatrice et directrice de La Farandole des Livres"
+job_position: " Fondatrice et directrice </br>La Farandole des Livres"
 image: "/uploads/normal_picture.png"
 bio: 'La libraire Binta Tini est fondatrice et directrice de La Farandole des Livres,
   la première librairie de jeunesse à Niamey en 2007. Une libraire qu''elle a créée
