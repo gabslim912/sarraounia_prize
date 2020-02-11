@@ -4,7 +4,7 @@ layout: jury
 lang: fr
 ref: cha
 job_position: Maître de Conférences en Littératures et Civilisations francophones
-  à l’Université Abdou Moumouni de Niamey, critique littéraire et auteur dramatique
+  à l’Université Abdou Moumouni de Niamey
 image: "/uploads/normal_picture.png"
 bio: |-
   Maître de Conférences en Littératures et Civilisations francophones à l’Université Abdou Moumouni de Niamey, critique littéraire et auteur dramatique, Chaibou Dan-Inna est titulaire d’un doctorat de 3e cycle de l’Université de Bordeaux 3, France et d’une Habilitation à Diriger des Recherches de l’Université de Limoges, France. Il a été successivement Chef du Département de Lettres Modernes, Doyen par intérim de la Faculté des Lettres et Sciences Humaines, Secrétaire Général des Ministères de l’Enseignement Supérieur, de l’Education Nationale et du Développement Social, Conseiller Technique à l’Assemblée Nationale, Directeur de Cabinet du Président du Haut Conseil des Collectivités Territoriales et Ministre des Enseignements Professionnels et Techniques. </br>

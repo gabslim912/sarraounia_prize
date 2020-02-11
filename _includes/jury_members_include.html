@@ -7,10 +7,7 @@
                     
 
                     <div class="row">
-                        <div class="lgx-heading">
-                            <h2 class="heading" style="color: #777;">{{ page.title }}</h2>
-                            
-                        </div>
+                        
                         {% assign juries = site.jury_members | where:"lang", page.lang %}
                         {% for jury in juries %}
                         <div class="col-xs-12 col-sm-6 col-md-3">
@@ -25,8 +22,8 @@
                                             <a class="sp-in" href="{{ jury.linkedin_link }}"><i class="fa fa-linkedin"></i></a>
                                         </div>
                                         <div class="speaker-info">
-                                            <h3 class="title"><a href="{{ jury.url }}">{{ jury.title }}</a></h3>
-                                            <h4 class="subtitle">{{ jury.job_position }}</h4>
+                                            <h5 class="title" style="font-size: 20px;"><a href="{{ jury.url }}">{{ jury.title }}</a></h5>
+                                            <p style="font-size: 15px; height: 90px; color:#ee453c;">{{ jury.job_position }}</p>
                                         </div>
                                     </figcaption>
                                 </figure>
