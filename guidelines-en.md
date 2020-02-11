@@ -146,7 +146,7 @@ button_link: "/en/register.html#"
 
 <p class="western" lang="en-US"> </p>
 
-<p class="western"><span style="font-size: medium;"><span lang="en-US"><strong>15 February 2020:</strong></span></span><span style="font-size: medium;"><span lang="en-US"> Official Annoncement of Winner</span></span></p>
+<p class="western"><span style="font-size: medium;"><span lang="en-US"><strong>15 February 2020:</strong></span></span><span style="font-size: medium;"><span lang="en-US"> Official Announcement of Winner</span></span></p>
 
 <p class="western" lang="en-US"> </p>
 
